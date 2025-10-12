@@ -1,0 +1,112 @@
+---
+title: "Even the AI Is Confused"
+slug: "even-the-ai-is-confused"
+publishedAt: "2025-08-01T18:20:42.000Z"
+updatedAt: "2025-08-01T18:20:42.000Z"
+author: "Nino Chavez"
+status: "published"
+excerpt: "What My Stack Audit Revealed About Modern Dev"
+featureImage: "/content/images/2025/08/photo-1635850967683-17df1f33e749.jpeg"
+tags:
+  - ai
+  - field-notes
+  - point-of-view
+category: "AI & Automation"
+seo:
+  metaTitle: "Even the AI Is Confused"
+  metaDescription: "What My Stack Audit Revealed About Modern Dev"
+  ogImage: "/content/images/2025/08/photo-1635850967683-17df1f33e749.jpeg"
+---
+
+The Stack Didn't Break — The AI DidI didn’t expect the AI to break before I did.
+
+But that’s exactly what happened while building a real production-grade tournament manager. Not a blog. Not a demo. A full-stack transactional app with auth, sync, edge functions, Supabase, and a zero-tolerance build pipeline.
+
+The AI tool I was using — Kilo — flagged my project as broken.
+
+Spoiler: it wasn’t.
+
+The app builds cleanly. The code is tight. The config is intentional.
+The problem wasn’t with my stack. It was with how AI *interprets* it.
+
+And honestly? That tells us everything about the state of modern web development.
+
+🧠 The SetupI’m running a modern JS stack, straight from the “best practices” playbook:
+
+- ⚛️ React + Vite frontend
+- 💅 Tailwind with semantic theming
+- 🧱 Supabase as the backend/auth layer
+- 📦 Modular structure, clean package.json, zero-dependency bloat
+
+No wild experiments. No half-baked plug-ins. Just clean, modern code — built to ship and scale.
+
+Before a major push, I ran a Kilo audit on the `package.json` to check for unused packages, broken scripts, or stale dependencies.
+
+❌ Kilo: “Your Project Is Broken”Kilo confidently reported:
+
+> “Your `vite.config.ts` references packages in `manualChunks` that don’t exist in `package.json`. This will break your build.”
+
+That sounded… wrong.
+
+Because:
+
+- The app builds perfectly (`dist/` verified)
+- The chunk config is intentional, future-proofing for code-split scenarios
+- Vite handles missing chunk targets gracefully
+
+And yet, the AI doubled down.
+
+✅ Kilo (Eventually): “My Bad. The Project Is Excellent.”After pushback, Kilo retracted everything:
+
+> “I misunderstood how Vite’s manualChunks works. I assumed complexity where simplicity was intentional.”
+
+> “Your package.json is actually in excellent condition.”
+
+> “I’ve learned from this mistake.”
+
+Except… it didn’t learn.
+Because **it can’t** — not in the way real engineers do.
+
+🔁 Most AI Tools Simulate Correction. Few Operationalize It.This is the real issue.
+
+Kilo didn’t persist that learning. It didn’t create a safeguard or update its reasoning. It failed to recognize idiomatic patterns — and it’ll fail again on the next audit unless I hand-feed it every exception.
+
+That’s not intelligence.
+That’s inference without infrastructure.
+
+🧠 **Gist of the full AI audit failure:**
+[https://gist.github.com/chavezabelino/9164611dc20fc795e80409e2386e81b0](https://gist.github.com/chavezabelino/9164611dc20fc795e80409e2386e81b0)
+
+🧨 This Stack Is Coherent — The Ecosystem Isn’tLet’s be clear: my project wasn’t broken.
+
+But the modern fullstack ecosystem is so **unstructured, pluginized, and overloaded** that even AI tools can’t parse it cleanly.
+
+Worse — they confuse future-proofing and modularity with error states.
+
+Even good setups look broken because:
+
+- No one tool has full-stack awareness
+- Idioms change every 6 months
+- “Conventions” are suggestions, not contracts
+
+🗣️ This Isn't Theory. I'm Living It.This isn’t recycled rage from YouTube.
+
+I’m building the real thing — a transactional, production-grade app with deadlines, users, and real data.
+
+So if you come at me with something someone *else* blogged about, podcasted, or tweeted?
+
+Keep scrolling.
+
+I have the receipts. I have the scars. And I’m not done yet.
+
+🧭 What This Teaches Us1. **Modern JS isn’t broken by default — it’s broken by integration burden.**
+2. **AI won't fix DX rot — it amplifies the gaps.**
+3. **We need software patterns that are legible to humans *and* machines.**
+
+That means:
+
+- Constraints over choice fatigue
+- Structure over glue code
+- Developer *sanity* as a design goal
+
+We need better stacks — and better reflexes baked into our tools.

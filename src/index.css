@@ -1,0 +1,118 @@
+@import '@fontsource-variable/inter';
+@import "tailwindcss";
+
+/* Brand-unified utility classes for consistent violet/orange scheme */
+@source "inline(bg-athletic-brand-violet/10 bg-athletic-brand-violet/5)";
+@source "inline(border-athletic-brand-violet border-athletic-brand-violet/30 border-athletic-brand-violet/50)";
+@source "inline(text-athletic-brand-violet)";
+@source "inline(text-athletic-court-orange bg-athletic-court-orange)";
+
+@theme {
+  /* Athletic Design System Colors */
+  --color-athletic-brand-violet: #7c3aed;
+  --color-athletic-court-orange: #ea580c;
+  --color-athletic-court-navy: #1a365d;
+  --color-athletic-success: #10b981;
+  --color-athletic-warning: #f59e0b;
+  --color-athletic-error: #ef4444;
+
+  /* Athletic neutral scale */
+  --color-athletic-neutral-50: #fafafa;
+  --color-athletic-neutral-100: #f5f5f5;
+  --color-athletic-neutral-200: #e5e5e5;
+  --color-athletic-neutral-300: #d4d4d4;
+  --color-athletic-neutral-400: #a3a3a3;
+  --color-athletic-neutral-500: #737373;
+  --color-athletic-neutral-600: #525252;
+  --color-athletic-neutral-700: #404040;
+  --color-athletic-neutral-800: #262626;
+  --color-athletic-neutral-900: #171717;
+  --color-athletic-neutral-950: #0a0a0a;
+
+  /* Athletic timing system */
+  --transition-duration-quick-snap: 90ms;
+  --transition-duration-reaction: 120ms;
+  --transition-duration-transition: 160ms;
+  --transition-duration-sequence: 220ms;
+  --transition-duration-flash: 60ms;
+  --transition-duration-flow: 300ms;
+  --transition-duration-power: 400ms;
+
+  --transition-timing-function-athletic-snap: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-timing-function-athletic-flow: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --transition-timing-function-athletic-power: cubic-bezier(0.4, 0, 0.6, 1);
+  --transition-timing-function-athletic-precision: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-timing-function-athletic-sprint: cubic-bezier(0.55, 0, 0.1, 1);
+  --transition-timing-function-athletic-glide: cubic-bezier(0.25, 0, 0.75, 1);
+}
+
+:root {
+  color-scheme: light dark;
+  background-color: #0a0a0a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter Variable', system-ui, -apple-system, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body > #root {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}

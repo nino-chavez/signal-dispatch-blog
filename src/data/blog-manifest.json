@@ -1,0 +1,1819 @@
+{
+  "posts": [
+    {
+      "slug": "the-tax-of-many-hats",
+      "title": "The Consultant's Dilemma: The Tax of Many Hats",
+      "publishedAt": "2025-10-02T10:05:29.000Z",
+      "excerpt": "In corporate consulting, versatility is sold as a virtue. We are expected to be the strategist, the data analyst, the project manager, and the client whisperer—often in the same afternoon. We call this \"wearing many hats.\"",
+      "category": "Consulting",
+      "tags": [
+        "consulting-in-practice",
+        "meta-on-meta",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1691333940475-86ad642083e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQ0fHxvcmNoZXN0cmF8ZW58MHx8fHwxNzU5Mzk5NDcyfDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "observability-for-agent-commerce",
+      "title": "Measuring the Unowned Storefront: Observability for Agent Commerce",
+      "publishedAt": "2025-08-27T17:36:43.000Z",
+      "excerpt": "Everyone is busy selling shovels. But the mine moved. Agents now sell on surfaces brands do not own. The win is not a better shovel. It is eyes and throttle on those agents: traces, attribution, consent, limits.",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "ai",
+        "grid-level-thinking",
+        "commerce-drift"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1715412405248-3150a6feef23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGdvbGQlMjBwYW5uaW5nfGVufDB8fHx8MTc1NjMxNTgyNHww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-elitist-trap",
+      "title": "The Elitist Trap",
+      "publishedAt": "2025-08-09T21:47:10.000Z",
+      "excerpt": "A field guide for countering common traps of misguided experience.",
+      "category": "Reflections",
+      "tags": [
+        "reflection",
+        "field-notes",
+        "leadership"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "genai-os",
+      "title": "I’m Not Using GenAI. I’m Building a System Around It.",
+      "publishedAt": "2025-08-07T13:10:10.000Z",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "meta-on-meta",
+        "philosophy"
+      ],
+      "featured": true,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1612534526511-dd27833d6e50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fG5pZ2h0JTIwb3dsfGVufDB8fHx8MTc1NDU3MjE4N3ww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "who-checks-the-foundation",
+      "title": "Who Checks the Foundation?",
+      "publishedAt": "2025-08-05T22:08:20.000Z",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1595844730289-b248c919d6f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGNhcnBlbnRlcnxlbnwwfHx8fDE3NTQ0MzE2MDV8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "designing-what-you-dont-build",
+      "title": "Designing What You Don't Build — And Building What You Can't Read",
+      "publishedAt": "2025-08-05T22:02:34.000Z",
+      "excerpt": "The absentee software engineer.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "the-work-before-the-words",
+      "title": "The Work Before the Words",
+      "publishedAt": "2025-08-04T01:04:47.000Z",
+      "excerpt": "Meta-Companion to \"Living The Gap\"",
+      "category": "Meta",
+      "tags": [
+        "meta-on-meta",
+        "ai",
+        "identity",
+        "workflow",
+        "tools"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1521999693742-4717d76f97cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI0fHxwcmV3b3JrfGVufDB8fHx8MTc1NDI2OTQ2NHww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "living-in-the-gap",
+      "title": "Living in the Gap",
+      "publishedAt": "2025-08-04T00:59:36.000Z",
+      "excerpt": "I live between presence and projection — here, but already ten steps ahead. It’s a tension of slowing down, waiting for others, holding the map while walking the same road. Leadership often means pacing yourself so we can arrive together.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "meta-on-meta",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1524388715307-f99db096ff5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHllbGxvdyUyMGxpZ2h0fGVufDB8fHx8MTc1NDI2ODg5MXww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "bts-why-we-had-to-slow-down-to-speed-up",
+      "title": "Behind the Scenes: Why We Had to Slow Down to Speed Up",
+      "publishedAt": "2025-08-03T01:58:33.000Z",
+      "excerpt": "A simple bulk upload broke — 22 teams skipped, 0 created. The fix seemed easy. AI suggested patching the frontend. But that would’ve locked in a broken contract. Here's how we slowed down, re-architected the system, and avoided weeks of silent tech debt and wasted tokens.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/08/photo-1706618184116-425c7aaec79c.jpeg"
+    },
+    {
+      "slug": "the-paradox-of-velocity-in-ai-coding",
+      "title": "🌀 The Paradox of Velocity in AI Coding",
+      "publishedAt": "2025-08-03T00:33:39.000Z",
+      "excerpt": "After sprinting through two weeks of AI-coded progress—and crashing into drift, chaos, and broken trust—I reset everything. This is the story of slowing down, building real structure, and defining a repeatable AI‑Ops workflow. From vibe coding to teardown, here’s what I learned.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "reflection",
+        "strategy",
+        "workflow"
+      ],
+      "featured": true,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1636013912260-a176d5e08408?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBhcmFkb3h8ZW58MHx8fHwxNzU0MTgxMTk1fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "i-still-dont-really-know-jsx-and-i-dont-think-it-matters",
+      "title": "I Still Don’t Really Know JSX. And I Don't Think It Matters.",
+      "publishedAt": "2025-08-02T12:10:51.000Z",
+      "excerpt": "I built a production-grade React app—and still don’t fully understand JSX. In the AI-assisted era, syntax mastery matters less than system design. You’re not the coder anymore. You’re the architect. The real skill? Knowing what to ask, how to judge, and when the output doesn’t fit.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "point-of-view",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "even-the-ai-is-confused",
+      "title": "Even the AI Is Confused",
+      "publishedAt": "2025-08-01T18:20:42.000Z",
+      "excerpt": "What My Stack Audit Revealed About Modern Dev",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/08/photo-1635850967683-17df1f33e749.jpeg"
+    },
+    {
+      "slug": "the-drift-beneath-the-velocity",
+      "title": "The Drift Beneath the Velocity",
+      "publishedAt": "2025-08-01T00:43:56.000Z",
+      "excerpt": "Week 2 of AI-assisted coding brought velocity — but also drift. This post explores the moment I realized I was managing AI agents like a team, and what that means for the future of software consulting.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "consulting-in-practice",
+        "field-notes",
+        "signal-vs-noise",
+        "workflow"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1668761401813-9ce864132462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHJhZnQlMjBhdCUyMHNlYXxlbnwwfHx8fDE3NTQwMDg3NTF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "am-i-ever-not-working",
+      "title": "Am I Ever Not Working?",
+      "publishedAt": "2025-07-31T20:42:57.000Z",
+      "excerpt": "If your value lies in how you think, are you ever really off the clock? Lately, I’ve been chasing AI workflows at all hours—and thinking through systems even when I’m not at my keyboard. This post reflects on the cost of always being “on,” and how to protect the infrastructure: you.",
+      "category": "Reflections",
+      "tags": [
+        "reflection",
+        "point-of-view",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1685716851721-7e1419f2db18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fGV4aGF1c3RlZHxlbnwwfHx8fDE3NTM5OTQ1Mzl8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "skip-the-api-building-a-local-chatgpt-bridge-for-vs-code",
+      "title": "Skip the API: Building a Local ChatGPT Bridge for VS Code",
+      "publishedAt": "2025-07-31T11:47:37.000Z",
+      "excerpt": "Can you skip the API and wire ChatGPT directly into VS Code? Turns out, yes — with a little browser magic. This post breaks down how I thought about building a local-first bridge that replaces Kilo and avoids token costs, all powered by curiosity and a builder’s mindset.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "meta-on-meta",
+        "strategy",
+        "workflow"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/07/12326509-scott-adams-graphic-adventure-4-voodoo-castle-apple-ii-making-ma.png"
+    },
+    {
+      "slug": "from-ai-copilot-to-ai-enforcer",
+      "title": "From Copilot to Enforcer: The AI Maturity Spectrum for Developers",
+      "publishedAt": "2025-07-30T17:46:05.000Z",
+      "excerpt": "Or: What happens when AI stops just helping you code — and starts holding your system accountable",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "strategy",
+        "workflow"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGFyY2hpdGVjdHxlbnwwfHx8fDE3NTM4ODcwODR8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "tool-and-die-thinking-for-the-ai-age",
+      "title": "Tool-and-Die Thinking for the AI Age",
+      "publishedAt": "2025-07-30T17:21:51.000Z",
+      "excerpt": "How AI coding tools helped me beat the overhead wall — and build faster than I think.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "grid-level-thinking",
+        "meta-on-meta",
+        "reflection"
+      ],
+      "featured": true,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1632660820654-f609bf2e83e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHRvb2wlMjBhbmQlMjBkaWV8ZW58MHx8fHwxNzUzODk2MDQyfDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "just-in-time-software",
+      "title": "Just-in-Time Software",
+      "publishedAt": "2025-07-30T16:47:02.000Z",
+      "excerpt": "Just like cloud killed the server rack, AI is killing fixed tools. I built a full E2E test system from scratch—faster, cheaper, tailored—using nothing but schema, rules, and AI prompts. Why buy tools when you can generate them just-in-time?",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "consulting-in-practice"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1642969164999-979483e21601?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHwzZCUyMHByaW50fGVufDB8fHx8MTc1Mzg5Mzk5Nnww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "who-reviewed-the-reviewer",
+      "title": "Who Reviewed the Reviewer?",
+      "publishedAt": "2025-07-29T02:03:56.000Z",
+      "excerpt": "This post is about that realization. About what happens when AI becomes the default reviewer, and starts learning from its own reflections.\n\nWe’re not just debugging code anymore.\nWe’re debugging the system that teaches itself how to review.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "point-of-view",
+        "reflection"
+      ],
+      "featured": true,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fHNweXxlbnwwfHx8fDE3NTM3NTQ1MDl8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "tokens-are-dev-hours",
+      "title": "Tokens Are Dev Hours. Waste Is a Feature, Not a Bug.",
+      "publishedAt": "2025-07-28T16:00:25.000Z",
+      "excerpt": "With AI development, waste isn’t hidden in team velocity or burndown charts — it’s itemized on your invoice. That’s not a flaw. It’s a feature.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "strategy",
+        "reflection"
+      ],
+      "featured": true,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "the-ai-engineer-has-joined-the-team",
+      "title": "The AI Engineer Has Joined the Team. Now What?",
+      "publishedAt": "2025-07-27T11:52:08.000Z",
+      "excerpt": "AI isn’t just accelerating software development — it’s reorganizing it. This post unpacks what changes when you start designing teams, tools, and processes around a human–AI hybrid model. Planning shifts. Costs shift. Roles shift. The real question is: are we ready to shift with it?",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "leadership",
+        "signal-vs-noise",
+        "strategy"
+      ],
+      "featured": true,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1666597107756-ef489e9f1f09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHxhaXxlbnwwfHx8fDE3NTM1MjQ2ODZ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "from-fear-to-flow",
+      "title": "From Fear to Flow: How Building a Tournament Manager App Taught Me to Scale with AI",
+      "publishedAt": "2025-07-25T13:55:52.000Z",
+      "excerpt": "I didn’t start with a strategy. I started with fear. Here’s how a grassroots volleyball app turned into my personal AI bootcamp—and the repeatable framework I built along the way.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "grid-level-thinking",
+        "strategy",
+        "workflow"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGRvdWJ0fGVufDB8fHx8MTc1MzQ1MTc0MHww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "m-ai-engineering-team",
+      "title": "My AI Engineering Team",
+      "publishedAt": "2025-07-23T15:53:59.000Z",
+      "excerpt": "I didn’t set out to build an AI team. I just started with ChatGPT prompts for Lovable AI. Over time, it evolved into managing a layered squad of AI tools—architects, coders, and reviewers—working together like a real dev team. This changed how I work and lead AI-assisted projects.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "strategy"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/07/photo-1600880292089-90a7e086ee0c.jpeg"
+    },
+    {
+      "slug": "start-with-a-sketch",
+      "title": "Getting Unstuck: Why We Start With a Sketch",
+      "publishedAt": "2025-07-22T15:36:55.000Z",
+      "excerpt": "Projects stall when we confuse blockers with priorities. This post explores the “desk-building” metaphor to help teams stop over-planning and start making progress — by sketching first, sorting screws later.",
+      "category": "Field Notes",
+      "tags": [
+        "field-notes",
+        "point-of-view",
+        "consulting-in-practice"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGRyYWZ0aW5nfGVufDB8fHx8MTc1MzE5ODU5OXww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "when-you-start-to-hear-the-music",
+      "title": "When You Start to Hear the Music",
+      "publishedAt": "2025-07-10T23:58:06.000Z",
+      "excerpt": "What happens when AI sharpens your mind, but drifts you further from those who don’t think that way? This post explores the private cost of clarity — and the quiet grief that comes from outgrowing the resolution your old relationships were built on.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "reflection",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1650902565793-c2eb262aefbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fG11c2ljYWwlMjBub3Rlc3xlbnwwfHx8fDE3NTE0MjcyMzF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "do-you-smell-smoke",
+      "title": "The Risk of Asking “Do You Smell That?” When There’s No Fire",
+      "publishedAt": "2025-07-09T20:52:53.000Z",
+      "excerpt": "In consulting, sensing a problem feels like smelling smoke. But is there really a fire? This piece explores when to speak up and when to hold back — balancing risk detection with protecting people from blame. Leadership is often about navigating that tension with care.",
+      "category": "Consulting",
+      "tags": [
+        "consulting-in-practice",
+        "leadership",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1704325282590-6f63a9859b66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fGZpcmUlMjBhbGFybXxlbnwwfHx8fDE3NTIwOTQzMzB8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "from-pattern-to-people",
+      "title": "From Pattern to People",
+      "publishedAt": "2025-07-08T12:01:17.000Z",
+      "excerpt": "The hidden cost of clarity in an AI-shaped mind",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "identity",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1544026230-488aeae72c0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGh1bWFuJTIwY29ubmVjdGlvbnxlbnwwfHx8fDE3NTE5NzYwNjF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "still-your-car-still-your-wrench",
+      "title": "Still Your Car. Still Your Wrench.",
+      "publishedAt": "2025-07-06T22:58:22.000Z",
+      "excerpt": "What AI Coding Tools Don’t Tell You About Building Real Software",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1637640125496-31852f042a60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fE1lY2hhbmljfGVufDB8fHx8MTc1MTg0MjY2NHww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "from-prompt-to-pattern",
+      "title": "From Prompt to Pattern",
+      "publishedAt": "2025-07-02T02:38:18.000Z",
+      "excerpt": "This post wraps my “Help Me Help You” arc and opens a new question: If precision makes AI more effective, does it also increase human disconnection? I’ve felt the drift. The next thread I’m pulling on is: how to stay human inside all this structure.",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGFpfGVufDB8fHx8MTc1MTQwMzEyMXww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "how-i-work-with-ais-and-why",
+      "title": "How I Work With AIs (And Why)",
+      "publishedAt": "2025-07-02T02:31:57.000Z",
+      "excerpt": "A behind-the-scenes look at how I use GPT and Lovable together. One rewrites the prompt. One generates the code. I just define the intent — and stay out of the way. This isn’t a tech stack. It’s a new mode of working.",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fGFpfGVufDB8fHx8MTc1MTQwMzEyMXww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "prompt-strategists-agent-orchestras-and-what-comes-next",
+      "title": "Prompt Strategists, Agent Orchestras, and What Comes Next",
+      "publishedAt": "2025-07-02T02:27:30.000Z",
+      "excerpt": "Prompting is evolving into orchestration. One AI clarifies, another executes, a third checks the result. We’re entering an era where modular intelligence matters — and prompts become the interface between thinking systems.",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1691333940475-86ad642083e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE2fHxvcmNoZXN0cmElMjBjb25kdWN8ZW58MHx8fHwxNzUxNDIzMjI4fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "when-one-ai-rewrites-for-another",
+      "title": "When One AI Rewrites for Another",
+      "publishedAt": "2025-07-02T02:22:49.000Z",
+      "excerpt": "Prompt rewriting isn’t just a clever trick — it’s becoming core infrastructure. From cloud tools to agent chains, we’re seeing a shift: one AI clarifies the ask, another executes. The result? Fewer errors. Smarter systems.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1673515335152-f2589ba8bb7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx0cmFuc2xhdGV8ZW58MHx8fHwxNzUxNDIyOTUxfDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "help-me-help-you-help-me",
+      "title": "Help Me Help You (Help Me)",
+      "publishedAt": "2025-07-02T02:15:12.000Z",
+      "excerpt": "One AI helps another do its job better. I use GPT to rewrite prompts for Lovable — cutting errors, saving time, and revealing a deeper pattern: intent → refiner → executor. This isn’t just prompt cleanup. It’s the start of a new architecture.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1618218168350-6e7c81151b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDExfHxoZWxwfGVufDB8fHx8MTc1MTQyMjQ5MHww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-ai-approach-reset",
+      "title": "How I Used One AI to Train Another: A Tactical Reset in Data Architecture and AI Tooling Strategy",
+      "publishedAt": "2025-06-30T20:50:47.000Z",
+      "excerpt": "Like most devs experimenting with AI tools, I’ve found myself juggling multiple platforms, APIs, and half-understood schemas to build things faster. Sometimes it works. Other times, it works against you.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "consulting-in-practice",
+        "field-notes",
+        "leadership",
+        "strategy"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1682531024803-376c7dfd7975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDl8fFRyYWluJTIwdGhlJTIwdHJhaW5lcnxlbnwwfHx8fDE3NTEzMTY3MDF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "50-of-ai-later-lessons-from-burning-credits-fast",
+      "title": "$50 of AI Later: Lessons from Burning Credits Fast",
+      "publishedAt": "2025-06-29T06:09:06.000Z",
+      "excerpt": "AI credits vanished quickly, highlighting hidden costs and forcing clarity into my development process. Here's how a $50 investment turned into a practical blueprint for smarter AI‑assisted builds.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "tools",
+        "workflow"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1603738335334-e91bdf122ca5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHxidXJuJTIwbW9uZXl8ZW58MHx8fHwxNzUxMTc3MTEyfDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-lost-phone-test-for-ai-could-your-org-still-function-tomorrow",
+      "title": "The Lost‑Phone Test for AI: Could Your Org Still Function Tomorrow?",
+      "publishedAt": "2025-06-28T02:49:06.000Z",
+      "excerpt": "Dropped phone, lost life. Same test applies to corporate AI: if your copilots vanished tomorrow, would work even slow down? The “Lost-Phone Test” exposes integration gaps and makes the case for a Chief Intelligence Officer to weave tools into real workflows.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "point-of-view",
+        "signal-vs-noise",
+        "strategy",
+        "leadership",
+        "grid-level-thinking",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1548611716-f156c633d514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGVzc2VudGlhbHN8ZW58MHx8fHwxNzUxMDc4OTIyfDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "overnight-dev-from-rage-quit-to-release-in-72-hours-with-ai-riding-shotgun",
+      "title": "Overnight Dev: From Rage-Quit to Release in 72 Hours—With AI Riding Shotgun",
+      "publishedAt": "2025-06-27T20:15:03.000Z",
+      "excerpt": "Burned-out coder to live app in one weekend: two failed scrapers, one hidden JSON API, and AI tools that scaffolded the rest. How DevTools + GPT turned AES volleyball data into an MVP—and why your next Jira ticket might build itself.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "signal-vs-noise",
+        "tools",
+        "workflow"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1503525148566-ef5c2b9c93bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGhhdGV8ZW58MHx8fHwxNzUxMDU1Mjc2fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "its-time-for-the-cio-2-0",
+      "title": "It’s Time for the CIO 2.0",
+      "publishedAt": "2025-06-27T05:27:55.000Z",
+      "excerpt": "Most AI conversations start in the wrong place — with tools, not capabilities. What’s missing isn’t another pilot. It’s a new executive role: someone to steward how your organization thinks, learns, and evolves.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "leadership",
+        "field-notes",
+        "point-of-view",
+        "signal-vs-noise",
+        "strategy"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fGludGVsbGlnZW5jZXxlbnwwfHx8fDE3NTA5NDM4ODZ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "not-just-fast-but-together",
+      "title": "Not Just Fast, But Together",
+      "publishedAt": "2025-06-25T16:33:35.000Z",
+      "excerpt": "If you want to go fast, go alone; if you want to go far, go together",
+      "category": "Philosophy",
+      "tags": [
+        "philosophy",
+        "leadership",
+        "identity",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/ChatGPT-Image-Jun-25--2025--11_31_30-AM.png"
+    },
+    {
+      "slug": "is-resilience-a-systems-problem",
+      "title": "Is Resilience a Systems Problem?",
+      "publishedAt": "2025-06-25T16:33:26.000Z",
+      "excerpt": "In my last post, I wrote about the shift from shutdown to speedrun — how we’ve had to adapt, over and over again, just to keep moving. First to survive the pandemic. Now to keep up with AI.",
+      "category": "Philosophy",
+      "tags": [
+        "philosophy",
+        "identity",
+        "field-notes",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1548104587-7d43cc9c95c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fHJlc2lsaWVudHxlbnwwfHx8fDE3NTA4NjkxNDd8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "from-shutdown-to-speedrun",
+      "title": "From Shutdown to Speedrun",
+      "publishedAt": "2025-06-25T16:33:16.000Z",
+      "excerpt": "The Cost of Surviving the Age of Constant Upgrades",
+      "category": "Philosophy",
+      "tags": [
+        "philosophy",
+        "meta-on-meta",
+        "ai",
+        "field-notes",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGJ1eSUyMG9ubGluZXxlbnwwfHx8fDE3NTA4NjQ5NjZ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "strength-through-repetition",
+      "title": "Strength Through Repetition",
+      "publishedAt": "2025-06-24T20:22:33.000Z",
+      "excerpt": "The page isn’t the enemy. The page is the gym. You don’t show up to look good. You show up to build grip. Form. Force. Reps. That’s how the voice gets real.",
+      "category": "Reflections",
+      "tags": [
+        "identity",
+        "reflection",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1598620617148-c9e8ddee6711?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMxfHxza2V0Y2glMjBub3Rlc3xlbnwwfHx8fDE3NTA3OTY1MTV8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "reinvention-transformation",
+      "title": "Reinvention > Transformation",
+      "publishedAt": "2025-06-24T19:00:51.000Z",
+      "excerpt": "Most reorgs I’ve seen are just corporate feng shui — shift a few boxes, rename a few titles, pretend it’s visionary. But this one? This one actually maps to something real. For once, the language isn’t just for clients — it mirrors what I’ve been doing in my own damn operating system.",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1662499216961-cc219ee71f15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGludmVudGlvbnxlbnwwfHx8fDE3NTA3OTE2MjJ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "youre-sending-self-driving-cars-down-unmarked-roads",
+      "title": "You’re Sending Self-Driving Cars Down Unmarked Roads",
+      "publishedAt": "2025-06-23T01:51:09.000Z",
+      "excerpt": "AI doesn’t fail because it’s bad — it fails because your data lacks the infrastructure it needs to navigate. Language models don’t just search — they interpret. Most orgs haven’t built for that.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "grid-level-thinking",
+        "point-of-view",
+        "commerce"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1630163939978-c80abbef293a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fHdyb25nJTIwdHVybnxlbnwwfHx8fDE3NTA2NDMzOTF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-mvp-mirage",
+      "title": "The MVP Mirage",
+      "publishedAt": "2025-06-20T07:30:29.000Z",
+      "excerpt": "Most MVPs aren’t minimum or viable — they’re just premature.",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1629401037347-c8d13f4f97f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fG9hc2lzfGVufDB8fHx8MTc1MDQwNDQzMXww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "leadership-reflection",
+      "title": "Leadership Reflection",
+      "publishedAt": "2025-06-19T13:22:15.000Z",
+      "excerpt": "One of the easiest traps to fall into as a leader or expert is assuming we already understand. That assumption — even when subtle — shuts down curiosity, slows progress, and can quietly place the burden of clarity on everyone but ourselves.",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1517520287167-4bbf64a00d66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI2fHxsZWFkZXJzaGlwfGVufDB8fHx8MTc1MDMzOTIzMXww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "chatgpt-doesnt-eat-so-why-do-i-keep-asking-it-to-cook",
+      "title": "ChatGPT Doesn’t Eat—So Why Do I Keep Asking It to Cook?",
+      "publishedAt": "2025-06-18T18:31:51.000Z",
+      "excerpt": "LLMs can draft the menu, but you still have to taste the sauce. Here’s my field-note recipe for closing the fidelity gap between what ChatGPT writes and what actually works.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1605433246995-23f532d1e001?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIzfHxjb29raW5nJTIwcHJlcHxlbnwwfHx8fDE3NTAyNzE0NjZ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "experience-is-loud-turn-it-down-so-you-can-learn",
+      "title": "Experience Is Loud—Turn It Down So You Can Learn",
+      "publishedAt": "2025-06-18T17:30:02.000Z",
+      "excerpt": "Hard‑won patterns sound like wisdom—until they echo so loudly you miss new ideas. This month I learned: AI model tuning isn’t just prompting, shutter‑speed instincts fail at 60 fps video, and Figma spacing ≠ CSS. Beginner reps, reverse mentorship, and stranger audits keep the channel clear.",
+      "category": "Reflections",
+      "tags": [
+        "reflection",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1517816428104-797678c7cf0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fGxvdWR8ZW58MHx8fHwxNzUwMjY3NzQ1fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-cake-is-a-lie-why-ai-isnt-ready",
+      "title": "The Cake Is a Lie: Why AI Isn’t Ready",
+      "publishedAt": "2025-06-17T04:13:37.000Z",
+      "excerpt": "Everyone says AI can build for you — that you just describe the thing, and it ships itself. But I actually tried. I took it seriously. And what I found was brittle, inconsistent, and full of guesswork. If it took this much effort to build a landing page, what happens when the stakes are higher?",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "field-notes",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/cake.webp"
+    },
+    {
+      "slug": "signal-or-spectacle",
+      "title": "Signal or Spectacle?",
+      "publishedAt": "2025-06-16T19:39:14.000Z",
+      "excerpt": "Even when I’m not trying to posture, sometimes it feels like the platform does it for me. This is about the moment when sharing something honest starts to feel like a performance — and how I’m trying to stay grounded in signal, not spectacle.",
+      "category": "Meta",
+      "tags": [
+        "identity",
+        "meta-on-meta",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1602189156324-4c5c6c2c02b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGFubm91bmNlfGVufDB8fHx8MTc1MDEwMjczOXww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "signal-reflex-signal-dispatch",
+      "title": "Signal Reflex → Signal Dispatch",
+      "publishedAt": "2025-06-16T04:11:08.000Z",
+      "excerpt": "Signal Reflex is now Signal Dispatch — a shift from sensing to sending. Same voice, sharper intent. This is where ideas go out.",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1528499908559-b8e4e8b89bda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEwfHxyYWRpbyUyMHRvd2VyfGVufDB8fHx8MTc1MDA0NzAzMHww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "becoming-the-copilot",
+      "title": "Becoming the Copilot",
+      "publishedAt": "2025-06-16T03:17:39.000Z",
+      "excerpt": "Signal Dispatch · Field Notes on Agency in Relationship",
+      "category": "Field Notes",
+      "tags": [
+        "field-notes",
+        "leadership",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1668605105417-34c464372bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE2fHxuYXZpZ2F0b3J8ZW58MHx8fHwxNzUwMDQzODA4fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "reading-the-road",
+      "title": "Reading the Road",
+      "publishedAt": "2025-06-16T03:07:25.000Z",
+      "excerpt": "Signal Dispatch · Field Notes on Influence",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "field-notes",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1421218108559-eb1ff78357f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHdpbmRpbmclMjByb2FkfGVufDB8fHx8MTc1MDA0MzE1M3ww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "driving-while-not-driving",
+      "title": "Driving While Not Driving",
+      "publishedAt": "2025-06-15T03:55:15.000Z",
+      "excerpt": "(How to Keep Moving Without Losing Yourself)",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1475782944331-0ea8c9089a6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQwfHxyb2FkJTIwdHJpcHxlbnwwfHx8fDE3NDk5NjAxNDV8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "put-the-camera-down",
+      "title": "Put the Camera Down",
+      "publishedAt": "2025-06-14T03:53:10.000Z",
+      "excerpt": "What if you're not here to capture the moment—but to be the aperture it passes through?",
+      "category": "Meta",
+      "tags": [
+        "identity",
+        "meta-on-meta",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1518790946172-be31b801e0b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE0fHxjYW1lcmElMjBzZWxmaWV8ZW58MHx8fHwxNzQ5ODcyNjc2fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-machine-loom",
+      "title": "The Machine Loom",
+      "publishedAt": "2025-06-14T03:27:26.000Z",
+      "excerpt": "If humans are the loom, AI is the thread—fast, abundant, and increasingly tangled.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "grid-level-thinking",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1542044801-30d3e45ae49a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHRocmVhZHxlbnwwfHx8fDE3NDk4NzE1NDh8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-human-loom",
+      "title": "The Human Loom",
+      "publishedAt": "2025-06-14T03:05:29.000Z",
+      "excerpt": "You don’t have to be the thread. Or the pattern. Just be the thing that lets it all come together.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "consulting-in-practice",
+        "reflection",
+        "strategy",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1597371140946-cfd3dd5a76b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fGxvb218ZW58MHx8fHwxNzQ5ODcwMDYxfDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "i-built-a-site-just-to-see-if-i-still-could",
+      "title": "I Built a Site Just to See If I Still Could",
+      "publishedAt": "2025-06-14T02:56:15.000Z",
+      "excerpt": "I didn’t need to build the site from scratch. That was the point.",
+      "category": "Field Notes",
+      "tags": [
+        "field-notes",
+        "tools",
+        "workflow"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDExfHxjb21tYW5kJTIwbGluZXxlbnwwfHx8fDE3NDk4Njk3NTd8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "how-content-and-commerce-actually-connect-now",
+      "title": "How Content and Commerce Actually Connect Now",
+      "publishedAt": "2025-06-13T13:00:40.000Z",
+      "excerpt": "Your content is the storefront. If it’s not reducing friction or moving someone closer to a decision, it’s not connected to commerce at all.",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "point-of-view",
+        "workflow",
+        "signal-vs-noise"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "the-cleanup-economy",
+      "title": "The Cleanup Economy",
+      "publishedAt": "2025-06-12T22:45:25.000Z",
+      "excerpt": "Every tech revolution builds a fast market—and leaves a mess. Cleanup becomes its own economy: FinOps, platform teams, and second-wave consultants turning v1 chaos into stability. The real money? It's in making things actually work.",
+      "category": "Reflections",
+      "tags": [
+        "reflection",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1552225639-d91b9f727eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHxyZWZpbmV8ZW58MHx8fHwxNzQ5NzY4Mjg4fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-spotlight-isnt-the-stage",
+      "title": "The Spotlight Isn’t the Stage",
+      "publishedAt": "2025-06-12T22:19:29.000Z",
+      "excerpt": "A shiny idea isn't strategy. This post digs into decision hygiene: the discipline of thinking beyond the spotlight, and seeing the systems, ownership, and scope your choices actually live inside.",
+      "category": "Leadership",
+      "tags": [
+        "strategy",
+        "leadership",
+        "signal-vs-noise"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1541351555222-2625e7c3adda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHNwb3RsaWdodHxlbnwwfHx8fDE3NDk3NjY2NzR8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "when-meta-conversations-start-to-sound-like-sermons",
+      "title": "When Meta Conversations Start to Sound Like Sermons",
+      "publishedAt": "2025-06-12T22:11:25.000Z",
+      "excerpt": "I’ve been writing and thinking so much about how I think, it’s started to shape my real-life conversations — sometimes in ways that feel disconnected. When does thoughtful reflection cross the line into sermonizing? And how do we find balance between clarity and presence?",
+      "category": "Reflections",
+      "tags": [
+        "identity",
+        "reflection",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHNwZWFrZXJ8ZW58MHx8fHwxNzQ5NzYwNTMxfDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-sky-is-not-falling",
+      "title": "The Sky Is Not Falling",
+      "publishedAt": "2025-06-12T13:28:32.000Z",
+      "excerpt": "I built the core Let’s Pepper site in under 2 hours—then spent over 8 trying to get one visual detail (the section dividers) to look right. AI can prototype, but it doesn’t ship. This post breaks down why the real work happens after the first draft, and why experience still matters more than ever.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "point-of-view",
+        "workflow",
+        "tools"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1584475784921-d9dbfd9d17ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fHBhbmljfGVufDB8fHx8MTc0OTY3NjY4M3ww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "coaching-without-coddling-how-i-support-high-potential-people-without-micromanaging",
+      "title": "Coaching Without Coddling: How I Support High-Potential People Without Micromanaging",
+      "publishedAt": "2025-06-12T01:56:49.000Z",
+      "excerpt": "Once I know someone’s worth investing in, I shift gears. Here’s how I coach without taking the wheel—and why presence matters more than pressure.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "consulting-in-practice",
+        "workflow",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fGhlbHB8ZW58MHx8fHwxNzQ5NjUyMzc5fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "coach-up-or-coach-out-what-i-look-for-early",
+      "title": "Coach Up or Coach Out? What I Look for Early",
+      "publishedAt": "2025-06-12T01:53:34.000Z",
+      "excerpt": "Not everyone clicks right away. But I’ve learned to spot the difference between someone who just needs support—and someone who’s not built for the work we do.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "consulting-in-practice",
+        "point-of-view",
+        "signal-vs-noise"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1585757318177-0570a997dc3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGNvYWNofGVufDB8fHx8MTc0OTY5MzE5NXww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "we-dont-need-more-coders-we-need-early-stage-problem-solvers",
+      "title": "We Don’t Need More Coders. We Need Early-Stage Problem Solvers.",
+      "publishedAt": "2025-06-12T01:52:32.000Z",
+      "excerpt": "The game changed. We don’t need new hires who’ve built a few apps—we need people who can navigate ambiguity, think in systems, and ask the right questions early.",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "consulting-in-practice",
+        "signal-vs-noise",
+        "leadership",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1616628188540-925618b98318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fGVtcHR5JTIwdG9vbGJveHxlbnwwfHx8fDE3NDk2OTMxMjJ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "how-we-find-the-ones-who-just-get-it",
+      "title": "How We Find the Ones Who Just Get It",
+      "publishedAt": "2025-06-12T01:51:27.000Z",
+      "excerpt": "Hiring the right consultant isn’t about checking boxes. It’s about building the kind of process that makes the right people show up—and lets the wrong ones opt out early.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "workflow",
+        "point-of-view",
+        "consulting-in-practice"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1589042445387-f9099ff05f8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxzeW5jaHJvbml6ZWR8ZW58MHx8fHwxNzQ5NjkzMDUyfDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "when-youre-good-at-solving-problems-they-multiply",
+      "title": "When You’re Good at Solving Problems, They Multiply",
+      "publishedAt": "2025-06-11T23:44:06.000Z",
+      "excerpt": "Being a great problem solver isn’t always the win it sounds like. If you’re not careful, you become the dumping ground for everyone else’s chaos. Here’s what I’ve learned about restraint, scope, and selective clarity.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "point-of-view",
+        "signal-vs-noise"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMyfHxwcm9ibGVtJTIwc29sdmVyfGVufDB8fHx8MTc0OTY4MDA1MXww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-gift-i-cant-give-myself",
+      "title": "The Gift I Can’t Give Myself",
+      "publishedAt": "2025-06-11T22:11:28.000Z",
+      "excerpt": "I hold up the mirror for others all the time—clients, teammates, athletes. I just can’t seem to look in it myself. This post explores what it means to help others see their potential while still wrestling with your own.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/photo-1588514821696-0b59b1080071.jpeg"
+    },
+    {
+      "slug": "the-real-work-is-reading-the-signal",
+      "title": "The Real Work Is Reading the Signal",
+      "publishedAt": "2025-06-11T22:05:28.000Z",
+      "excerpt": "The complexity isn’t in the tech—it’s in the noise. This final post in the Commerce Drift arc explores why reading the signal is the real skill behind every good commerce strategy.",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "commerce-drift",
+        "signal-vs-noise",
+        "strategy"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1499618113933-3b9fe2db9282?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fHNpZ25hbCUyMGJhcm9tZXRlcnxlbnwwfHx8fDE3NDk1NzQ0NzJ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-stranger-with-my-name",
+      "title": "The Stranger With My Name",
+      "publishedAt": "2025-06-11T13:00:19.000Z",
+      "excerpt": "I’ve heard people describe me in ways I barely recognize. At first, it felt like they were talking about someone else. But now I’m wondering—what if they’re seeing something I haven’t figured out how to see in myself?",
+      "category": "Meta",
+      "tags": [
+        "identity",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/photo-1635605980271-23c65563badb.jpeg"
+    },
+    {
+      "slug": "when-the-tools-get-in-the-way",
+      "title": "When the Tools Get in the Way",
+      "publishedAt": "2025-06-11T04:37:49.000Z",
+      "excerpt": "We made websites easier to build by hiding the code. But now that AI can write that code for us, the abstraction layers are becoming the new friction.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "workflow",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGNvbXBsZXh8ZW58MHx8fHwxNzQ5NjE2NjI2fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "how-i-wrote-living-in-the-comments",
+      "title": "How I Wrote “Living in the Comments”",
+      "publishedAt": "2025-06-10T18:06:38.000Z",
+      "excerpt": "This post was already about self-doubt. So writing it with an AI didn’t make it easier—it made the mirror sharper.",
+      "category": "Meta",
+      "tags": [
+        "identity",
+        "meta-on-meta",
+        "post-creation-process"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1662541974159-4125eb5bfff1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHJlZmxlY3Rpb24lMjBkaXN0b3J0aW9ufGVufDB8fHx8MTc0OTU3ODk0OHww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "living-in-the-comments",
+      "title": "Living in the Comments",
+      "publishedAt": "2025-06-10T17:34:42.000Z",
+      "excerpt": "Sometimes I’m not writing for clarity. I’m writing to defend myself against a comment that hasn’t been written yet.",
+      "category": "Meta",
+      "tags": [
+        "identity",
+        "meta-on-meta",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/photo-1555601568-c9e6f328489b-2.jpeg"
+    },
+    {
+      "slug": "when-custom-isnt-better-the-burden-of-bespoke",
+      "title": "When Custom Isn’t Better: The Burden of Bespoke",
+      "publishedAt": "2025-06-10T15:57:24.000Z",
+      "excerpt": "We romanticize personalization. But sometimes the problem isn’t lack of choice—it’s too much of it. Especially when we’re not sure what we really want.",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "strategy",
+        "commerce-drift",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/photo-1633655442356-ab2dbc69c772.jpeg"
+    },
+    {
+      "slug": "is-composable-just-ikea-for-commerce",
+      "title": "Is Composable Just IKEA for Commerce?",
+      "publishedAt": "2025-06-09T20:15:21.000Z",
+      "excerpt": "Composable promised freedom from the monolith. But in chasing modular flexibility, are we just assembling the same storefront with different colors and calling it strategy?",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "strategy",
+        "signal-vs-noise",
+        "commerce-drift"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1567712176243-5d8e90fba89b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fGlrZWElMjB8ZW58MHx8fHwxNzQ5MjM3OTU4fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-cost-of-sophistication",
+      "title": "The Cost of Sophistication",
+      "publishedAt": "2025-06-09T13:00:57.000Z",
+      "excerpt": "Getting sharper comes at a cost. The more refined your thinking becomes, the more you risk drifting into isolation. This post explores the hidden tax of clarity—and what it means to stay reachable without dumbing yourself down.",
+      "category": "Meta",
+      "tags": [
+        "identity",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/photo-1485236715568-ddc5ee6ca227.jpeg"
+    },
+    {
+      "slug": "the-role-of-self-awareness-in-every-tool-i-use",
+      "title": "The Role of Self-Awareness in Every Tool I Use",
+      "publishedAt": "2025-06-09T13:00:15.000Z",
+      "excerpt": "I don’t chase tools anymore. If it fights my instincts or adds ceremony, I’m out. If it sharpens my clarity, it stays. That’s the filter.",
+      "category": "AI & Automation",
+      "tags": [
+        "identity",
+        "ai",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "writing-helped-me-notice-i-was-seeing-differently",
+      "title": "Writing Helped Me Notice I Was Seeing Differently",
+      "publishedAt": "2025-06-08T23:00:26.000Z",
+      "excerpt": " I didn’t set out to write about personal growth. I just wanted to get clearer. But writing about other things helped me finally put into words a shift I’ve been feeling for years—that sometimes growth changes how you see the world before you even realize it.",
+      "category": "Meta",
+      "tags": [
+        "identity",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/photo-1540162875225-3f6b56d69fe8.jpeg"
+    },
+    {
+      "slug": "sharpened-doesnt-mean-sterile",
+      "title": "Sharpened Doesn’t Mean Sterile",
+      "publishedAt": "2025-06-07T16:37:54.000Z",
+      "excerpt": "As your work gets more refined, it risks losing the texture that made it real. But if you do it right, refinement doesn’t erase your voice—it reveals it.",
+      "category": "Meta",
+      "tags": [
+        "identity",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1609619385002-f40f1df9b7eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHBob3RvJTIwZWRpdGluZ3xlbnwwfHx8fDE3NDkyMjcxNzF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "do-i-still-sound-like-me",
+      "title": "Do I Still Sound Like Me?",
+      "publishedAt": "2025-06-07T16:19:48.000Z",
+      "excerpt": "Your writing gets sharper. Your thinking gets clearer. Your tone gets cleaner. But somewhere along the way, you wonder if the people who liked the messy version of you still recognize the voice.",
+      "category": "Meta",
+      "tags": [
+        "identity",
+        "point-of-view",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "if-the-storefront-is-dead-where-do-you-compete-now",
+      "title": "If the Storefront Is Dead, Where Do You Compete Now?",
+      "publishedAt": "2025-06-06T17:00:59.000Z",
+      "excerpt": "If customers don’t convert on your site, where do they decide? Trust now starts upstream—off-site, in content, and with zero friction.",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "strategy",
+        "point-of-view",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "why-this-made-you-ask",
+      "title": "Why This Made You Ask",
+      "publishedAt": "2025-06-06T16:41:41.000Z",
+      "excerpt": "When I started this blog, someone close to me asked, “What are you doing with this?” Not my photography. Not my DJ mixes. Just this. I’ve been thinking about why.",
+      "category": "Reflections",
+      "tags": [
+        "identity",
+        "reflection",
+        "meta-on-meta"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/ChatGPT-Image-Jun-6--2025--11_39_12-AM.png"
+    },
+    {
+      "slug": "the-calculator-effect",
+      "title": "The Calculator Effect",
+      "publishedAt": "2025-06-06T14:44:57.000Z",
+      "excerpt": "I started checking the calculator even when I already knew the answer. Not because I needed it—because I didn’t trust myself. That’s the part that stuck with me. Not the math. The muscle I stopped using.",
+      "category": "Philosophy",
+      "tags": [
+        "philosophy",
+        "muscle-memory"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1645905108459-f69ed6cbbe89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQ5fHxjYWxjdWxhdG9yfGVufDB8fHx8MTc0OTE1ODc2M3ww&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "is-chatgpt-doing-my-thinking-for-me",
+      "title": "Is ChatGPT Doing My Thinking for Me?",
+      "publishedAt": "2025-06-06T14:44:49.000Z",
+      "excerpt": "This thing can write a clean draft faster than I can finish my coffee. But then I read it back and think—did *I* even say that? Or did I just agree with it because it sounded smart? That’s the trap.",
+      "category": "Philosophy",
+      "tags": [
+        "philosophy",
+        "muscle-memory"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1617791160536-598cf32026fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHx0aGlua2luZ3xlbnwwfHx8fDE3NDkxNTg5NTJ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "muscle-memory-and-mental-atrophy",
+      "title": "Muscle Memory and Mental Atrophy",
+      "publishedAt": "2025-06-06T14:44:43.000Z",
+      "excerpt": "It starts small. A pause before spelling rhythm. Letting the GPS run when you already know the way. That pause? It used to be fluency. Now it’s drift.",
+      "category": "Philosophy",
+      "tags": [
+        "philosophy",
+        "muscle-memory"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1632077804406-188472f1a810?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fGtldHRsZSUyMGJlbGx8ZW58MHx8fHwxNzQ5MTU5MTA2fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "why-friction-matters",
+      "title": "Why Friction Matters",
+      "publishedAt": "2025-06-06T14:44:37.000Z",
+      "excerpt": "The hardest part of writing isn’t writing—it’s sticking with your own thoughts long enough to figure out what you’re really trying to say. AI makes that part go away. Which is the problem.",
+      "category": "Philosophy",
+      "tags": [
+        "philosophy",
+        "muscle-memory"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1533582437341-dfdc01630b05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxmcmljdGlvbnxlbnwwfHx8fDE3NDkxNTkxNjZ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "tool-assistant-or-crutch",
+      "title": "Tool, Assistant, or Crutch?",
+      "publishedAt": "2025-06-06T14:44:29.000Z",
+      "excerpt": "Every tool starts off helpful. Then it gets easy. Then it becomes default. And if you’re not careful, default turns into dependency. That’s the moment to pay attention to.",
+      "category": "Philosophy",
+      "tags": [
+        "philosophy",
+        "muscle-memory"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fGhhbmQlMjB0b29sc3xlbnwwfHx8fDE3NDkxNjAxOTF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "did-you-hear-something",
+      "title": "Did You Hear Something?",
+      "publishedAt": "2025-06-06T13:00:57.000Z",
+      "excerpt": "Sometimes I think I’m hearing subtle signals that no one else picks up. Other times, I wonder if I’m just hallucinating signals to feel smart.",
+      "category": "Reflections",
+      "tags": [
+        "reflection",
+        "signal-vs-noise",
+        "identity"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1587591595182-637c7e822c37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHNpZ25hbHxlbnwwfHx8fDE3NDkxNzMwNTB8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "youre-not-broken-but-youre-not-off-the-hook",
+      "title": "You’re Not Broken, But You’re Not Off the Hook",
+      "publishedAt": "2025-06-05T19:47:36.000Z",
+      "excerpt": "The story that you’re too damaged to change is just another form of avoidance. False exemption doesn’t always sound like pride—it often sounds like hopelessness. But even if you’re not to blame for how the storm started, you’re still responsible for how you move through it.",
+      "category": "Reflections",
+      "tags": [
+        "reflection",
+        "leadership",
+        "identity",
+        "false-exemption"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/ChatGPT-Image-Jun-5--2025--02_44_25-PM.png"
+    },
+    {
+      "slug": "this-doesnt-work-for-me",
+      "title": "This Doesn’t Work for Me",
+      "publishedAt": "2025-06-05T19:47:25.000Z",
+      "excerpt": "False exemption often hides behind logic. We convince ourselves that the strategy is valid, the tool makes sense—but not for someone like me. This isn’t ignorance. It’s identity-protection dressed up as reason.",
+      "category": "Reflections",
+      "tags": [
+        "reflection",
+        "false-exemption",
+        "point-of-view",
+        "signal-vs-noise"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/ChatGPT-Image-Jun-5--2025--12_19_16-AM.png"
+    },
+    {
+      "slug": "the-cost-of-staying-dry",
+      "title": "The Cost of Staying Dry",
+      "publishedAt": "2025-06-05T19:47:17.000Z",
+      "excerpt": "Choosing growth isn’t just about courage. It’s about cost. To change, you have to give something up—comfort, certainty, even identity. And deep down, many of us decide we’d rather stay soaked.",
+      "category": "Leadership",
+      "tags": [
+        "identity",
+        "signal-vs-noise",
+        "leadership",
+        "false-exemption"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/ChatGPT-Image-Jun-5--2025--12_16_21-AM.png"
+    },
+    {
+      "slug": "standing-in-the-rain",
+      "title": "Standing in the Rain",
+      "publishedAt": "2025-06-05T19:47:06.000Z",
+      "excerpt": "This isn’t about people who don’t know better. It’s about people who do. Who see the storm coming, feel the weight of the umbrella in their hand… and still stand there, getting soaked.",
+      "category": "Leadership",
+      "tags": [
+        "identity",
+        "leadership",
+        "field-notes",
+        "false-exemption"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/ChatGPT-Image-Jun-4--2025--10_16_21-PM.png"
+    },
+    {
+      "slug": "archive",
+      "title": "Signal Arcs",
+      "publishedAt": "2025-06-05T18:57:49.000Z",
+      "excerpt": "A structured index of essays and field notes from Signal Dispatch. Organized by theme and series",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1454166155302-ef4863c27e70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI0fHxicm93c2UlMjBub3Rlc3xlbnwwfHx8fDE3NDkxNTYzMTR8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "how-i-structure-my-ai-workflows-to-support-real-thinking",
+      "title": "How I Structure My AI Workflows to Support Real Thinking",
+      "publishedAt": "2025-06-05T13:00:27.000Z",
+      "excerpt": "My AI workflow isn’t about speed—it’s about clarity. Here’s how I use LLMs to shape messy ideas and reduce drag when I need to think straight.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "workflow"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "the-rules-i-actually-follow",
+      "title": "The Rules I Actually Follow",
+      "publishedAt": "2025-06-04T23:05:04.000Z",
+      "excerpt": "These aren’t feel-good slogans or poster values. Just the quiet rules that have kept me useful, sane, and steady—even when the pressure’s high and the spotlight’s off.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIwfHxydWxlc3xlbnwwfHx8fDE3NDkwNzgxOTF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "what-coaching-teaches-me-about-consulting",
+      "title": "What Coaching Teaches Me About Consulting",
+      "publishedAt": "2025-06-04T23:01:05.000Z",
+      "excerpt": "Coaching club volleyball taught me more about leadership than any workshop ever could. From managing expectations to building trust, this post breaks down the surprising overlaps between the gym and the boardroom.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "strategy",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/ChatGPT-Image-Jun-4--2025--06_00_47-PM.png"
+    },
+    {
+      "slug": "the-bet-i-didnt-know-i-was-making",
+      "title": "The Bet I Didn’t Know I Was Making",
+      "publishedAt": "2025-06-04T22:40:15.000Z",
+      "excerpt": "Some choices don’t reveal their full meaning until much later. It’s not that the decision was wrong—it’s that the person you become after making it sees things differently.",
+      "category": "Reflections",
+      "tags": [
+        "reflection",
+        "identity",
+        "signal-vs-noise"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/ChatGPT-Image-Jun-4--2025--05_42_58-PM.png"
+    },
+    {
+      "slug": "quiet-was-armor",
+      "title": "Quiet Was Armor",
+      "publishedAt": "2025-06-04T12:32:03.000Z",
+      "excerpt": "Signal Reflex isn’t a beginning. It’s a different lens. For years, my photos have shown how I see the world. Now I’m sharing how I think—and what that reveals about how I lead, learn, and grow.",
+      "category": "Reflections",
+      "tags": [
+        "identity",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "why-i-use-ai-every-day-and-why-i-started-writing-about-it",
+      "title": "Why I Use AI Every Day (And Why I Started Writing About It)",
+      "publishedAt": "2025-06-04T05:00:31.000Z",
+      "excerpt": "I didn’t use AI to go faster—I used it to catch up with myself. This blog is where that journey turned into something useful and real.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "grid-level-thinking-wasnt-the-plan",
+      "title": "Grid-Level Thinking Wasn't the Plan",
+      "publishedAt": "2025-06-04T04:24:23.000Z",
+      "excerpt": "This wasn’t meant to be a thought leadership series. It started as a phone call—and a question: Where does AI actually help, right now, for real? I’m Not Hyping AI. I’m Just Using It.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "reflection",
+        "signal-vs-noise",
+        "grid-level-thinking"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "power-without-purpose-is-just-a-bill",
+      "title": "Power Without Purpose Is Just a Bill.",
+      "publishedAt": "2025-06-04T04:24:17.000Z",
+      "excerpt": "Post 4 of 4 in the Grid-Level Thinking series—why using AI for real work has changed how I design systems, think about leverage, and clarify what actually matters.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "grid-level-thinking",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "plug-in-then-rethink-the-system",
+      "title": "Plug In. Then Rethink the System.",
+      "publishedAt": "2025-06-04T04:24:10.000Z",
+      "excerpt": "Post 3 of 4 in the Grid-Level Thinking series—adopting AI isn’t the hard part. Redesigning your system around it is.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "workflow",
+        "grid-level-thinking"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "wired-for-power-everyone-got-the-current-not-everyone-built-the-city",
+      "title": "Wired for Power: Everyone Got the Current. Not Everyone Built the City.",
+      "publishedAt": "2025-06-04T04:24:02.000Z",
+      "excerpt": "Post 2 of 4 in the Grid-Level Thinking series—access isn’t the differentiator anymore. Application is.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "leadership",
+        "grid-level-thinking"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "wired-for-power-ai-is-the-grid-youre-the-architect",
+      "title": "Wired for Power: AI Is the Grid. You’re the Architect.",
+      "publishedAt": "2025-06-04T04:23:55.000Z",
+      "excerpt": "Post 1 of 4 in the Grid-Level Thinking series—what we miss when we treat AI like magic instead of infrastructure.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "strategy",
+        "grid-level-thinking"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "the-entry-level-developer-evolution-not-extinction",
+      "title": "The Entry-Level Developer: Evolution, Not Extinction",
+      "publishedAt": "2025-06-04T02:31:58.000Z",
+      "excerpt": "The junior dev role isn’t dying. It’s evolving. The job is no longer about churning out syntax—it’s about navigating ambiguity, thinking critically, and collaborating with AI. Here’s what still matters, and how to coach for it.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "point-of-view",
+        "strategy"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "you-cant-engineer-growth",
+      "title": "You Can’t Engineer Growth",
+      "publishedAt": "2025-06-04T01:01:50.000Z",
+      "excerpt": "This started as a rant while driving. A reminder that no matter how much structure we build, growth still happens on its own terms. In club volleyball and in life—you can’t engineer the outcome. You can only build the conditions.",
+      "category": "Reflections",
+      "tags": [
+        "reflection",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "how-i-built-signal-reflex-in-a-week",
+      "title": "How I Built Signal Reflex in a Week",
+      "publishedAt": "2025-06-04T00:15:54.000Z",
+      "excerpt": "This blog isn’t a new habit—it’s just a new slice of my output. Here’s how I launched Signal Reflex in a week by treating it like any other creative drop: strategy, tools, publishing cadence, and what I learned by shipping.",
+      "category": "AI & Automation",
+      "tags": [
+        "workflow",
+        "ai",
+        "strategy",
+        "signal-vs-noise"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "almost-flickday",
+      "title": "Almost Flickday",
+      "publishedAt": "2025-06-03T23:00:40.000Z",
+      "excerpt": "Flickday started as a nod to “almost Friday.” Now it’s my creative safe space—a place to stay playful, go off-script, and build with others beyond the Nino Chavez brand.",
+      "category": "Reflections",
+      "tags": [
+        "identity",
+        "reflection"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/Almost-Flickday-in-the-Studio--1--1.png"
+    },
+    {
+      "slug": "why-i-keep-shooting-even-when-its-not-for-work",
+      "title": "Why I Keep Shooting, Even When It’s Not for Work",
+      "publishedAt": "2025-06-03T14:00:58.000Z",
+      "excerpt": "Photography is the clearest signal I know. I don’t shoot for content—I shoot to stay connected to the part of me that still notices the small stuff.",
+      "category": "Reflections",
+      "tags": [
+        "identity",
+        "reflection",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "/content/images/2025/06/falknor-2.jpg"
+    },
+    {
+      "slug": "signal-in-the-noise-my-personal-philosophy",
+      "title": "Signal in the Noise: My Personal Philosophy",
+      "publishedAt": "2025-06-03T13:00:34.000Z",
+      "excerpt": "I don’t move to be seen. I move when it matters. My personal philosophy is about recognizing signal, trusting pattern, and acting with intent.",
+      "category": "Insights",
+      "tags": [
+        "identity",
+        "start-here"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "why-they-call-me-uncle-nino-an-evolving-leadership-style",
+      "title": "Why They Call Me Uncle Nino",
+      "publishedAt": "2025-06-02T21:02:52.000Z",
+      "excerpt": "I lead with clarity and calm—not noise. Sometimes that looks like being the one who steadies the room. That’s why they call me Uncle Nino.",
+      "category": "Leadership",
+      "tags": [
+        "leadership",
+        "identity"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "start-smart-not-perfect",
+      "title": "Start Smart, Not Perfect",
+      "publishedAt": "2025-06-02T20:50:32.000Z",
+      "category": "Field Notes",
+      "tags": [
+        "workflow",
+        "field-notes",
+        "point-of-view"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "why-i-shoot-senior-nights",
+      "title": "Why I Shoot Senior Nights",
+      "publishedAt": "2025-06-02T20:21:22.000Z",
+      "excerpt": "Senior Night hits different. It’s not just a ceremony—it’s a goodbye. I shoot it like it matters, because for most people in the gym, it does.",
+      "category": "Reflections",
+      "tags": [
+        "identity",
+        "reflection",
+        "start-here"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "how-i-use-ai-in-consulting-for-real",
+      "title": "How I Use AI in Consulting (For Real)",
+      "publishedAt": "2025-06-02T20:12:28.000Z",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "identity",
+        "workflow",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "why-i-started-signal-reflex",
+      "title": "Why I Started Signal Reflex",
+      "publishedAt": "2025-06-02T20:08:19.000Z",
+      "excerpt": "I didn’t start writing to build an audience. I started because AI helped me get past the blank page. This is where I work through what matters—before it fades.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "identity",
+        "reflection",
+        "start-here"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "about-me",
+      "title": "About Nino Chavez",
+      "publishedAt": "2025-06-02T18:29:39.000Z",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "the-storefront-is-dead",
+      "title": "The Storefront Is Dead",
+      "publishedAt": "2025-06-02T18:09:50.000Z",
+      "excerpt": "Most customers already know what they want. They’re not browsing. The storefront isn’t where you win anymore—it’s just where you fulfill.",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "strategy",
+        "point-of-view",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez"
+    },
+    {
+      "slug": "about",
+      "title": "About Signal Dispatch",
+      "publishedAt": "2025-06-02T13:50:38.000Z",
+      "category": "Field Notes",
+      "tags": [
+        "identity",
+        "field-notes"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://images.unsplash.com/photo-1627807452502-0c8329fc710b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI2fHx0aGluayUyMG91dCUyMGxvdXR8ZW58MHx8fHwxNzUwMDQ1ODI2fDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "start-here-why-signal-reflex-exists",
+      "title": "Start Here: Why Signal Reflex Exists",
+      "publishedAt": "2025-06-02T13:50:37.000Z",
+      "excerpt": "Signal Reflex isn’t a brand or a content engine. It’s where I write to stay clear, present, and honest—using AI to reduce drag, not replace thinking.",
+      "category": "Reflections",
+      "tags": [
+        "identity",
+        "reflection",
+        "start-here"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "featureImage": "https://static.ghost.org/v4.0.0/images/feature-image.jpg"
+    }
+  ],
+  "categories": [
+    "AI & Automation",
+    "Commerce",
+    "Consulting",
+    "Field Notes",
+    "Insights",
+    "Leadership",
+    "Meta",
+    "Philosophy",
+    "Reflections"
+  ],
+  "tags": [
+    "ai",
+    "commerce",
+    "commerce-drift",
+    "consulting-in-practice",
+    "false-exemption",
+    "field-notes",
+    "grid-level-thinking",
+    "identity",
+    "leadership",
+    "meta-on-meta",
+    "muscle-memory",
+    "philosophy",
+    "point-of-view",
+    "post-creation-process",
+    "reflection",
+    "signal-vs-noise",
+    "start-here",
+    "strategy",
+    "tools",
+    "workflow"
+  ],
+  "categoryCounts": {
+    "AI & Automation": 45,
+    "Field Notes": 5,
+    "Reflections": 17,
+    "Leadership": 14,
+    "Meta": 10,
+    "Consulting": 2,
+    "Philosophy": 8,
+    "Commerce": 8,
+    "Insights": 1
+  },
+  "tagCounts": {
+    "ai": 48,
+    "field-notes": 41,
+    "tools": 5,
+    "workflow": 19,
+    "identity": 32,
+    "reflection": 38,
+    "point-of-view": 32,
+    "meta-on-meta": 23,
+    "leadership": 25,
+    "consulting-in-practice": 11,
+    "signal-vs-noise": 18,
+    "strategy": 21,
+    "grid-level-thinking": 11,
+    "philosophy": 9,
+    "commerce": 9,
+    "post-creation-process": 1,
+    "muscle-memory": 5,
+    "commerce-drift": 4,
+    "start-here": 4,
+    "false-exemption": 4
+  },
+  "totalPosts": 120,
+  "lastGenerated": "2025-10-12T22:02:47.143Z"
+}
