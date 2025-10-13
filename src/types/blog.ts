@@ -27,6 +27,11 @@ export interface BlogPostFrontmatter {
   tags?: string[];
   category?: string;
 
+  // Source attribution (for multi-platform content)
+  source?: 'ghost' | 'linkedin' | 'medium' | 'devto';
+  linkedinUrl?: string; // Original LinkedIn post URL
+  externalUrl?: string; // Generic external source URL
+
   // SEO metadata
   seo?: {
     metaTitle?: string;

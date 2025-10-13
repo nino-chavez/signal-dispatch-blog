@@ -1,6 +1,20 @@
 {
   "posts": [
     {
+      "slug": "the-consultants-dilemma-the-tax-of-many-hats",
+      "title": "The Consultant's Dilemma: The Tax of Many Hats",
+      "publishedAt": "2025-10-02T15:07:00.000Z",
+      "excerpt": "In corporate consulting, versatility is sold as a virtue. We are expected to be the strategist, the data analyst, the project manager, and the client whisperer—often in the same afternoon. We call...",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/consultants-dilemma-tax-many-hats-nino-chavez-fwrkc"
+    },
+    {
       "slug": "the-tax-of-many-hats",
       "title": "The Consultant's Dilemma: The Tax of Many Hats",
       "publishedAt": "2025-10-02T10:05:29.000Z",
@@ -14,6 +28,87 @@
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1691333940475-86ad642083e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQ0fHxvcmNoZXN0cmF8ZW58MHx8fHwxNzU5Mzk5NDcyfDA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "the-emperor-has-no-rag-why-your-genai-strategy-is-built-on-sand-unless-you-ask-these-questions",
+      "title": "The Emperor Has No RAG: Why Your GenAI Strategy Is Built on Sand (Unless You Ask These Questions)",
+      "publishedAt": "2025-10-01T08:36:00.000Z",
+      "excerpt": "Let's be brutally honest. The GenAI world is awash with \"experts.\" You see them everywhere: shouting about \"paradigm shifts,\" \"synergistic AI transformations,\" and the inevitable disruption of......",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/emperor-has-rag-why-your-genai-strategy-built-sand-unless-nino-chavez-zxlmc"
+    },
+    {
+      "slug": "beyond-the-copilot-architecting-for-autonomy-with-claude-sonnet-45",
+      "title": "Beyond the Copilot: Architecting for Autonomy with Claude Sonnet 4.5",
+      "publishedAt": "2025-09-30T12:51:00.000Z",
+      "excerpt": "The age of the simple AI prompt is over. As models like Claude Sonnet 4.5 become more powerful, our role isn't just to ask questions—it's to architect a system for the AI to follow. Our prompts...",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture",
+        "testing"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/beyond-copilot-architecting-autonomy-claude-sonnet-45-nino-chavez-k0djc"
+    },
+    {
+      "slug": "ai-wont-take-your-job-it-will-redefine-it-your-reskilling-starts-now",
+      "title": "AI Won't Take Your Job. It Will Redefine It. Your Reskilling Starts Now.",
+      "publishedAt": "2025-09-21T19:50:00.000Z",
+      "excerpt": "For the past year, I've heard the same refrain in a thousand different meetings: \"AI is not going to take your job, but a person using AI will.\"",
+      "category": "AI & Automation",
+      "tags": [
+        "devops"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/ai-wont-take-your-job-redefine-reskilling-starts-now-nino-chavez-lgkcc"
+    },
+    {
+      "slug": "i-let-a-bunch-of-ai-agents-rebuild-my-app-heres-what-actually-worked",
+      "title": "I Let a Bunch of AI Agents Rebuild My App. Here’s What Actually Worked.",
+      "publishedAt": "2025-09-17T03:02:00.000Z",
+      "excerpt": "Date: September 16, 2025",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/i-let-bunch-ai-agents-rebuild-my-app-heres-what-actually-nino-chavez-uadgc"
+    },
+    {
+      "slug": "moores-law-is-sputtering-so-whats-really-next-for-tech",
+      "title": "Moore's Law is sputtering. So what's really next for tech?",
+      "publishedAt": "2025-09-09T21:17:00.000Z",
+      "excerpt": "Remember when every new phone or laptop felt like a massive leap? That feeling is gone. Moore’s Law - the promise of doubling chip power every two years - is running out of steam.",
+      "category": "AI & Automation",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/moores-law-sputtering-so-whats-really-next-tech-nino-chavez-boykc"
+    },
+    {
+      "slug": "shipping-with-ai",
+      "title": "Shipping with AI",
+      "publishedAt": "2025-09-04T07:38:00.000Z",
+      "excerpt": "People ask if I’m doing model tuning, building agents, writing Python tools, or something else with AI.",
+      "category": "AI & Automation",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/shipping-ai-nino-chavez-gr6tc"
     },
     {
       "slug": "observability-for-agent-commerce",
@@ -31,6 +126,46 @@
       "featureImage": "https://images.unsplash.com/photo-1715412405248-3150a6feef23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGdvbGQlMjBwYW5uaW5nfGVufDB8fHx8MTc1NjMxNTgyNHww&ixlib=rb-4.1.0&q=80&w=2000"
     },
     {
+      "slug": "the-710-year-evolution-of-the-web",
+      "title": "The 7–10 Year Evolution of the Web",
+      "publishedAt": "2025-08-22T07:18:00.000Z",
+      "excerpt": "From Scroll to Stream, From Search to Answers",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/710-year-evolution-web-nino-chavez-fjl2c"
+    },
+    {
+      "slug": "llm-codegen-and-the-three-little-pigs",
+      "title": "LLM Codegen and the Three Little Pigs",
+      "publishedAt": "2025-08-17T19:45:00.000Z",
+      "excerpt": "I burned my app to the ground — yes, again.",
+      "category": "AI & Automation",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/llm-codegen-three-little-pigs-nino-chavez-hrncc"
+    },
+    {
+      "slug": "the-coming-code-why-ai-native-software-needs-standards-and-how-to-prepare",
+      "title": "The Coming Code: Why AI-Native Software Needs Standards, and How to Prepare",
+      "publishedAt": "2025-08-12T23:08:00.000Z",
+      "excerpt": "We’re in the middle of an AI development gold rush.",
+      "category": "AI & Automation",
+      "tags": [
+        "devops"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/coming-code-why-ai-native-software-needs-standards-how-nino-chavez-bsqyc"
+    },
+    {
       "slug": "the-elitist-trap",
       "title": "The Elitist Trap",
       "publishedAt": "2025-08-09T21:47:10.000Z",
@@ -42,6 +177,73 @@
       ],
       "featured": false,
       "author": "Nino Chavez"
+    },
+    {
+      "slug": "when-your-framework-outgrows-your-ability-to-explain-it",
+      "title": "When Your Framework Outgrows Your Ability to Explain It",
+      "publishedAt": "2025-08-09T04:06:00.000Z",
+      "excerpt": "We’ve been shipping features in my AI-native framework at a ridiculous clip. So fast that during a call catching up with a friend, they asked:",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/when-your-framework-outgrows-ability-explain-nino-chavez-anxgc"
+    },
+    {
+      "slug": "aegis-framework-constitutional-crisis-we-declared-martial-law-on-ourselves",
+      "title": "🚨 Aegis Framework Constitutional Crisis: We Declared Martial Law on Ourselves",
+      "publishedAt": "2025-08-09T02:17:00.000Z",
+      "excerpt": "Status: Framework operations BLOCKED.",
+      "category": "AI & Automation",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/aegis-framework-constitutional-crisis-we-declared-martial-nino-chavez-t6bpc"
+    },
+    {
+      "slug": "i-didnt-write-a-test-i-asked-the-system-to-reflect",
+      "title": "I Didn’t Write a Test. I Asked the System to Reflect.",
+      "publishedAt": "2025-08-08T20:05:00.000Z",
+      "excerpt": "I don’t know if I’m doing this “right.”",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture",
+        "ai-coding"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/i-didnt-write-test-asked-system-reflect-nino-chavez-09psc"
+    },
+    {
+      "slug": "the-storefront-isnt-dead-its-becoming-an-ai-optimized-validation-engine-in-a-shifting-commerce-lands",
+      "title": "The Storefront Isn’t Dead — It’s Becoming an AI-Optimized Validation Engine in a Shifting Commerce Landscape",
+      "publishedAt": "2025-08-08T18:38:00.000Z",
+      "excerpt": "Revisiting the original idea from this post.",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/storefront-isnt-dead-its-becoming-ai-optimized-engine-nino-chavez-flfnc"
+    },
+    {
+      "slug": "pay-no-attention-to-the-man-behind-the-curtain",
+      "title": "Pay no attention to the man behind the curtain…",
+      "publishedAt": "2025-08-08T06:19:00.000Z",
+      "excerpt": "Is what I’m doing all smoke and mirrors?",
+      "category": "Meta",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/pay-attention-man-behind-curtain-nino-chavez-doqmc"
     },
     {
       "slug": "genai-os",
@@ -127,6 +329,20 @@
       "featureImage": "/content/images/2025/08/photo-1706618184116-425c7aaec79c.jpeg"
     },
     {
+      "slug": "putting-my-money-where-my-mouth-is",
+      "title": "PUTTING MY MONEY WHERE MY MOUTH IS 💸🤖",
+      "publishedAt": "2025-08-03T01:52:00.000Z",
+      "excerpt": "In one month I burned through:",
+      "category": "AI & Automation",
+      "tags": [
+        "devops"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/putting-my-money-where-mouth-nino-chavez-udeyc"
+    },
+    {
       "slug": "the-paradox-of-velocity-in-ai-coding",
       "title": "🌀 The Paradox of Velocity in AI Coding",
       "publishedAt": "2025-08-03T00:33:39.000Z",
@@ -142,6 +358,47 @@
       "featureImage": "https://images.unsplash.com/photo-1636013912260-a176d5e08408?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBhcmFkb3h8ZW58MHx8fHwxNzU0MTgxMTk1fDA&ixlib=rb-4.1.0&q=80&w=2000"
     },
     {
+      "slug": "the-next-compiler-is-semantic",
+      "title": "The Next Compiler Is Semantic",
+      "publishedAt": "2025-08-02T20:16:00.000Z",
+      "excerpt": "🚨 I FOUND THE COMPILER.",
+      "category": "AI & Automation",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/next-compiler-semantic-nino-chavez-vulyc"
+    },
+    {
+      "slug": "what-my-jsx-free-react-app-really-taught-me-about-ai-coding",
+      "title": "What my JSX-Free React App Really Taught Me About AI Coding",
+      "publishedAt": "2025-08-02T16:50:00.000Z",
+      "excerpt": "Let's be clear - I still don't really know what JSX is, but if i'm asking AI the right questions, does it matter? Is this really no different then architecting systems based on principles and...",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture",
+        "ai-coding"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/what-my-jsx-free-react-app-really-taught-me-ai-coding-nino-chavez-3faoc"
+    },
+    {
+      "slug": "why-my-react-app-doesnt-use-jsx-and-what-that-taught-me-about-building-with-ai",
+      "title": "Why My React App Doesn’t Use JSX (And What That Taught Me About Building with AI)",
+      "publishedAt": "2025-08-02T16:39:00.000Z",
+      "excerpt": "Most React apps are JSX-first.",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/why-my-react-app-doesnt-use-jsx-what-taught-me-building-nino-chavez-6e1ic"
+    },
+    {
       "slug": "i-still-dont-really-know-jsx-and-i-dont-think-it-matters",
       "title": "I Still Don’t Really Know JSX. And I Don't Think It Matters.",
       "publishedAt": "2025-08-02T12:10:51.000Z",
@@ -155,6 +412,32 @@
       "author": "Nino Chavez"
     },
     {
+      "slug": "i-dont-believe-the-agentic-ai-hype-and-heres-why-thats-not-ignorance",
+      "title": "I Don’t Believe the Agentic AI Hype — and Here’s Why That’s Not Ignorance",
+      "publishedAt": "2025-08-02T08:12:00.000Z",
+      "excerpt": "Catching up with a peer recently and part of the conversation landed on — half-joking, half-incredulous — how I of all people, someone building software and systems with AI every day, don’t...",
+      "category": "AI & Automation",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/i-dont-believe-agentic-ai-hype-heres-why-thats-ignorance-nino-chavez-ft3oc"
+    },
+    {
+      "slug": "the-modern-js-stack-is-a-masterpiece-of-power-and-a-catastrophe-of-experience",
+      "title": "🔥 The Modern JS Stack Is a Masterpiece of Power — and a Catastrophe of Experience",
+      "publishedAt": "2025-08-01T23:22:00.000Z",
+      "excerpt": "Come at me.",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/modern-js-stack-masterpiece-power-catastrophe-nino-chavez-pdubc"
+    },
+    {
       "slug": "even-the-ai-is-confused",
       "title": "Even the AI Is Confused",
       "publishedAt": "2025-08-01T18:20:42.000Z",
@@ -166,6 +449,20 @@
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "/content/images/2025/08/photo-1635850967683-17df1f33e749.jpeg"
+    },
+    {
+      "slug": "ive-been-doing-ai-coding-wrong-sort-of",
+      "title": "💡 I’ve been doing AI coding wrong (sort of)",
+      "publishedAt": "2025-08-01T06:29:00.000Z",
+      "excerpt": "Been deep in the zone building with AI tools like GPT, Kilo, and Lovable. Pairing them with Vite + Supabase to generate real production software. I’ve got a solid workflow. Clear prompt stacks....",
+      "category": "AI & Automation",
+      "tags": [
+        "ai-coding"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/light-bulb-moment-ive-been-doing-ai-coding-wrong-sort-nino-chavez-gthjc"
     },
     {
       "slug": "the-drift-beneath-the-velocity",
@@ -196,6 +493,20 @@
       "featureImage": "https://images.unsplash.com/photo-1685716851721-7e1419f2db18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fGV4aGF1c3RlZHxlbnwwfHx8fDE3NTM5OTQ1Mzl8MA&ixlib=rb-4.1.0&q=80&w=2000"
     },
     {
+      "slug": "ai-ops-docs-as-contracts",
+      "title": "AI Ops: Docs-As-Contracts",
+      "publishedAt": "2025-07-31T12:45:00.000Z",
+      "excerpt": "Somewhere along the line of a big refactor, we broke our custom theme system.",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/ai-ops-docs-as-contracts-nino-chavez-atmuc"
+    },
+    {
       "slug": "skip-the-api-building-a-local-chatgpt-bridge-for-vs-code",
       "title": "Skip the API: Building a Local ChatGPT Bridge for VS Code",
       "publishedAt": "2025-07-31T11:47:37.000Z",
@@ -208,6 +519,21 @@
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "/content/images/2025/07/12326509-scott-adams-graphic-adventure-4-voodoo-castle-apple-ii-making-ma.png"
+    },
+    {
+      "slug": "from-qa-bottleneck-to-autonomous-confidence-how-i-built-a-fully-ai-driven-e2e-testing-framework",
+      "title": "From QA Bottleneck to Autonomous Confidence: How I Built a Fully AI-Driven E2E Testing Framework",
+      "publishedAt": "2025-07-30T19:44:00.000Z",
+      "excerpt": "Shipping used to mean stress.",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture",
+        "testing"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/from-qa-bottleneck-autonomous-confidence-how-i-built-fully-chavez-rudde"
     },
     {
       "slug": "from-ai-copilot-to-ai-enforcer",
@@ -253,6 +579,74 @@
       "featureImage": "https://images.unsplash.com/photo-1642969164999-979483e21601?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHwzZCUyMHByaW50fGVufDB8fHx8MTc1Mzg5Mzk5Nnww&ixlib=rb-4.1.0&q=80&w=2000"
     },
     {
+      "slug": "from-prompt-to-product-building-demo-mode-in-week-2",
+      "title": "From Prompt to Product: Building Demo Mode in Week 2",
+      "publishedAt": "2025-07-30T06:53:00.000Z",
+      "excerpt": "🧱 Week 1: Build the foundation",
+      "category": "AI & Automation",
+      "tags": [
+        "testing"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/from-prompt-product-building-demo-mode-week-2-nino-chavez-uzdic"
+    },
+    {
+      "slug": "when-control-matters-behind-the-decision-to-build-feature-toggles-into-the-bracket-app",
+      "title": "When Control Matters: Behind the Decision to Build Feature Toggles Into the Bracket App",
+      "publishedAt": "2025-07-30T02:24:00.000Z",
+      "excerpt": "Sometimes the feature isn’t for the user.",
+      "category": "AI & Automation",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/when-control-matters-behind-decision-build-feature-toggles-chavez-gmttc"
+    },
+    {
+      "slug": "when-fast-isnt-fast-enough-the-shift-from-ai-coding-to-ai-concurrency",
+      "title": "WHEN FAST ISN’T FAST ENOUGH: The shift from AI coding to AI concurrency",
+      "publishedAt": "2025-07-30T02:22:00.000Z",
+      "excerpt": "There’s a strange kind of bottleneck that only shows up after you’ve gotten fast.",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture",
+        "testing",
+        "ai-coding"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/when-fast-isnt-enough-shift-from-ai-coding-nino-chavez-xipgc"
+    },
+    {
+      "slug": "show-your-work-designing-ai-enforced-safeguards",
+      "title": "Show Your Work: Designing AI-Enforced Safeguards",
+      "publishedAt": "2025-07-29T20:12:00.000Z",
+      "excerpt": "This isn’t magic. It’s thoughtful infrastructure.",
+      "category": "AI & Automation",
+      "tags": [],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/show-your-work-designing-ai-enforced-safeguards-nino-chavez-os7mc"
+    },
+    {
+      "slug": "fix-it-once-prevent-it-forever-how-i-made-a-dropdown-bug-impossible-to-reintroduce",
+      "title": "Fix It Once, Prevent It Forever: How I Made a Dropdown Bug Impossible to Reintroduce",
+      "publishedAt": "2025-07-29T05:16:00.000Z",
+      "excerpt": "This one started like a lot of bugs do: Dropdowns weren’t updating after a bulk import. The data was there, the page reloaded, but the dropdowns stayed stale. Console warnings, frustrated...",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/fix-once-prevent-forever-how-i-made-dropdown-bug-nino-chavez-04yyc"
+    },
+    {
       "slug": "who-reviewed-the-reviewer",
       "title": "Who Reviewed the Reviewer?",
       "publishedAt": "2025-07-29T02:03:56.000Z",
@@ -265,6 +659,36 @@
       "featured": true,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fHNweXxlbnwwfHx8fDE3NTM3NTQ1MDl8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "designing-for-environments-not-just-themes-a-volleyball-app-ux-case-study",
+      "title": "Designing for Environments, Not Just Themes: A Volleyball App UX Case Study",
+      "publishedAt": "2025-07-29T00:43:00.000Z",
+      "excerpt": "Most apps toggle between \"light\" and \"dark.\" Ours needed more.",
+      "category": "AI & Automation",
+      "tags": [
+        "testing"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/designing-environments-just-themes-volleyball-app-ux-case-nino-chavez-jqkqc"
+    },
+    {
+      "slug": "one-week-one-developer-one-production-system-how-i-used-ai-to-build-and-harden-the-lpo-bracket-manag",
+      "title": "One Week, One Developer, One Production System: How I Used AI to Build and Harden the LPO Bracket Manager",
+      "publishedAt": "2025-07-28T18:41:00.000Z",
+      "excerpt": "In just seven days, I built a production-grade bracket and pool play management system — solo — using AI copilots, a structured prompt workflow, and modern web tooling. This isn’t a demo or proof...",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture",
+        "devops",
+        "ai-coding"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/one-week-developer-production-system-how-i-used-ai-build-nino-chavez-mdkkc"
     },
     {
       "slug": "tokens-are-dev-hours",
@@ -294,6 +718,37 @@
       "featured": true,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1666597107756-ef489e9f1f09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHxhaXxlbnwwfHx8fDE3NTM1MjQ2ODZ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+    },
+    {
+      "slug": "docs-as-code-isnt-enough-how-ai-ready-knowledge-layers-compress-weeks-of-work-into-hours",
+      "title": "Docs as Code Isn’t Enough — How AI-Ready Knowledge Layers Compress Weeks of Work into Hours",
+      "publishedAt": "2025-07-26T18:51:00.000Z",
+      "excerpt": "“Docs as code” has always been about treating documentation like a first-class citizen — versioning it alongside the software, keeping it close to the codebase, and using automation to maintain...",
+      "category": "AI & Automation",
+      "tags": [
+        "architecture",
+        "testing",
+        "ai-coding"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/docs-code-isnt-enough-how-ai-ready-knowledge-layers-compress-chavez-agawc"
+    },
+    {
+      "slug": "from-fear-to-flow-my-accidental-journey-into-ai-powered-development",
+      "title": "From Fear to Flow: My Accidental Journey into AI-Powered Development",
+      "publishedAt": "2025-07-25T17:45:00.000Z",
+      "excerpt": "I didn’t start with a grand strategy. I didn’t even have a clear goal.",
+      "category": "AI & Automation",
+      "tags": [
+        "ai-workflows",
+        "ai-coding"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/from-fear-flow-my-accidental-journey-ai-powered-nino-chavez-ohfdc"
     },
     {
       "slug": "from-fear-to-flow",
@@ -1642,34 +2097,42 @@
     "Reflections"
   ],
   "tags": [
+    "ai-coding",
     "ai-workflows",
+    "architecture",
     "commerce-strategy",
     "consulting-practice",
     "craft",
+    "devops",
     "leadership",
     "personal-growth",
-    "systems-thinking"
+    "systems-thinking",
+    "testing"
   ],
   "categoryCounts": {
-    "AI & Automation": 45,
+    "AI & Automation": 77,
     "Field Notes": 5,
     "Reflections": 17,
     "Leadership": 14,
-    "Meta": 10,
+    "Meta": 11,
     "Consulting": 2,
     "Philosophy": 8,
     "Commerce": 8,
     "Insights": 1
   },
   "tagCounts": {
-    "ai-workflows": 59,
+    "ai-workflows": 60,
     "craft": 6,
     "leadership": 30,
     "systems-thinking": 53,
     "personal-growth": 60,
+    "architecture": 17,
+    "devops": 4,
     "commerce-strategy": 11,
-    "consulting-practice": 13
+    "testing": 6,
+    "consulting-practice": 13,
+    "ai-coding": 7
   },
-  "totalPosts": 120,
-  "lastGenerated": "2025-10-13T04:02:48.889Z"
+  "totalPosts": 153,
+  "lastGenerated": "2025-10-13T04:47:57.936Z"
 }

@@ -64,7 +64,7 @@ export default function HeaderNav({ onSearch, searchQuery }: HeaderNavProps) {
               Signal Dispatch
             </h1>
             <span className="hidden md:inline text-sm text-zinc-500">
-              · Architecture, commerce, and the signals that matter
+              · Strategy, insights, and the signals that matter
             </span>
           </div>
 

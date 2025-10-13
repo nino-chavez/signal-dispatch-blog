@@ -27,6 +27,9 @@ export interface ManifestPost {
   featureImage?: string;
   tags?: string[];
   category?: string;
+  source?: 'ghost' | 'linkedin' | 'medium' | 'devto';
+  linkedinUrl?: string;
+  externalUrl?: string;
 }
 
 export interface BlogManifest {

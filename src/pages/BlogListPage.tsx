@@ -1,19 +1,18 @@
 import { useEffect, useState, useMemo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import BlogLayout from '../components/BlogLayout';
 import HeaderNav from '../components/HeaderNav';
 import StickyFilterBar from '../components/StickyFilterBar';
 import FadeIn from '../components/FadeIn';
 import BackToTop from '../components/BackToTop';
 import ScatterToSignal from '../components/ScatterToSignal';
+import SourceBadge from '../components/SourceBadge';
 import { getAllPosts } from '../utils/mdx-loader';
 import type { BlogPost } from '../utils/mdx-loader';
 import { getCategoryColors } from '../utils/category-colors';
 
-interface BlogListPageProps {
-  onSelectPost: (slug: string) => void;
-}
-
-export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
+export default function BlogListPage() {
+  const navigate = useNavigate();
   const [posts, setPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -117,6 +116,10 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
     setVisiblePostCount((prev) => prev + POSTS_PER_PAGE);
   };
 
+  const handleSelectPost = (slug: string) => {
+    navigate(`/${slug}`);
+  };
+
   return (
     <>
       {/* Fixed Header with Search and Icon Links */}
@@ -208,7 +211,7 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
                       data-slug={post.slug}
                       className="group cursor-pointer relative overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-br from-zinc-900 to-zinc-950 p-8 hover:border-athletic-court-orange/50 transition-all duration-reaction hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl hover:shadow-athletic-brand-violet/10"
                       style={{ zIndex: 10 }}
-                      onClick={() => onSelectPost(post.slug)}
+                      onClick={() => handleSelectPost(post.slug)}
                     >
                       <div className="absolute inset-0 bg-gradient-to-br from-athletic-brand-violet/5 to-athletic-court-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-reaction" />
                       {/* Corner accent - signal marker */}
@@ -221,6 +224,13 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
                             >
                               {post.category}
                             </span>
+                          )}
+                          {post.source && post.source !== 'ghost' && (
+                            <SourceBadge 
+                              source={post.source} 
+                              externalUrl={post.linkedinUrl || post.externalUrl} 
+                              size="sm"
+                            />
                           )}
                           {post.category && <span className="text-zinc-700">•</span>}
                           <time className="text-zinc-500">
@@ -307,7 +317,7 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
                       data-slug={post.slug}
                       className="group cursor-pointer relative overflow-hidden rounded-xl border border-zinc-800 bg-zinc-950/50 p-6 hover:border-zinc-700 transition-all duration-reaction hover:bg-zinc-900/50 hover:scale-[1.01] hover:shadow-xl hover:shadow-black/20"
                       style={{ zIndex: 10 }}
-                      onClick={() => onSelectPost(post.slug)}
+                      onClick={() => handleSelectPost(post.slug)}
                     >
                       <div className="space-y-3">
                         <div className="flex items-center gap-2 text-xs">
@@ -317,6 +327,13 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
                             >
                               {post.category}
                             </span>
+                          )}
+                          {post.source && post.source !== 'ghost' && (
+                            <SourceBadge 
+                              source={post.source} 
+                              externalUrl={post.linkedinUrl || post.externalUrl} 
+                              size="sm"
+                            />
                           )}
                           {post.category && <span className="text-zinc-700">•</span>}
                           <time className="text-zinc-500">

@@ -18,6 +18,9 @@ interface BlogPostMetadata {
   author?: string;
   readTime?: string;
   featureImage?: string;
+  source?: 'ghost' | 'linkedin' | 'medium' | 'devto';
+  linkedinUrl?: string;
+  externalUrl?: string;
 }
 
 interface BlogManifest {
@@ -78,6 +81,9 @@ async function generateManifest() {
       author: frontmatter.author,
       readTime: frontmatter.readTime,
       featureImage: frontmatter.featureImage,
+      source: frontmatter.source,
+      linkedinUrl: frontmatter.linkedinUrl,
+      externalUrl: frontmatter.externalUrl,
     };
 
     posts.push(post);
