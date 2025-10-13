@@ -5,7 +5,7 @@
     <link>https://blog.nino.photos</link>
     <description>Architecture, commerce, and the signals that matter in the age of AI.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Oct 2025 22:02:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 02:51:21 GMT</lastBuildDate>
     <atom:link href="https://blog.nino.photos/rss.xml" rel="self" type="application/rss+xml" />
     <managingEditor>nino@signalreflex.studio (Nino Chavez)</managingEditor>
     <webMaster>nino@signalreflex.studio (Nino Chavez)</webMaster>
@@ -16,9 +16,9 @@
     <pubDate>Thu, 02 Oct 2025 10:05:29 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>In corporate consulting, versatility is sold as a virtue. We are expected to be the strategist, the data analyst, the project manager, and the client whisperer—often in the same afternoon. We call this &quot;wearing many hats.&quot;</description>
-    <category>consulting-in-practice</category>
-    <category>meta-on-meta</category>
-    <category>reflection</category>
+    <category>consulting-practice</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Measuring the Unowned Storefront: Observability for Agent Commerce</title>
@@ -27,10 +27,9 @@
     <pubDate>Wed, 27 Aug 2025 17:36:43 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Everyone is busy selling shovels. But the mine moved. Agents now sell on surfaces brands do not own. The win is not a better shovel. It is eyes and throttle on those agents: traces, attribution, consent, limits.</description>
-    <category>commerce</category>
-    <category>ai</category>
-    <category>grid-level-thinking</category>
-    <category>commerce-drift</category>
+    <category>ai-workflows</category>
+    <category>commerce-strategy</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>The Elitist Trap</title>
@@ -39,9 +38,8 @@
     <pubDate>Sat, 09 Aug 2025 21:47:10 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>A field guide for countering common traps of misguided experience.</description>
-    <category>reflection</category>
-    <category>field-notes</category>
     <category>leadership</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>I’m Not Using GenAI. I’m Building a System Around It.</title>
@@ -50,9 +48,9 @@
     <pubDate>Thu, 07 Aug 2025 13:10:10 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description></description>
-    <category>ai</category>
-    <category>meta-on-meta</category>
-    <category>philosophy</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Who Checks the Foundation?</title>
@@ -61,8 +59,8 @@
     <pubDate>Tue, 05 Aug 2025 22:08:20 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description></description>
-    <category>ai</category>
-    <category>reflection</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>Designing What You Don&apos;t Build — And Building What You Can&apos;t Read</title>
@@ -71,8 +69,7 @@
     <pubDate>Tue, 05 Aug 2025 22:02:34 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>The absentee software engineer.</description>
-    <category>ai</category>
-    <category>field-notes</category>
+    <category>ai-workflows</category>
   </item>
   <item>
     <title>The Work Before the Words</title>
@@ -81,11 +78,10 @@
     <pubDate>Mon, 04 Aug 2025 01:04:47 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Meta-Companion to &quot;Living The Gap&quot;</description>
-    <category>meta-on-meta</category>
-    <category>ai</category>
-    <category>identity</category>
-    <category>workflow</category>
-    <category>tools</category>
+    <category>ai-workflows</category>
+    <category>craft</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Living in the Gap</title>
@@ -95,8 +91,8 @@
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>I live between presence and projection — here, but already ten steps ahead. It’s a tension of slowing down, waiting for others, holding the map while walking the same road. Leadership often means pacing yourself so we can arrive together.</description>
     <category>leadership</category>
-    <category>meta-on-meta</category>
-    <category>reflection</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Behind the Scenes: Why We Had to Slow Down to Speed Up</title>
@@ -105,7 +101,7 @@
     <pubDate>Sun, 03 Aug 2025 01:58:33 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>A simple bulk upload broke — 22 teams skipped, 0 created. The fix seemed easy. AI suggested patching the frontend. But that would’ve locked in a broken contract. Here&apos;s how we slowed down, re-architected the system, and avoided weeks of silent tech debt and wasted tokens.</description>
-    <category>ai</category>
+    <category>ai-workflows</category>
   </item>
   <item>
     <title>🌀 The Paradox of Velocity in AI Coding</title>
@@ -114,11 +110,9 @@
     <pubDate>Sun, 03 Aug 2025 00:33:39 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>After sprinting through two weeks of AI-coded progress—and crashing into drift, chaos, and broken trust—I reset everything. This is the story of slowing down, building real structure, and defining a repeatable AI‑Ops workflow. From vibe coding to teardown, here’s what I learned.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>reflection</category>
-    <category>strategy</category>
-    <category>workflow</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>I Still Don’t Really Know JSX. And I Don&apos;t Think It Matters.</title>
@@ -127,9 +121,8 @@
     <pubDate>Sat, 02 Aug 2025 12:10:51 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>I built a production-grade React app—and still don’t fully understand JSX. In the AI-assisted era, syntax mastery matters less than system design. You’re not the coder anymore. You’re the architect. The real skill? Knowing what to ask, how to judge, and when the output doesn’t fit.</description>
-    <category>ai</category>
-    <category>point-of-view</category>
-    <category>reflection</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>Even the AI Is Confused</title>
@@ -138,9 +131,7 @@
     <pubDate>Fri, 01 Aug 2025 18:20:42 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>What My Stack Audit Revealed About Modern Dev</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>point-of-view</category>
+    <category>ai-workflows</category>
   </item>
   <item>
     <title>The Drift Beneath the Velocity</title>
@@ -149,11 +140,8 @@
     <pubDate>Fri, 01 Aug 2025 00:43:56 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Week 2 of AI-assisted coding brought velocity — but also drift. This post explores the moment I realized I was managing AI agents like a team, and what that means for the future of software consulting.</description>
-    <category>ai</category>
-    <category>consulting-in-practice</category>
-    <category>field-notes</category>
-    <category>signal-vs-noise</category>
-    <category>workflow</category>
+    <category>ai-workflows</category>
+    <category>consulting-practice</category>
   </item>
   <item>
     <title>Am I Ever Not Working?</title>
@@ -162,9 +150,8 @@
     <pubDate>Thu, 31 Jul 2025 20:42:57 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>If your value lies in how you think, are you ever really off the clock? Lately, I’ve been chasing AI workflows at all hours—and thinking through systems even when I’m not at my keyboard. This post reflects on the cost of always being “on,” and how to protect the infrastructure: you.</description>
-    <category>reflection</category>
-    <category>point-of-view</category>
-    <category>meta-on-meta</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Skip the API: Building a Local ChatGPT Bridge for VS Code</title>
@@ -173,10 +160,8 @@
     <pubDate>Thu, 31 Jul 2025 11:47:37 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Can you skip the API and wire ChatGPT directly into VS Code? Turns out, yes — with a little browser magic. This post breaks down how I thought about building a local-first bridge that replaces Kilo and avoids token costs, all powered by curiosity and a builder’s mindset.</description>
-    <category>ai</category>
-    <category>meta-on-meta</category>
-    <category>strategy</category>
-    <category>workflow</category>
+    <category>ai-workflows</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>From Copilot to Enforcer: The AI Maturity Spectrum for Developers</title>
@@ -185,10 +170,8 @@
     <pubDate>Wed, 30 Jul 2025 17:46:05 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Or: What happens when AI stops just helping you code — and starts holding your system accountable</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>strategy</category>
-    <category>workflow</category>
+    <category>ai-workflows</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Tool-and-Die Thinking for the AI Age</title>
@@ -197,11 +180,9 @@
     <pubDate>Wed, 30 Jul 2025 17:21:51 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>How AI coding tools helped me beat the overhead wall — and build faster than I think.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>grid-level-thinking</category>
-    <category>meta-on-meta</category>
-    <category>reflection</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Just-in-Time Software</title>
@@ -210,9 +191,8 @@
     <pubDate>Wed, 30 Jul 2025 16:47:02 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Just like cloud killed the server rack, AI is killing fixed tools. I built a full E2E test system from scratch—faster, cheaper, tailored—using nothing but schema, rules, and AI prompts. Why buy tools when you can generate them just-in-time?</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>consulting-in-practice</category>
+    <category>ai-workflows</category>
+    <category>consulting-practice</category>
   </item>
   <item>
     <title>Who Reviewed the Reviewer?</title>
@@ -224,10 +204,8 @@
 
 We’re not just debugging code anymore.
 We’re debugging the system that teaches itself how to review.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>point-of-view</category>
-    <category>reflection</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>Tokens Are Dev Hours. Waste Is a Feature, Not a Bug.</title>
@@ -236,10 +214,9 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Mon, 28 Jul 2025 16:00:25 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>With AI development, waste isn’t hidden in team velocity or burndown charts — it’s itemized on your invoice. That’s not a flaw. It’s a feature.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>strategy</category>
-    <category>reflection</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>The AI Engineer Has Joined the Team. Now What?</title>
@@ -248,11 +225,9 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Sun, 27 Jul 2025 11:52:08 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>AI isn’t just accelerating software development — it’s reorganizing it. This post unpacks what changes when you start designing teams, tools, and processes around a human–AI hybrid model. Planning shifts. Costs shift. Roles shift. The real question is: are we ready to shift with it?</description>
-    <category>ai</category>
-    <category>field-notes</category>
+    <category>ai-workflows</category>
     <category>leadership</category>
-    <category>signal-vs-noise</category>
-    <category>strategy</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>From Fear to Flow: How Building a Tournament Manager App Taught Me to Scale with AI</title>
@@ -261,11 +236,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Fri, 25 Jul 2025 13:55:52 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>I didn’t start with a strategy. I started with fear. Here’s how a grassroots volleyball app turned into my personal AI bootcamp—and the repeatable framework I built along the way.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>grid-level-thinking</category>
-    <category>strategy</category>
-    <category>workflow</category>
+    <category>ai-workflows</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>My AI Engineering Team</title>
@@ -274,9 +246,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 23 Jul 2025 15:53:59 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>I didn’t set out to build an AI team. I just started with ChatGPT prompts for Lovable AI. Over time, it evolved into managing a layered squad of AI tools—architects, coders, and reviewers—working together like a real dev team. This changed how I work and lead AI-assisted projects.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>strategy</category>
+    <category>ai-workflows</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Getting Unstuck: Why We Start With a Sketch</title>
@@ -285,9 +256,7 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Tue, 22 Jul 2025 15:36:55 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Projects stall when we confuse blockers with priorities. This post explores the “desk-building” metaphor to help teams stop over-planning and start making progress — by sketching first, sorting screws later.</description>
-    <category>field-notes</category>
-    <category>point-of-view</category>
-    <category>consulting-in-practice</category>
+    <category>consulting-practice</category>
   </item>
   <item>
     <title>When You Start to Hear the Music</title>
@@ -296,9 +265,9 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Thu, 10 Jul 2025 23:58:06 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>What happens when AI sharpens your mind, but drifts you further from those who don’t think that way? This post explores the private cost of clarity — and the quiet grief that comes from outgrowing the resolution your old relationships were built on.</description>
-    <category>ai</category>
-    <category>reflection</category>
-    <category>meta-on-meta</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>The Risk of Asking “Do You Smell That?” When There’s No Fire</title>
@@ -307,9 +276,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 09 Jul 2025 20:52:53 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>In consulting, sensing a problem feels like smelling smoke. But is there really a fire? This piece explores when to speak up and when to hold back — balancing risk detection with protecting people from blame. Leadership is often about navigating that tension with care.</description>
-    <category>consulting-in-practice</category>
+    <category>consulting-practice</category>
     <category>leadership</category>
-    <category>field-notes</category>
   </item>
   <item>
     <title>From Pattern to People</title>
@@ -318,9 +286,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Tue, 08 Jul 2025 12:01:17 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>The hidden cost of clarity in an AI-shaped mind</description>
-    <category>ai</category>
-    <category>identity</category>
-    <category>reflection</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>Still Your Car. Still Your Wrench.</title>
@@ -329,9 +296,7 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Sun, 06 Jul 2025 22:58:22 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>What AI Coding Tools Don’t Tell You About Building Real Software</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>point-of-view</category>
+    <category>ai-workflows</category>
   </item>
   <item>
     <title>From Prompt to Pattern</title>
@@ -340,7 +305,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 02 Jul 2025 02:38:18 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>This post wraps my “Help Me Help You” arc and opens a new question: If precision makes AI more effective, does it also increase human disconnection? I’ve felt the drift. The next thread I’m pulling on is: how to stay human inside all this structure.</description>
-
+    <category>ai-workflows</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>How I Work With AIs (And Why)</title>
@@ -349,7 +315,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 02 Jul 2025 02:31:57 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>A behind-the-scenes look at how I use GPT and Lovable together. One rewrites the prompt. One generates the code. I just define the intent — and stay out of the way. This isn’t a tech stack. It’s a new mode of working.</description>
-
+    <category>ai-workflows</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Prompt Strategists, Agent Orchestras, and What Comes Next</title>
@@ -358,7 +325,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 02 Jul 2025 02:27:30 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Prompting is evolving into orchestration. One AI clarifies, another executes, a third checks the result. We’re entering an era where modular intelligence matters — and prompts become the interface between thinking systems.</description>
-
+    <category>ai-workflows</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>When One AI Rewrites for Another</title>
@@ -367,8 +335,7 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 02 Jul 2025 02:22:49 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Prompt rewriting isn’t just a clever trick — it’s becoming core infrastructure. From cloud tools to agent chains, we’re seeing a shift: one AI clarifies the ask, another executes. The result? Fewer errors. Smarter systems.</description>
-    <category>ai</category>
-    <category>field-notes</category>
+    <category>ai-workflows</category>
   </item>
   <item>
     <title>Help Me Help You (Help Me)</title>
@@ -377,8 +344,7 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 02 Jul 2025 02:15:12 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>One AI helps another do its job better. I use GPT to rewrite prompts for Lovable — cutting errors, saving time, and revealing a deeper pattern: intent → refiner → executor. This isn’t just prompt cleanup. It’s the start of a new architecture.</description>
-    <category>ai</category>
-    <category>field-notes</category>
+    <category>ai-workflows</category>
   </item>
   <item>
     <title>How I Used One AI to Train Another: A Tactical Reset in Data Architecture and AI Tooling Strategy</title>
@@ -387,11 +353,10 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Mon, 30 Jun 2025 20:50:47 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Like most devs experimenting with AI tools, I’ve found myself juggling multiple platforms, APIs, and half-understood schemas to build things faster. Sometimes it works. Other times, it works against you.</description>
-    <category>ai</category>
-    <category>consulting-in-practice</category>
-    <category>field-notes</category>
+    <category>ai-workflows</category>
+    <category>consulting-practice</category>
     <category>leadership</category>
-    <category>strategy</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>$50 of AI Later: Lessons from Burning Credits Fast</title>
@@ -400,10 +365,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Sun, 29 Jun 2025 06:09:06 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>AI credits vanished quickly, highlighting hidden costs and forcing clarity into my development process. Here&apos;s how a $50 investment turned into a practical blueprint for smarter AI‑assisted builds.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>tools</category>
-    <category>workflow</category>
+    <category>ai-workflows</category>
+    <category>craft</category>
   </item>
   <item>
     <title>The Lost‑Phone Test for AI: Could Your Org Still Function Tomorrow?</title>
@@ -412,14 +375,10 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Sat, 28 Jun 2025 02:49:06 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Dropped phone, lost life. Same test applies to corporate AI: if your copilots vanished tomorrow, would work even slow down? The “Lost-Phone Test” exposes integration gaps and makes the case for a Chief Intelligence Officer to weave tools into real workflows.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>point-of-view</category>
-    <category>signal-vs-noise</category>
-    <category>strategy</category>
+    <category>ai-workflows</category>
     <category>leadership</category>
-    <category>grid-level-thinking</category>
-    <category>reflection</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Overnight Dev: From Rage-Quit to Release in 72 Hours—With AI Riding Shotgun</title>
@@ -428,11 +387,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Fri, 27 Jun 2025 20:15:03 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Burned-out coder to live app in one weekend: two failed scrapers, one hidden JSON API, and AI tools that scaffolded the rest. How DevTools + GPT turned AES volleyball data into an MVP—and why your next Jira ticket might build itself.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>signal-vs-noise</category>
-    <category>tools</category>
-    <category>workflow</category>
+    <category>ai-workflows</category>
+    <category>craft</category>
   </item>
   <item>
     <title>It’s Time for the CIO 2.0</title>
@@ -441,12 +397,9 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Fri, 27 Jun 2025 05:27:55 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Most AI conversations start in the wrong place — with tools, not capabilities. What’s missing isn’t another pilot. It’s a new executive role: someone to steward how your organization thinks, learns, and evolves.</description>
-    <category>ai</category>
+    <category>ai-workflows</category>
     <category>leadership</category>
-    <category>field-notes</category>
-    <category>point-of-view</category>
-    <category>signal-vs-noise</category>
-    <category>strategy</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Not Just Fast, But Together</title>
@@ -455,10 +408,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 25 Jun 2025 16:33:35 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>If you want to go fast, go alone; if you want to go far, go together</description>
-    <category>philosophy</category>
     <category>leadership</category>
-    <category>identity</category>
-    <category>reflection</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>Is Resilience a Systems Problem?</title>
@@ -467,10 +418,7 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 25 Jun 2025 16:33:26 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>In my last post, I wrote about the shift from shutdown to speedrun — how we’ve had to adapt, over and over again, just to keep moving. First to survive the pandemic. Now to keep up with AI.</description>
-    <category>philosophy</category>
-    <category>identity</category>
-    <category>field-notes</category>
-    <category>reflection</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>From Shutdown to Speedrun</title>
@@ -479,11 +427,9 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 25 Jun 2025 16:33:16 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>The Cost of Surviving the Age of Constant Upgrades</description>
-    <category>philosophy</category>
-    <category>meta-on-meta</category>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>reflection</category>
+    <category>ai-workflows</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Strength Through Repetition</title>
@@ -492,9 +438,7 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Tue, 24 Jun 2025 20:22:33 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>The page isn’t the enemy. The page is the gym. You don’t show up to look good. You show up to build grip. Form. Force. Reps. That’s how the voice gets real.</description>
-    <category>identity</category>
-    <category>reflection</category>
-    <category>field-notes</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>Reinvention &gt; Transformation</title>
@@ -503,7 +447,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Tue, 24 Jun 2025 19:00:51 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Most reorgs I’ve seen are just corporate feng shui — shift a few boxes, rename a few titles, pretend it’s visionary. But this one? This one actually maps to something real. For once, the language isn’t just for clients — it mirrors what I’ve been doing in my own damn operating system.</description>
-
+    <category>commerce-strategy</category>
+    <category>consulting-practice</category>
   </item>
   <item>
     <title>You’re Sending Self-Driving Cars Down Unmarked Roads</title>
@@ -512,10 +457,9 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Mon, 23 Jun 2025 01:51:09 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>AI doesn’t fail because it’s bad — it fails because your data lacks the infrastructure it needs to navigate. Language models don’t just search — they interpret. Most orgs haven’t built for that.</description>
-    <category>ai</category>
-    <category>grid-level-thinking</category>
-    <category>point-of-view</category>
-    <category>commerce</category>
+    <category>ai-workflows</category>
+    <category>commerce-strategy</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>The MVP Mirage</title>
@@ -524,7 +468,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Fri, 20 Jun 2025 07:30:29 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Most MVPs aren’t minimum or viable — they’re just premature.</description>
-
+    <category>consulting-practice</category>
+    <category>systems-thinking</category>
   </item>
   <item>
     <title>Leadership Reflection</title>
@@ -533,7 +478,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Thu, 19 Jun 2025 13:22:15 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>One of the easiest traps to fall into as a leader or expert is assuming we already understand. That assumption — even when subtle — shuts down curiosity, slows progress, and can quietly place the burden of clarity on everyone but ourselves.</description>
-
+    <category>leadership</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>ChatGPT Doesn’t Eat—So Why Do I Keep Asking It to Cook?</title>
@@ -542,9 +488,7 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 18 Jun 2025 18:31:51 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>LLMs can draft the menu, but you still have to taste the sauce. Here’s my field-note recipe for closing the fidelity gap between what ChatGPT writes and what actually works.</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>point-of-view</category>
+    <category>ai-workflows</category>
   </item>
   <item>
     <title>Experience Is Loud—Turn It Down So You Can Learn</title>
@@ -553,8 +497,7 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Wed, 18 Jun 2025 17:30:02 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Hard‑won patterns sound like wisdom—until they echo so loudly you miss new ideas. This month I learned: AI model tuning isn’t just prompting, shutter‑speed instincts fail at 60 fps video, and Figma spacing ≠ CSS. Beginner reps, reverse mentorship, and stranger audits keep the channel clear.</description>
-    <category>reflection</category>
-    <category>field-notes</category>
+    <category>personal-growth</category>
   </item>
   <item>
     <title>The Cake Is a Lie: Why AI Isn’t Ready</title>
@@ -563,9 +506,7 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Tue, 17 Jun 2025 04:13:37 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Everyone says AI can build for you — that you just describe the thing, and it ships itself. But I actually tried. I took it seriously. And what I found was brittle, inconsistent, and full of guesswork. If it took this much effort to build a landing page, what happens when the stakes are higher?</description>
-    <category>ai</category>
-    <category>field-notes</category>
-    <category>point-of-view</category>
+    <category>ai-workflows</category>
   </item>
   <item>
     <title>Signal or Spectacle?</title>
@@ -574,9 +515,8 @@ We’re debugging the system that teaches itself how to review.</description>
     <pubDate>Mon, 16 Jun 2025 19:39:14 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Even when I’m not trying to posture, sometimes it feels like the platform does it for me. This is about the moment when sharing something honest starts to feel like a performance — and how I’m trying to stay grounded in signal, not spectacle.</description>
-    <category>identity</category>
-    <category>meta-on-meta</category>
-    <category>reflection</category>
+    <category>personal-growth</category>
+    <category>systems-thinking</category>
   </item>
   </channel>
 </rss>

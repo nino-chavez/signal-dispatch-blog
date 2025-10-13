@@ -7,9 +7,9 @@
       "excerpt": "In corporate consulting, versatility is sold as a virtue. We are expected to be the strategist, the data analyst, the project manager, and the client whisperer—often in the same afternoon. We call this \"wearing many hats.\"",
       "category": "Consulting",
       "tags": [
-        "consulting-in-practice",
-        "meta-on-meta",
-        "reflection"
+        "consulting-practice",
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -22,10 +22,9 @@
       "excerpt": "Everyone is busy selling shovels. But the mine moved. Agents now sell on surfaces brands do not own. The win is not a better shovel. It is eyes and throttle on those agents: traces, attribution, consent, limits.",
       "category": "Commerce",
       "tags": [
-        "commerce",
-        "ai",
-        "grid-level-thinking",
-        "commerce-drift"
+        "ai-workflows",
+        "commerce-strategy",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -38,9 +37,8 @@
       "excerpt": "A field guide for countering common traps of misguided experience.",
       "category": "Reflections",
       "tags": [
-        "reflection",
-        "field-notes",
-        "leadership"
+        "leadership",
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -51,9 +49,9 @@
       "publishedAt": "2025-08-07T13:10:10.000Z",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "meta-on-meta",
-        "philosophy"
+        "ai-workflows",
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": true,
       "author": "Nino Chavez",
@@ -65,8 +63,8 @@
       "publishedAt": "2025-08-05T22:08:20.000Z",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "reflection"
+        "ai-workflows",
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -79,8 +77,7 @@
       "excerpt": "The absentee software engineer.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -92,11 +89,10 @@
       "excerpt": "Meta-Companion to \"Living The Gap\"",
       "category": "Meta",
       "tags": [
-        "meta-on-meta",
-        "ai",
-        "identity",
-        "workflow",
-        "tools"
+        "ai-workflows",
+        "craft",
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -110,8 +106,8 @@
       "category": "Leadership",
       "tags": [
         "leadership",
-        "meta-on-meta",
-        "reflection"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -124,7 +120,7 @@
       "excerpt": "A simple bulk upload broke — 22 teams skipped, 0 created. The fix seemed easy. AI suggested patching the frontend. But that would’ve locked in a broken contract. Here's how we slowed down, re-architected the system, and avoided weeks of silent tech debt and wasted tokens.",
       "category": "AI & Automation",
       "tags": [
-        "ai"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -137,11 +133,9 @@
       "excerpt": "After sprinting through two weeks of AI-coded progress—and crashing into drift, chaos, and broken trust—I reset everything. This is the story of slowing down, building real structure, and defining a repeatable AI‑Ops workflow. From vibe coding to teardown, here’s what I learned.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "reflection",
-        "strategy",
-        "workflow"
+        "ai-workflows",
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": true,
       "author": "Nino Chavez",
@@ -154,9 +148,8 @@
       "excerpt": "I built a production-grade React app—and still don’t fully understand JSX. In the AI-assisted era, syntax mastery matters less than system design. You’re not the coder anymore. You’re the architect. The real skill? Knowing what to ask, how to judge, and when the output doesn’t fit.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "point-of-view",
-        "reflection"
+        "ai-workflows",
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -168,9 +161,7 @@
       "excerpt": "What My Stack Audit Revealed About Modern Dev",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "point-of-view"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -183,11 +174,8 @@
       "excerpt": "Week 2 of AI-assisted coding brought velocity — but also drift. This post explores the moment I realized I was managing AI agents like a team, and what that means for the future of software consulting.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "consulting-in-practice",
-        "field-notes",
-        "signal-vs-noise",
-        "workflow"
+        "ai-workflows",
+        "consulting-practice"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -200,9 +188,8 @@
       "excerpt": "If your value lies in how you think, are you ever really off the clock? Lately, I’ve been chasing AI workflows at all hours—and thinking through systems even when I’m not at my keyboard. This post reflects on the cost of always being “on,” and how to protect the infrastructure: you.",
       "category": "Reflections",
       "tags": [
-        "reflection",
-        "point-of-view",
-        "meta-on-meta"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -215,10 +202,8 @@
       "excerpt": "Can you skip the API and wire ChatGPT directly into VS Code? Turns out, yes — with a little browser magic. This post breaks down how I thought about building a local-first bridge that replaces Kilo and avoids token costs, all powered by curiosity and a builder’s mindset.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "meta-on-meta",
-        "strategy",
-        "workflow"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -231,10 +216,8 @@
       "excerpt": "Or: What happens when AI stops just helping you code — and starts holding your system accountable",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "strategy",
-        "workflow"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -247,11 +230,9 @@
       "excerpt": "How AI coding tools helped me beat the overhead wall — and build faster than I think.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "grid-level-thinking",
-        "meta-on-meta",
-        "reflection"
+        "ai-workflows",
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": true,
       "author": "Nino Chavez",
@@ -264,9 +245,8 @@
       "excerpt": "Just like cloud killed the server rack, AI is killing fixed tools. I built a full E2E test system from scratch—faster, cheaper, tailored—using nothing but schema, rules, and AI prompts. Why buy tools when you can generate them just-in-time?",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "consulting-in-practice"
+        "ai-workflows",
+        "consulting-practice"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -279,10 +259,8 @@
       "excerpt": "This post is about that realization. About what happens when AI becomes the default reviewer, and starts learning from its own reflections.\n\nWe’re not just debugging code anymore.\nWe’re debugging the system that teaches itself how to review.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "point-of-view",
-        "reflection"
+        "ai-workflows",
+        "personal-growth"
       ],
       "featured": true,
       "author": "Nino Chavez",
@@ -295,10 +273,9 @@
       "excerpt": "With AI development, waste isn’t hidden in team velocity or burndown charts — it’s itemized on your invoice. That’s not a flaw. It’s a feature.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "strategy",
-        "reflection"
+        "ai-workflows",
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": true,
       "author": "Nino Chavez"
@@ -310,11 +287,9 @@
       "excerpt": "AI isn’t just accelerating software development — it’s reorganizing it. This post unpacks what changes when you start designing teams, tools, and processes around a human–AI hybrid model. Planning shifts. Costs shift. Roles shift. The real question is: are we ready to shift with it?",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
+        "ai-workflows",
         "leadership",
-        "signal-vs-noise",
-        "strategy"
+        "systems-thinking"
       ],
       "featured": true,
       "author": "Nino Chavez",
@@ -327,11 +302,8 @@
       "excerpt": "I didn’t start with a strategy. I started with fear. Here’s how a grassroots volleyball app turned into my personal AI bootcamp—and the repeatable framework I built along the way.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "grid-level-thinking",
-        "strategy",
-        "workflow"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -344,9 +316,8 @@
       "excerpt": "I didn’t set out to build an AI team. I just started with ChatGPT prompts for Lovable AI. Over time, it evolved into managing a layered squad of AI tools—architects, coders, and reviewers—working together like a real dev team. This changed how I work and lead AI-assisted projects.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "strategy"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -359,9 +330,7 @@
       "excerpt": "Projects stall when we confuse blockers with priorities. This post explores the “desk-building” metaphor to help teams stop over-planning and start making progress — by sketching first, sorting screws later.",
       "category": "Field Notes",
       "tags": [
-        "field-notes",
-        "point-of-view",
-        "consulting-in-practice"
+        "consulting-practice"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -374,9 +343,9 @@
       "excerpt": "What happens when AI sharpens your mind, but drifts you further from those who don’t think that way? This post explores the private cost of clarity — and the quiet grief that comes from outgrowing the resolution your old relationships were built on.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "reflection",
-        "meta-on-meta"
+        "ai-workflows",
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -389,9 +358,8 @@
       "excerpt": "In consulting, sensing a problem feels like smelling smoke. But is there really a fire? This piece explores when to speak up and when to hold back — balancing risk detection with protecting people from blame. Leadership is often about navigating that tension with care.",
       "category": "Consulting",
       "tags": [
-        "consulting-in-practice",
-        "leadership",
-        "field-notes"
+        "consulting-practice",
+        "leadership"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -404,9 +372,8 @@
       "excerpt": "The hidden cost of clarity in an AI-shaped mind",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "identity",
-        "reflection"
+        "ai-workflows",
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -419,9 +386,7 @@
       "excerpt": "What AI Coding Tools Don’t Tell You About Building Real Software",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "point-of-view"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -432,7 +397,10 @@
       "title": "From Prompt to Pattern",
       "publishedAt": "2025-07-02T02:38:18.000Z",
       "excerpt": "This post wraps my “Help Me Help You” arc and opens a new question: If precision makes AI more effective, does it also increase human disconnection? I’ve felt the drift. The next thread I’m pulling on is: how to stay human inside all this structure.",
-      "tags": [],
+      "tags": [
+        "ai-workflows",
+        "systems-thinking"
+      ],
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGFpfGVufDB8fHx8MTc1MTQwMzEyMXww&ixlib=rb-4.1.0&q=80&w=2000"
@@ -442,7 +410,10 @@
       "title": "How I Work With AIs (And Why)",
       "publishedAt": "2025-07-02T02:31:57.000Z",
       "excerpt": "A behind-the-scenes look at how I use GPT and Lovable together. One rewrites the prompt. One generates the code. I just define the intent — and stay out of the way. This isn’t a tech stack. It’s a new mode of working.",
-      "tags": [],
+      "tags": [
+        "ai-workflows",
+        "systems-thinking"
+      ],
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fGFpfGVufDB8fHx8MTc1MTQwMzEyMXww&ixlib=rb-4.1.0&q=80&w=2000"
@@ -452,7 +423,10 @@
       "title": "Prompt Strategists, Agent Orchestras, and What Comes Next",
       "publishedAt": "2025-07-02T02:27:30.000Z",
       "excerpt": "Prompting is evolving into orchestration. One AI clarifies, another executes, a third checks the result. We’re entering an era where modular intelligence matters — and prompts become the interface between thinking systems.",
-      "tags": [],
+      "tags": [
+        "ai-workflows",
+        "systems-thinking"
+      ],
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1691333940475-86ad642083e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE2fHxvcmNoZXN0cmElMjBjb25kdWN8ZW58MHx8fHwxNzUxNDIzMjI4fDA&ixlib=rb-4.1.0&q=80&w=2000"
@@ -464,8 +438,7 @@
       "excerpt": "Prompt rewriting isn’t just a clever trick — it’s becoming core infrastructure. From cloud tools to agent chains, we’re seeing a shift: one AI clarifies the ask, another executes. The result? Fewer errors. Smarter systems.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -478,8 +451,7 @@
       "excerpt": "One AI helps another do its job better. I use GPT to rewrite prompts for Lovable — cutting errors, saving time, and revealing a deeper pattern: intent → refiner → executor. This isn’t just prompt cleanup. It’s the start of a new architecture.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -492,11 +464,10 @@
       "excerpt": "Like most devs experimenting with AI tools, I’ve found myself juggling multiple platforms, APIs, and half-understood schemas to build things faster. Sometimes it works. Other times, it works against you.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "consulting-in-practice",
-        "field-notes",
+        "ai-workflows",
+        "consulting-practice",
         "leadership",
-        "strategy"
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -509,10 +480,8 @@
       "excerpt": "AI credits vanished quickly, highlighting hidden costs and forcing clarity into my development process. Here's how a $50 investment turned into a practical blueprint for smarter AI‑assisted builds.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "tools",
-        "workflow"
+        "ai-workflows",
+        "craft"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -525,14 +494,10 @@
       "excerpt": "Dropped phone, lost life. Same test applies to corporate AI: if your copilots vanished tomorrow, would work even slow down? The “Lost-Phone Test” exposes integration gaps and makes the case for a Chief Intelligence Officer to weave tools into real workflows.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "point-of-view",
-        "signal-vs-noise",
-        "strategy",
+        "ai-workflows",
         "leadership",
-        "grid-level-thinking",
-        "reflection"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -545,11 +510,8 @@
       "excerpt": "Burned-out coder to live app in one weekend: two failed scrapers, one hidden JSON API, and AI tools that scaffolded the rest. How DevTools + GPT turned AES volleyball data into an MVP—and why your next Jira ticket might build itself.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "signal-vs-noise",
-        "tools",
-        "workflow"
+        "ai-workflows",
+        "craft"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -562,12 +524,9 @@
       "excerpt": "Most AI conversations start in the wrong place — with tools, not capabilities. What’s missing isn’t another pilot. It’s a new executive role: someone to steward how your organization thinks, learns, and evolves.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
+        "ai-workflows",
         "leadership",
-        "field-notes",
-        "point-of-view",
-        "signal-vs-noise",
-        "strategy"
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -580,10 +539,8 @@
       "excerpt": "If you want to go fast, go alone; if you want to go far, go together",
       "category": "Philosophy",
       "tags": [
-        "philosophy",
         "leadership",
-        "identity",
-        "reflection"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -596,10 +553,7 @@
       "excerpt": "In my last post, I wrote about the shift from shutdown to speedrun — how we’ve had to adapt, over and over again, just to keep moving. First to survive the pandemic. Now to keep up with AI.",
       "category": "Philosophy",
       "tags": [
-        "philosophy",
-        "identity",
-        "field-notes",
-        "reflection"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -612,11 +566,9 @@
       "excerpt": "The Cost of Surviving the Age of Constant Upgrades",
       "category": "Philosophy",
       "tags": [
-        "philosophy",
-        "meta-on-meta",
-        "ai",
-        "field-notes",
-        "reflection"
+        "ai-workflows",
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -629,9 +581,7 @@
       "excerpt": "The page isn’t the enemy. The page is the gym. You don’t show up to look good. You show up to build grip. Form. Force. Reps. That’s how the voice gets real.",
       "category": "Reflections",
       "tags": [
-        "identity",
-        "reflection",
-        "field-notes"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -642,7 +592,10 @@
       "title": "Reinvention > Transformation",
       "publishedAt": "2025-06-24T19:00:51.000Z",
       "excerpt": "Most reorgs I’ve seen are just corporate feng shui — shift a few boxes, rename a few titles, pretend it’s visionary. But this one? This one actually maps to something real. For once, the language isn’t just for clients — it mirrors what I’ve been doing in my own damn operating system.",
-      "tags": [],
+      "tags": [
+        "commerce-strategy",
+        "consulting-practice"
+      ],
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1662499216961-cc219ee71f15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGludmVudGlvbnxlbnwwfHx8fDE3NTA3OTE2MjJ8MA&ixlib=rb-4.1.0&q=80&w=2000"
@@ -654,10 +607,9 @@
       "excerpt": "AI doesn’t fail because it’s bad — it fails because your data lacks the infrastructure it needs to navigate. Language models don’t just search — they interpret. Most orgs haven’t built for that.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "grid-level-thinking",
-        "point-of-view",
-        "commerce"
+        "ai-workflows",
+        "commerce-strategy",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -668,7 +620,10 @@
       "title": "The MVP Mirage",
       "publishedAt": "2025-06-20T07:30:29.000Z",
       "excerpt": "Most MVPs aren’t minimum or viable — they’re just premature.",
-      "tags": [],
+      "tags": [
+        "consulting-practice",
+        "systems-thinking"
+      ],
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1629401037347-c8d13f4f97f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fG9hc2lzfGVufDB8fHx8MTc1MDQwNDQzMXww&ixlib=rb-4.1.0&q=80&w=2000"
@@ -678,7 +633,10 @@
       "title": "Leadership Reflection",
       "publishedAt": "2025-06-19T13:22:15.000Z",
       "excerpt": "One of the easiest traps to fall into as a leader or expert is assuming we already understand. That assumption — even when subtle — shuts down curiosity, slows progress, and can quietly place the burden of clarity on everyone but ourselves.",
-      "tags": [],
+      "tags": [
+        "leadership",
+        "personal-growth"
+      ],
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1517520287167-4bbf64a00d66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI2fHxsZWFkZXJzaGlwfGVufDB8fHx8MTc1MDMzOTIzMXww&ixlib=rb-4.1.0&q=80&w=2000"
@@ -690,9 +648,7 @@
       "excerpt": "LLMs can draft the menu, but you still have to taste the sauce. Here’s my field-note recipe for closing the fidelity gap between what ChatGPT writes and what actually works.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "point-of-view"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -705,8 +661,7 @@
       "excerpt": "Hard‑won patterns sound like wisdom—until they echo so loudly you miss new ideas. This month I learned: AI model tuning isn’t just prompting, shutter‑speed instincts fail at 60 fps video, and Figma spacing ≠ CSS. Beginner reps, reverse mentorship, and stranger audits keep the channel clear.",
       "category": "Reflections",
       "tags": [
-        "reflection",
-        "field-notes"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -719,9 +674,7 @@
       "excerpt": "Everyone says AI can build for you — that you just describe the thing, and it ships itself. But I actually tried. I took it seriously. And what I found was brittle, inconsistent, and full of guesswork. If it took this much effort to build a landing page, what happens when the stakes are higher?",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "field-notes",
-        "point-of-view"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -734,9 +687,8 @@
       "excerpt": "Even when I’m not trying to posture, sometimes it feels like the platform does it for me. This is about the moment when sharing something honest starts to feel like a performance — and how I’m trying to stay grounded in signal, not spectacle.",
       "category": "Meta",
       "tags": [
-        "identity",
-        "meta-on-meta",
-        "reflection"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -747,7 +699,10 @@
       "title": "Signal Reflex → Signal Dispatch",
       "publishedAt": "2025-06-16T04:11:08.000Z",
       "excerpt": "Signal Reflex is now Signal Dispatch — a shift from sensing to sending. Same voice, sharper intent. This is where ideas go out.",
-      "tags": [],
+      "tags": [
+        "ai-workflows",
+        "leadership"
+      ],
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1528499908559-b8e4e8b89bda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEwfHxyYWRpbyUyMHRvd2VyfGVufDB8fHx8MTc1MDA0NzAzMHww&ixlib=rb-4.1.0&q=80&w=2000"
@@ -759,9 +714,7 @@
       "excerpt": "Signal Dispatch · Field Notes on Agency in Relationship",
       "category": "Field Notes",
       "tags": [
-        "field-notes",
-        "leadership",
-        "point-of-view"
+        "leadership"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -774,9 +727,7 @@
       "excerpt": "Signal Dispatch · Field Notes on Influence",
       "category": "Leadership",
       "tags": [
-        "leadership",
-        "field-notes",
-        "point-of-view"
+        "leadership"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -787,7 +738,10 @@
       "title": "Driving While Not Driving",
       "publishedAt": "2025-06-15T03:55:15.000Z",
       "excerpt": "(How to Keep Moving Without Losing Yourself)",
-      "tags": [],
+      "tags": [
+        "ai-workflows",
+        "leadership"
+      ],
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1475782944331-0ea8c9089a6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQwfHxyb2FkJTIwdHJpcHxlbnwwfHx8fDE3NDk5NjAxNDV8MA&ixlib=rb-4.1.0&q=80&w=2000"
@@ -799,9 +753,8 @@
       "excerpt": "What if you're not here to capture the moment—but to be the aperture it passes through?",
       "category": "Meta",
       "tags": [
-        "identity",
-        "meta-on-meta",
-        "reflection"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -814,9 +767,8 @@
       "excerpt": "If humans are the loom, AI is the thread—fast, abundant, and increasingly tangled.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "grid-level-thinking",
-        "meta-on-meta"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -829,11 +781,10 @@
       "excerpt": "You don’t have to be the thread. Or the pattern. Just be the thing that lets it all come together.",
       "category": "Leadership",
       "tags": [
+        "consulting-practice",
         "leadership",
-        "consulting-in-practice",
-        "reflection",
-        "strategy",
-        "meta-on-meta"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -846,9 +797,8 @@
       "excerpt": "I didn’t need to build the site from scratch. That was the point.",
       "category": "Field Notes",
       "tags": [
-        "field-notes",
-        "tools",
-        "workflow"
+        "ai-workflows",
+        "craft"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -861,10 +811,8 @@
       "excerpt": "Your content is the storefront. If it’s not reducing friction or moving someone closer to a decision, it’s not connected to commerce at all.",
       "category": "Commerce",
       "tags": [
-        "commerce",
-        "point-of-view",
-        "workflow",
-        "signal-vs-noise"
+        "ai-workflows",
+        "commerce-strategy"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -876,8 +824,7 @@
       "excerpt": "Every tech revolution builds a fast market—and leaves a mess. Cleanup becomes its own economy: FinOps, platform teams, and second-wave consultants turning v1 chaos into stability. The real money? It's in making things actually work.",
       "category": "Reflections",
       "tags": [
-        "reflection",
-        "field-notes"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -890,9 +837,8 @@
       "excerpt": "A shiny idea isn't strategy. This post digs into decision hygiene: the discipline of thinking beyond the spotlight, and seeing the systems, ownership, and scope your choices actually live inside.",
       "category": "Leadership",
       "tags": [
-        "strategy",
         "leadership",
-        "signal-vs-noise"
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -905,9 +851,8 @@
       "excerpt": "I’ve been writing and thinking so much about how I think, it’s started to shape my real-life conversations — sometimes in ways that feel disconnected. When does thoughtful reflection cross the line into sermonizing? And how do we find balance between clarity and presence?",
       "category": "Reflections",
       "tags": [
-        "identity",
-        "reflection",
-        "meta-on-meta"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -920,10 +865,8 @@
       "excerpt": "I built the core Let’s Pepper site in under 2 hours—then spent over 8 trying to get one visual detail (the section dividers) to look right. AI can prototype, but it doesn’t ship. This post breaks down why the real work happens after the first draft, and why experience still matters more than ever.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "point-of-view",
-        "workflow",
-        "tools"
+        "ai-workflows",
+        "craft"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -936,10 +879,9 @@
       "excerpt": "Once I know someone’s worth investing in, I shift gears. Here’s how I coach without taking the wheel—and why presence matters more than pressure.",
       "category": "Leadership",
       "tags": [
-        "leadership",
-        "consulting-in-practice",
-        "workflow",
-        "point-of-view"
+        "ai-workflows",
+        "consulting-practice",
+        "leadership"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -952,10 +894,8 @@
       "excerpt": "Not everyone clicks right away. But I’ve learned to spot the difference between someone who just needs support—and someone who’s not built for the work we do.",
       "category": "Leadership",
       "tags": [
-        "leadership",
-        "consulting-in-practice",
-        "point-of-view",
-        "signal-vs-noise"
+        "consulting-practice",
+        "leadership"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -968,11 +908,9 @@
       "excerpt": "The game changed. We don’t need new hires who’ve built a few apps—we need people who can navigate ambiguity, think in systems, and ask the right questions early.",
       "category": "Commerce",
       "tags": [
-        "commerce",
-        "consulting-in-practice",
-        "signal-vs-noise",
-        "leadership",
-        "point-of-view"
+        "commerce-strategy",
+        "consulting-practice",
+        "leadership"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -985,10 +923,9 @@
       "excerpt": "Hiring the right consultant isn’t about checking boxes. It’s about building the kind of process that makes the right people show up—and lets the wrong ones opt out early.",
       "category": "Leadership",
       "tags": [
-        "leadership",
-        "workflow",
-        "point-of-view",
-        "consulting-in-practice"
+        "ai-workflows",
+        "consulting-practice",
+        "leadership"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1001,9 +938,7 @@
       "excerpt": "Being a great problem solver isn’t always the win it sounds like. If you’re not careful, you become the dumping ground for everyone else’s chaos. Here’s what I’ve learned about restraint, scope, and selective clarity.",
       "category": "Leadership",
       "tags": [
-        "leadership",
-        "point-of-view",
-        "signal-vs-noise"
+        "leadership"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1017,7 +952,7 @@
       "category": "Leadership",
       "tags": [
         "leadership",
-        "meta-on-meta"
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1030,10 +965,8 @@
       "excerpt": "The complexity isn’t in the tech—it’s in the noise. This final post in the Commerce Drift arc explores why reading the signal is the real skill behind every good commerce strategy.",
       "category": "Commerce",
       "tags": [
-        "commerce",
-        "commerce-drift",
-        "signal-vs-noise",
-        "strategy"
+        "commerce-strategy",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1046,8 +979,8 @@
       "excerpt": "I’ve heard people describe me in ways I barely recognize. At first, it felt like they were talking about someone else. But now I’m wondering—what if they’re seeing something I haven’t figured out how to see in myself?",
       "category": "Meta",
       "tags": [
-        "identity",
-        "meta-on-meta"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1060,9 +993,7 @@
       "excerpt": "We made websites easier to build by hiding the code. But now that AI can write that code for us, the abstraction layers are becoming the new friction.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "workflow",
-        "point-of-view"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1075,9 +1006,8 @@
       "excerpt": "This post was already about self-doubt. So writing it with an AI didn’t make it easier—it made the mirror sharper.",
       "category": "Meta",
       "tags": [
-        "identity",
-        "meta-on-meta",
-        "post-creation-process"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1090,9 +1020,8 @@
       "excerpt": "Sometimes I’m not writing for clarity. I’m writing to defend myself against a comment that hasn’t been written yet.",
       "category": "Meta",
       "tags": [
-        "identity",
-        "meta-on-meta",
-        "reflection"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1105,10 +1034,8 @@
       "excerpt": "We romanticize personalization. But sometimes the problem isn’t lack of choice—it’s too much of it. Especially when we’re not sure what we really want.",
       "category": "Commerce",
       "tags": [
-        "commerce",
-        "strategy",
-        "commerce-drift",
-        "point-of-view"
+        "commerce-strategy",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1121,10 +1048,8 @@
       "excerpt": "Composable promised freedom from the monolith. But in chasing modular flexibility, are we just assembling the same storefront with different colors and calling it strategy?",
       "category": "Commerce",
       "tags": [
-        "commerce",
-        "strategy",
-        "signal-vs-noise",
-        "commerce-drift"
+        "commerce-strategy",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1137,8 +1062,8 @@
       "excerpt": "Getting sharper comes at a cost. The more refined your thinking becomes, the more you risk drifting into isolation. This post explores the hidden tax of clarity—and what it means to stay reachable without dumbing yourself down.",
       "category": "Meta",
       "tags": [
-        "identity",
-        "meta-on-meta"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1151,9 +1076,8 @@
       "excerpt": "I don’t chase tools anymore. If it fights my instincts or adds ceremony, I’m out. If it sharpens my clarity, it stays. That’s the filter.",
       "category": "AI & Automation",
       "tags": [
-        "identity",
-        "ai",
-        "point-of-view"
+        "ai-workflows",
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1165,8 +1089,8 @@
       "excerpt": " I didn’t set out to write about personal growth. I just wanted to get clearer. But writing about other things helped me finally put into words a shift I’ve been feeling for years—that sometimes growth changes how you see the world before you even realize it.",
       "category": "Meta",
       "tags": [
-        "identity",
-        "meta-on-meta"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1179,8 +1103,8 @@
       "excerpt": "As your work gets more refined, it risks losing the texture that made it real. But if you do it right, refinement doesn’t erase your voice—it reveals it.",
       "category": "Meta",
       "tags": [
-        "identity",
-        "meta-on-meta"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1193,9 +1117,8 @@
       "excerpt": "Your writing gets sharper. Your thinking gets clearer. Your tone gets cleaner. But somewhere along the way, you wonder if the people who liked the messy version of you still recognize the voice.",
       "category": "Meta",
       "tags": [
-        "identity",
-        "point-of-view",
-        "meta-on-meta"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1207,10 +1130,8 @@
       "excerpt": "If customers don’t convert on your site, where do they decide? Trust now starts upstream—off-site, in content, and with zero friction.",
       "category": "Commerce",
       "tags": [
-        "commerce",
-        "strategy",
-        "point-of-view",
-        "field-notes"
+        "commerce-strategy",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1222,9 +1143,8 @@
       "excerpt": "When I started this blog, someone close to me asked, “What are you doing with this?” Not my photography. Not my DJ mixes. Just this. I’ve been thinking about why.",
       "category": "Reflections",
       "tags": [
-        "identity",
-        "reflection",
-        "meta-on-meta"
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1237,8 +1157,7 @@
       "excerpt": "I started checking the calculator even when I already knew the answer. Not because I needed it—because I didn’t trust myself. That’s the part that stuck with me. Not the math. The muscle I stopped using.",
       "category": "Philosophy",
       "tags": [
-        "philosophy",
-        "muscle-memory"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1251,8 +1170,7 @@
       "excerpt": "This thing can write a clean draft faster than I can finish my coffee. But then I read it back and think—did *I* even say that? Or did I just agree with it because it sounded smart? That’s the trap.",
       "category": "Philosophy",
       "tags": [
-        "philosophy",
-        "muscle-memory"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1265,8 +1183,7 @@
       "excerpt": "It starts small. A pause before spelling rhythm. Letting the GPS run when you already know the way. That pause? It used to be fluency. Now it’s drift.",
       "category": "Philosophy",
       "tags": [
-        "philosophy",
-        "muscle-memory"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1279,8 +1196,7 @@
       "excerpt": "The hardest part of writing isn’t writing—it’s sticking with your own thoughts long enough to figure out what you’re really trying to say. AI makes that part go away. Which is the problem.",
       "category": "Philosophy",
       "tags": [
-        "philosophy",
-        "muscle-memory"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1293,8 +1209,7 @@
       "excerpt": "Every tool starts off helpful. Then it gets easy. Then it becomes default. And if you’re not careful, default turns into dependency. That’s the moment to pay attention to.",
       "category": "Philosophy",
       "tags": [
-        "philosophy",
-        "muscle-memory"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1307,9 +1222,7 @@
       "excerpt": "Sometimes I think I’m hearing subtle signals that no one else picks up. Other times, I wonder if I’m just hallucinating signals to feel smart.",
       "category": "Reflections",
       "tags": [
-        "reflection",
-        "signal-vs-noise",
-        "identity"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1322,10 +1235,8 @@
       "excerpt": "The story that you’re too damaged to change is just another form of avoidance. False exemption doesn’t always sound like pride—it often sounds like hopelessness. But even if you’re not to blame for how the storm started, you’re still responsible for how you move through it.",
       "category": "Reflections",
       "tags": [
-        "reflection",
         "leadership",
-        "identity",
-        "false-exemption"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1338,10 +1249,7 @@
       "excerpt": "False exemption often hides behind logic. We convince ourselves that the strategy is valid, the tool makes sense—but not for someone like me. This isn’t ignorance. It’s identity-protection dressed up as reason.",
       "category": "Reflections",
       "tags": [
-        "reflection",
-        "false-exemption",
-        "point-of-view",
-        "signal-vs-noise"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1354,10 +1262,8 @@
       "excerpt": "Choosing growth isn’t just about courage. It’s about cost. To change, you have to give something up—comfort, certainty, even identity. And deep down, many of us decide we’d rather stay soaked.",
       "category": "Leadership",
       "tags": [
-        "identity",
-        "signal-vs-noise",
         "leadership",
-        "false-exemption"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1370,10 +1276,8 @@
       "excerpt": "This isn’t about people who don’t know better. It’s about people who do. Who see the storm coming, feel the weight of the umbrella in their hand… and still stand there, getting soaked.",
       "category": "Leadership",
       "tags": [
-        "identity",
         "leadership",
-        "field-notes",
-        "false-exemption"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1384,7 +1288,11 @@
       "title": "Signal Arcs",
       "publishedAt": "2025-06-05T18:57:49.000Z",
       "excerpt": "A structured index of essays and field notes from Signal Dispatch. Organized by theme and series",
-      "tags": [],
+      "tags": [
+        "commerce-strategy",
+        "leadership",
+        "personal-growth"
+      ],
       "featured": false,
       "author": "Nino Chavez",
       "featureImage": "https://images.unsplash.com/photo-1454166155302-ef4863c27e70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI0fHxicm93c2UlMjBub3Rlc3xlbnwwfHx8fDE3NDkxNTYzMTR8MA&ixlib=rb-4.1.0&q=80&w=2000"
@@ -1396,8 +1304,7 @@
       "excerpt": "My AI workflow isn’t about speed—it’s about clarity. Here’s how I use LLMs to shape messy ideas and reduce drag when I need to think straight.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "workflow"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1409,8 +1316,7 @@
       "excerpt": "These aren’t feel-good slogans or poster values. Just the quiet rules that have kept me useful, sane, and steady—even when the pressure’s high and the spotlight’s off.",
       "category": "Leadership",
       "tags": [
-        "leadership",
-        "point-of-view"
+        "leadership"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1424,8 +1330,7 @@
       "category": "Leadership",
       "tags": [
         "leadership",
-        "strategy",
-        "field-notes"
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1438,9 +1343,7 @@
       "excerpt": "Some choices don’t reveal their full meaning until much later. It’s not that the decision was wrong—it’s that the person you become after making it sees things differently.",
       "category": "Reflections",
       "tags": [
-        "reflection",
-        "identity",
-        "signal-vs-noise"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1453,8 +1356,7 @@
       "excerpt": "Signal Reflex isn’t a beginning. It’s a different lens. For years, my photos have shown how I see the world. Now I’m sharing how I think—and what that reveals about how I lead, learn, and grow.",
       "category": "Reflections",
       "tags": [
-        "identity",
-        "reflection"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1466,8 +1368,8 @@
       "excerpt": "I didn’t use AI to go faster—I used it to catch up with myself. This blog is where that journey turned into something useful and real.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "reflection"
+        "ai-workflows",
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1479,10 +1381,9 @@
       "excerpt": "This wasn’t meant to be a thought leadership series. It started as a phone call—and a question: Where does AI actually help, right now, for real? I’m Not Hyping AI. I’m Just Using It.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "reflection",
-        "signal-vs-noise",
-        "grid-level-thinking"
+        "ai-workflows",
+        "personal-growth",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1494,9 +1395,8 @@
       "excerpt": "Post 4 of 4 in the Grid-Level Thinking series—why using AI for real work has changed how I design systems, think about leverage, and clarify what actually matters.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "grid-level-thinking",
-        "point-of-view"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1508,9 +1408,8 @@
       "excerpt": "Post 3 of 4 in the Grid-Level Thinking series—adopting AI isn’t the hard part. Redesigning your system around it is.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "workflow",
-        "grid-level-thinking"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1522,9 +1421,9 @@
       "excerpt": "Post 2 of 4 in the Grid-Level Thinking series—access isn’t the differentiator anymore. Application is.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
+        "ai-workflows",
         "leadership",
-        "grid-level-thinking"
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1536,9 +1435,8 @@
       "excerpt": "Post 1 of 4 in the Grid-Level Thinking series—what we miss when we treat AI like magic instead of infrastructure.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "strategy",
-        "grid-level-thinking"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1550,9 +1448,8 @@
       "excerpt": "The junior dev role isn’t dying. It’s evolving. The job is no longer about churning out syntax—it’s about navigating ambiguity, thinking critically, and collaborating with AI. Here’s what still matters, and how to coach for it.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "point-of-view",
-        "strategy"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1564,8 +1461,7 @@
       "excerpt": "This started as a rant while driving. A reminder that no matter how much structure we build, growth still happens on its own terms. In club volleyball and in life—you can’t engineer the outcome. You can only build the conditions.",
       "category": "Reflections",
       "tags": [
-        "reflection",
-        "point-of-view"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1577,10 +1473,8 @@
       "excerpt": "This blog isn’t a new habit—it’s just a new slice of my output. Here’s how I launched Signal Reflex in a week by treating it like any other creative drop: strategy, tools, publishing cadence, and what I learned by shipping.",
       "category": "AI & Automation",
       "tags": [
-        "workflow",
-        "ai",
-        "strategy",
-        "signal-vs-noise"
+        "ai-workflows",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1592,8 +1486,7 @@
       "excerpt": "Flickday started as a nod to “almost Friday.” Now it’s my creative safe space—a place to stay playful, go off-script, and build with others beyond the Nino Chavez brand.",
       "category": "Reflections",
       "tags": [
-        "identity",
-        "reflection"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1606,9 +1499,7 @@
       "excerpt": "Photography is the clearest signal I know. I don’t shoot for content—I shoot to stay connected to the part of me that still notices the small stuff.",
       "category": "Reflections",
       "tags": [
-        "identity",
-        "reflection",
-        "field-notes"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1621,8 +1512,7 @@
       "excerpt": "I don’t move to be seen. I move when it matters. My personal philosophy is about recognizing signal, trusting pattern, and acting with intent.",
       "category": "Insights",
       "tags": [
-        "identity",
-        "start-here"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1635,7 +1525,7 @@
       "category": "Leadership",
       "tags": [
         "leadership",
-        "identity"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1646,9 +1536,7 @@
       "publishedAt": "2025-06-02T20:50:32.000Z",
       "category": "Field Notes",
       "tags": [
-        "workflow",
-        "field-notes",
-        "point-of-view"
+        "ai-workflows"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1660,9 +1548,7 @@
       "excerpt": "Senior Night hits different. It’s not just a ceremony—it’s a goodbye. I shoot it like it matters, because for most people in the gym, it does.",
       "category": "Reflections",
       "tags": [
-        "identity",
-        "reflection",
-        "start-here"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1673,10 +1559,8 @@
       "publishedAt": "2025-06-02T20:12:28.000Z",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "identity",
-        "workflow",
-        "field-notes"
+        "ai-workflows",
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1688,10 +1572,8 @@
       "excerpt": "I didn’t start writing to build an audience. I started because AI helped me get past the blank page. This is where I work through what matters—before it fades.",
       "category": "AI & Automation",
       "tags": [
-        "ai",
-        "identity",
-        "reflection",
-        "start-here"
+        "ai-workflows",
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1700,7 +1582,12 @@
       "slug": "about-me",
       "title": "About Nino Chavez",
       "publishedAt": "2025-06-02T18:29:39.000Z",
-      "tags": [],
+      "tags": [
+        "ai-workflows",
+        "craft",
+        "leadership",
+        "systems-thinking"
+      ],
       "featured": false,
       "author": "Nino Chavez"
     },
@@ -1711,10 +1598,8 @@
       "excerpt": "Most customers already know what they want. They’re not browsing. The storefront isn’t where you win anymore—it’s just where you fulfill.",
       "category": "Commerce",
       "tags": [
-        "commerce",
-        "strategy",
-        "point-of-view",
-        "field-notes"
+        "commerce-strategy",
+        "systems-thinking"
       ],
       "featured": false,
       "author": "Nino Chavez"
@@ -1725,8 +1610,7 @@
       "publishedAt": "2025-06-02T13:50:38.000Z",
       "category": "Field Notes",
       "tags": [
-        "identity",
-        "field-notes"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1739,9 +1623,7 @@
       "excerpt": "Signal Reflex isn’t a brand or a content engine. It’s where I write to stay clear, present, and honest—using AI to reduce drag, not replace thinking.",
       "category": "Reflections",
       "tags": [
-        "identity",
-        "reflection",
-        "start-here"
+        "personal-growth"
       ],
       "featured": false,
       "author": "Nino Chavez",
@@ -1760,26 +1642,13 @@
     "Reflections"
   ],
   "tags": [
-    "ai",
-    "commerce",
-    "commerce-drift",
-    "consulting-in-practice",
-    "false-exemption",
-    "field-notes",
-    "grid-level-thinking",
-    "identity",
+    "ai-workflows",
+    "commerce-strategy",
+    "consulting-practice",
+    "craft",
     "leadership",
-    "meta-on-meta",
-    "muscle-memory",
-    "philosophy",
-    "point-of-view",
-    "post-creation-process",
-    "reflection",
-    "signal-vs-noise",
-    "start-here",
-    "strategy",
-    "tools",
-    "workflow"
+    "personal-growth",
+    "systems-thinking"
   ],
   "categoryCounts": {
     "AI & Automation": 45,
@@ -1793,27 +1662,14 @@
     "Insights": 1
   },
   "tagCounts": {
-    "ai": 48,
-    "field-notes": 41,
-    "tools": 5,
-    "workflow": 19,
-    "identity": 32,
-    "reflection": 38,
-    "point-of-view": 32,
-    "meta-on-meta": 23,
-    "leadership": 25,
-    "consulting-in-practice": 11,
-    "signal-vs-noise": 18,
-    "strategy": 21,
-    "grid-level-thinking": 11,
-    "philosophy": 9,
-    "commerce": 9,
-    "post-creation-process": 1,
-    "muscle-memory": 5,
-    "commerce-drift": 4,
-    "start-here": 4,
-    "false-exemption": 4
+    "ai-workflows": 59,
+    "craft": 6,
+    "leadership": 30,
+    "systems-thinking": 53,
+    "personal-growth": 60,
+    "commerce-strategy": 11,
+    "consulting-practice": 13
   },
   "totalPosts": 120,
-  "lastGenerated": "2025-10-12T22:02:47.143Z"
+  "lastGenerated": "2025-10-13T02:51:21.572Z"
 }

@@ -3,6 +3,7 @@ import BlogLayout from '../components/BlogLayout';
 import SearchBar from '../components/SearchBar';
 import FadeIn from '../components/FadeIn';
 import BackToTop from '../components/BackToTop';
+import ScatterToSignal from '../components/ScatterToSignal';
 import { getAllPosts } from '../utils/mdx-loader';
 import type { BlogPost } from '../utils/mdx-loader';
 import { getCategoryColors, getCategoryButtonClass } from '../utils/category-colors';
@@ -16,9 +17,9 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [visiblePostCount, setVisiblePostCount] = useState(18);
+  const [visiblePostCount, setVisiblePostCount] = useState(6);
 
-  const POSTS_PER_PAGE = 18;
+  const POSTS_PER_PAGE = 6;
 
   useEffect(() => {
     async function loadPosts() {
@@ -36,22 +37,43 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
   }, []);
 
   // Get unique categories and count posts per category
-  const { categories, postCounts } = useMemo(() => {
-    const categorySet = new Set<string>();
+  // Sort by count descending, group categories with <10 posts into "Other"
+  const { categories, postCounts, topCategories } = useMemo(() => {
     const counts: Record<string, number> = {};
 
     posts.forEach((post) => {
       if (post.category) {
-        categorySet.add(post.category);
         counts[post.category] = (counts[post.category] || 0) + 1;
       }
     });
 
+    // Sort categories by count (descending)
+    const sortedCategories = Object.entries(counts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([cat]) => cat);
+
+    // Separate top categories (>=10 posts) from others (<10 posts)
+    const topCats = sortedCategories.filter(cat => counts[cat] >= 10);
+    const otherCats = sortedCategories.filter(cat => counts[cat] < 10);
+    const otherCount = otherCats.reduce((sum, cat) => sum + counts[cat], 0);
+
+    // Add "Other" category if there are small categories
+    const finalCounts = { ...counts };
+    if (otherCats.length > 0) {
+      finalCounts['Other'] = otherCount;
+    }
+
     return {
-      categories: Array.from(categorySet).sort(),
-      postCounts: counts,
+      categories: sortedCategories,
+      postCounts: finalCounts,
+      topCategories: topCats,
     };
   }, [posts]);
+
+  // Get list of "Other" categories (those with <10 posts)
+  const otherCategories = useMemo(() => {
+    return categories.filter(cat => postCounts[cat] < 10);
+  }, [categories, postCounts]);
 
   // Filter posts by selected category and search query
   const filteredPosts = useMemo(() => {
@@ -59,7 +81,14 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
 
     // Filter by category
     if (selectedCategory) {
-      filtered = filtered.filter((post) => post.category === selectedCategory);
+      if (selectedCategory === 'Other') {
+        // Show all posts from categories with <10 posts
+        filtered = filtered.filter((post) =>
+          post.category && otherCategories.includes(post.category)
+        );
+      } else {
+        filtered = filtered.filter((post) => post.category === selectedCategory);
+      }
     }
 
     // Filter by search query
@@ -76,7 +105,7 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
     }
 
     return filtered;
-  }, [posts, selectedCategory, searchQuery]);
+  }, [posts, selectedCategory, searchQuery, otherCategories]);
 
   const featuredPosts = filteredPosts.filter((post) => post.featured).slice(0, 2);
   const allRegularPosts = filteredPosts.filter((post) => !post.featured);
@@ -91,32 +120,59 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
     <BlogLayout>
       <BackToTop />
       <div className="space-y-8">
-        {/* Hero Section - Visual brand mark with tagline */}
-        <section className="relative py-6">
-          <div className="relative space-y-6 max-w-4xl">
-            {/* Animated signal bars - visual signature */}
-            <div className="flex gap-1">
-              {[24, 40, 18, 48, 32, 20, 44].map((height, i) => (
-                <div
-                  key={i}
-                  className="w-2 bg-gradient-to-t from-athletic-brand-violet to-athletic-court-orange rounded-full transition-all duration-reaction hover:scale-y-125 cursor-pointer"
-                  style={{
-                    height: `${height}px`,
-                    animation: `pulse 3s ease-in-out infinite`,
-                    animationDelay: `${i * 150}ms`,
-                  }}
-                />
-              ))}
+        {/* Hero Section - Brand statement with visual signature */}
+        <section className="relative py-8 overflow-hidden">
+          <div className="relative">
+            {/* Title and subtitle grouped with graphic as background wordmark */}
+            <div className="relative mb-8">
+              {/* Animation as background wordmark - positioned behind both title and subtitle */}
+              <div className="absolute left-0 top-0 w-full h-full opacity-50 mix-blend-screen pointer-events-none">
+                <ScatterToSignal />
+              </div>
+
+              {/* Text content with z-index layering */}
+              <div className="relative z-10 space-y-3">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight animate-gradient-flow">
+                  Signal Dispatch
+                </h1>
+                <p className="text-xl md:text-2xl text-zinc-300 font-medium leading-snug w-full">
+                  Architecture, commerce, and the signals that matter in the age of AI.
+                </p>
+              </div>
             </div>
-            <p className="text-xl md:text-2xl text-zinc-300 font-medium leading-relaxed">
-              Architecture, commerce, and the signals that matter in the age of AI.
-            </p>
+
             <div className="flex items-center gap-4 text-sm text-zinc-500">
               <a href="https://nino.photos" className="hover:text-athletic-brand-violet transition-colors">Portfolio</a>
               <span>•</span>
               <a href="https://gallery.nino.photos" className="hover:text-athletic-brand-violet transition-colors">Gallery</a>
             </div>
           </div>
+
+          {/* Animated gradient flow CSS */}
+          <style>{`
+            @keyframes gradient-flow {
+              0%, 100% {
+                background: linear-gradient(90deg, #8b5cf6 0%, #a78bfa 50%, #f97316 100%);
+                background-size: 200% 100%;
+                background-position: 0% 50%;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              50% {
+                background-position: 100% 50%;
+              }
+            }
+
+            .animate-gradient-flow {
+              animation: gradient-flow 6s ease-in-out infinite;
+              background: linear-gradient(90deg, #8b5cf6 0%, #a78bfa 50%, #f97316 100%);
+              background-size: 200% 100%;
+              -webkit-background-clip: text;
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          `}</style>
         </section>
 
         {loading ? (
@@ -131,7 +187,7 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
         ) : (
           <>
             {/* Search and Filter Section - Redesigned for better space usage */}
-            <section className="space-y-6">
+            <section className="space-y-10">
               {/* Search Bar - Full width */}
               <div className="max-w-3xl mx-auto">
                 <SearchBar onSearch={setSearchQuery} placeholder="Search by title, content, category, or tags..." />
@@ -150,9 +206,9 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
                           : 'bg-zinc-900/50 text-zinc-400 border border-zinc-800 hover:border-athletic-court-orange/50 hover:text-white hover:scale-105'
                       }`}
                     >
-                      All Posts <span className="ml-1.5 opacity-70">({Object.values(postCounts).reduce((a, b) => a + b, 0)})</span>
+                      All Posts <span className="ml-1.5 opacity-70">({posts.length})</span>
                     </button>
-                    {categories.slice(0, 6).map((category) => {
+                    {topCategories.map((category) => {
                       const isSelected = selectedCategory === category;
                       const buttonClasses = getCategoryButtonClass(category, isSelected);
                       return (
@@ -165,6 +221,19 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
                         </button>
                       );
                     })}
+                    {otherCategories.length > 0 && (
+                      <button
+                        key="Other"
+                        onClick={() => setSelectedCategory('Other')}
+                        className={`px-4 py-2.5 min-h-[44px] rounded-lg text-sm font-medium whitespace-nowrap transition-all duration-reaction border hover:scale-105 ${
+                          selectedCategory === 'Other'
+                            ? 'bg-athletic-brand-violet/10 border-athletic-brand-violet/30 text-athletic-brand-violet shadow-lg scale-105'
+                            : 'bg-zinc-900/50 text-zinc-400 border-zinc-800 hover:border-athletic-brand-violet/50 hover:text-white'
+                        }`}
+                      >
+                        Other <span className="ml-1.5 opacity-70">({postCounts['Other'] || 0})</span>
+                      </button>
+                    )}
                   </div>
 
                   {/* Results count */}
@@ -173,7 +242,8 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
                       Found <span className="text-athletic-brand-violet font-semibold">{filteredPosts.length}</span> post
                       {filteredPosts.length !== 1 && 's'}
                       {searchQuery && <span> matching <span className="text-white">"{searchQuery}"</span></span>}
-                      {selectedCategory && <span> in <span className="text-white">{selectedCategory}</span></span>}
+                      {selectedCategory && selectedCategory !== 'Other' && <span> in <span className="text-white">{selectedCategory}</span></span>}
+                      {selectedCategory === 'Other' && <span> in <span className="text-white">smaller categories</span></span>}
                     </div>
                   )}
                 </div>
