@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import BlogLayout from '../components/BlogLayout';
+import HeaderNav from '../components/HeaderNav';
 import ReadingProgress from '../components/ReadingProgress';
 import RelatedPosts from '../components/RelatedPosts';
 import { getPostBySlug } from '../utils/mdx-loader';
@@ -16,6 +17,7 @@ interface BlogPostPageProps {
 export default function BlogPostPage({ slug, onBack, onSelectPost }: BlogPostPageProps) {
   const [post, setPost] = useState<BlogPost | null>(null);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     // Scroll to top when slug changes (new post loaded)
@@ -34,10 +36,13 @@ export default function BlogPostPage({ slug, onBack, onSelectPost }: BlogPostPag
 
     loadPost();
   }, [slug]);
+  
   if (loading) {
     return (
-      <BlogLayout>
-        <div className="max-w-4xl mx-auto space-y-8">
+      <>
+        <HeaderNav onSearch={setSearchQuery} searchQuery={searchQuery} />
+        <BlogLayout>
+          <div className="max-w-4xl mx-auto space-y-8 pt-24">
           <button
             onClick={onBack}
             className="group flex items-center gap-2 text-zinc-400 hover:text-athletic-court-orange transition-all duration-reaction font-medium"
@@ -49,15 +54,18 @@ export default function BlogPostPage({ slug, onBack, onSelectPost }: BlogPostPag
             <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-athletic-brand-violet border-r-transparent" />
             <p className="text-zinc-400 mt-4">Loading post...</p>
           </div>
-        </div>
-      </BlogLayout>
+          </div>
+        </BlogLayout>
+      </>
     );
   }
 
   if (!post) {
     return (
-      <BlogLayout>
-        <div className="max-w-4xl mx-auto space-y-8">
+      <>
+        <HeaderNav onSearch={setSearchQuery} searchQuery={searchQuery} />
+        <BlogLayout>
+          <div className="max-w-4xl mx-auto space-y-8 pt-24">
           <button
             onClick={onBack}
             className="group flex items-center gap-2 text-zinc-400 hover:text-athletic-court-orange transition-all duration-reaction font-medium"
@@ -68,18 +76,21 @@ export default function BlogPostPage({ slug, onBack, onSelectPost }: BlogPostPag
           <div className="text-center py-20">
             <p className="text-zinc-400 text-xl">Post not found.</p>
           </div>
-        </div>
-      </BlogLayout>
+          </div>
+        </BlogLayout>
+      </>
     );
   }
 
   const Content = post.content as React.ComponentType;
 
   return (
-    <BlogLayout>
-      <ReadingProgress />
+    <>
+      <HeaderNav onSearch={setSearchQuery} searchQuery={searchQuery} />
+      <BlogLayout>
+        <ReadingProgress />
 
-      <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto pt-24">
         <div className="space-y-6">
             <button
               onClick={onBack}
@@ -145,7 +156,8 @@ export default function BlogPostPage({ slug, onBack, onSelectPost }: BlogPostPag
             )}
           </header>
 
-              <div className="prose prose-invert prose-zinc prose-lg max-w-none">
+              {/* Article Content with Enhanced Typography */}
+              <div className="prose max-w-none text-lg">
                 <Content />
               </div>
 
@@ -160,5 +172,6 @@ export default function BlogPostPage({ slug, onBack, onSelectPost }: BlogPostPag
         </div>
       </div>
     </BlogLayout>
+    </>
   );
 }

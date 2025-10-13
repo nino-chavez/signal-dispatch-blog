@@ -1,12 +1,13 @@
 import { useEffect, useState, useMemo } from 'react';
 import BlogLayout from '../components/BlogLayout';
-import SearchBar from '../components/SearchBar';
+import HeaderNav from '../components/HeaderNav';
+import StickyFilterBar from '../components/StickyFilterBar';
 import FadeIn from '../components/FadeIn';
 import BackToTop from '../components/BackToTop';
 import ScatterToSignal from '../components/ScatterToSignal';
 import { getAllPosts } from '../utils/mdx-loader';
 import type { BlogPost } from '../utils/mdx-loader';
-import { getCategoryColors, getCategoryButtonClass } from '../utils/category-colors';
+import { getCategoryColors } from '../utils/category-colors';
 
 interface BlogListPageProps {
   onSelectPost: (slug: string) => void;
@@ -117,140 +118,52 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
   };
 
   return (
-    <BlogLayout>
-      <BackToTop />
-      <div className="space-y-8">
-        {/* Hero Section - Brand statement with visual signature */}
-        <section className="relative py-8 overflow-hidden">
-          <div className="relative">
-            {/* Title and subtitle grouped with graphic as background wordmark */}
-            <div className="relative mb-8">
-              {/* Animation as background wordmark - positioned behind both title and subtitle */}
-              <div className="absolute left-0 top-0 w-full h-full opacity-50 mix-blend-screen pointer-events-none">
-                <ScatterToSignal />
+    <>
+      {/* Fixed Header with Search and Icon Links */}
+      <HeaderNav onSearch={setSearchQuery} searchQuery={searchQuery} />
+      
+      {/* Sticky Filter Bar */}
+      {!loading && posts.length > 0 && (
+        <StickyFilterBar
+          topCategories={topCategories}
+          otherCategories={otherCategories}
+          selectedCategory={selectedCategory}
+          onSelectCategory={setSelectedCategory}
+          postCounts={postCounts}
+          totalPosts={posts.length}
+        />
+      )}
+
+      <BlogLayout>
+        <BackToTop />
+        {/* Add top padding to account for fixed header + sticky filter bar */}
+        <div className="pt-24 relative">
+
+          <div className="space-y-8">
+
+            {loading ? (
+              <div className="text-center py-20">
+                <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-athletic-brand-violet border-r-transparent" />
+                <p className="text-zinc-400 mt-4">Loading posts...</p>
               </div>
-
-              {/* Text content with z-index layering */}
-              <div className="relative z-10 space-y-3">
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight animate-gradient-flow">
-                  Signal Dispatch
-                </h1>
-                <p className="text-xl md:text-2xl text-zinc-300 font-medium leading-snug w-full">
-                  Architecture, commerce, and the signals that matter in the age of AI.
-                </p>
+            ) : posts.length === 0 ? (
+              <div className="text-center py-20">
+                <p className="text-zinc-400 text-xl">No posts found.</p>
               </div>
-            </div>
-
-            <div className="flex items-center gap-4 text-sm text-zinc-500">
-              <a href="https://nino.photos" className="hover:text-athletic-brand-violet transition-colors">Portfolio</a>
-              <span>•</span>
-              <a href="https://gallery.nino.photos" className="hover:text-athletic-brand-violet transition-colors">Gallery</a>
-            </div>
-          </div>
-
-          {/* Animated gradient flow CSS */}
-          <style>{`
-            @keyframes gradient-flow {
-              0%, 100% {
-                background: linear-gradient(90deg, #8b5cf6 0%, #a78bfa 50%, #f97316 100%);
-                background-size: 200% 100%;
-                background-position: 0% 50%;
-                -webkit-background-clip: text;
-                background-clip: text;
-                -webkit-text-fill-color: transparent;
-              }
-              50% {
-                background-position: 100% 50%;
-              }
-            }
-
-            .animate-gradient-flow {
-              animation: gradient-flow 6s ease-in-out infinite;
-              background: linear-gradient(90deg, #8b5cf6 0%, #a78bfa 50%, #f97316 100%);
-              background-size: 200% 100%;
-              -webkit-background-clip: text;
-              background-clip: text;
-              -webkit-text-fill-color: transparent;
-            }
-          `}</style>
-        </section>
-
-        {loading ? (
-          <div className="text-center py-20">
-            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-athletic-brand-violet border-r-transparent" />
-            <p className="text-zinc-400 mt-4">Loading posts...</p>
-          </div>
-        ) : posts.length === 0 ? (
-          <div className="text-center py-20">
-            <p className="text-zinc-400 text-xl">No posts found.</p>
-          </div>
-        ) : (
-          <>
-            {/* Search and Filter Section - Redesigned for better space usage */}
-            <section className="space-y-10">
-              {/* Search Bar - Full width */}
-              <div className="max-w-3xl mx-auto">
-                <SearchBar onSearch={setSearchQuery} placeholder="Search by title, content, category, or tags..." />
-              </div>
-
-              {/* Category Pills - Centered with better spacing */}
-              {categories.length > 0 && (
-                <div className="flex flex-col items-center gap-4">
-                  <div className="flex flex-wrap items-center justify-center gap-3 max-w-5xl">
-                    <span className="text-sm font-medium text-zinc-500 mr-2">Filter:</span>
-                    <button
-                      onClick={() => setSelectedCategory(null)}
-                      className={`px-4 py-2.5 min-h-[44px] rounded-lg text-sm font-medium whitespace-nowrap transition-all duration-reaction ${
-                        selectedCategory === null
-                          ? 'bg-gradient-to-r from-athletic-brand-violet to-athletic-court-orange text-white shadow-lg shadow-athletic-brand-violet/25'
-                          : 'bg-zinc-900/50 text-zinc-400 border border-zinc-800 hover:border-athletic-court-orange/50 hover:text-white hover:scale-105'
-                      }`}
-                    >
-                      All Posts <span className="ml-1.5 opacity-70">({posts.length})</span>
-                    </button>
-                    {topCategories.map((category) => {
-                      const isSelected = selectedCategory === category;
-                      const buttonClasses = getCategoryButtonClass(category, isSelected);
-                      return (
-                        <button
-                          key={category}
-                          onClick={() => setSelectedCategory(category)}
-                          className={`px-4 py-2.5 min-h-[44px] rounded-lg text-sm font-medium whitespace-nowrap transition-all duration-reaction border hover:scale-105 ${buttonClasses} ${isSelected ? 'shadow-lg scale-105' : ''}`}
-                        >
-                          {category} <span className="ml-1.5 opacity-70">({postCounts[category] || 0})</span>
-                        </button>
-                      );
-                    })}
-                    {otherCategories.length > 0 && (
-                      <button
-                        key="Other"
-                        onClick={() => setSelectedCategory('Other')}
-                        className={`px-4 py-2.5 min-h-[44px] rounded-lg text-sm font-medium whitespace-nowrap transition-all duration-reaction border hover:scale-105 ${
-                          selectedCategory === 'Other'
-                            ? 'bg-athletic-brand-violet/10 border-athletic-brand-violet/30 text-athletic-brand-violet shadow-lg scale-105'
-                            : 'bg-zinc-900/50 text-zinc-400 border-zinc-800 hover:border-athletic-brand-violet/50 hover:text-white'
-                        }`}
-                      >
-                        Other <span className="ml-1.5 opacity-70">({postCounts['Other'] || 0})</span>
-                      </button>
-                    )}
+            ) : (
+              <>
+                {/* Results count - moved here from filter section */}
+                {(searchQuery || selectedCategory) && (
+                  <div className="text-center text-sm text-zinc-400 py-2">
+                    Found <span className="text-athletic-brand-violet font-semibold">{filteredPosts.length}</span> post
+                    {filteredPosts.length !== 1 && 's'}
+                    {searchQuery && <span> matching <span className="text-white">"{searchQuery}"</span></span>}
+                    {selectedCategory && selectedCategory !== 'Other' && <span> in <span className="text-white">{selectedCategory}</span></span>}
+                    {selectedCategory === 'Other' && <span> in <span className="text-white">smaller categories</span></span>}
                   </div>
+                )}
 
-                  {/* Results count */}
-                  {(searchQuery || selectedCategory) && (
-                    <div className="text-center text-sm text-zinc-400">
-                      Found <span className="text-athletic-brand-violet font-semibold">{filteredPosts.length}</span> post
-                      {filteredPosts.length !== 1 && 's'}
-                      {searchQuery && <span> matching <span className="text-white">"{searchQuery}"</span></span>}
-                      {selectedCategory && selectedCategory !== 'Other' && <span> in <span className="text-white">{selectedCategory}</span></span>}
-                      {selectedCategory === 'Other' && <span> in <span className="text-white">smaller categories</span></span>}
-                    </div>
-                  )}
-                </div>
-              )}
-            </section>
-
-            {filteredPosts.length === 0 ? (
+                {filteredPosts.length === 0 ? (
               <div className="text-center py-20 space-y-4">
                 <p className="text-zinc-400 text-xl">
                   {searchQuery && selectedCategory
@@ -282,7 +195,7 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
               <>
                 {/* Featured Posts */}
                 {featuredPosts.length > 0 && (
-              <section className="space-y-8">
+              <section className="space-y-6 pt-2 relative">
                 <div className="flex items-center gap-3">
                   <div className="h-1 w-12 bg-gradient-to-r from-athletic-brand-violet to-athletic-court-orange rounded-full" />
                   <h2 className="text-3xl font-bold text-white">Featured</h2>
@@ -294,6 +207,7 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
                       key={post.slug}
                       data-slug={post.slug}
                       className="group cursor-pointer relative overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-br from-zinc-900 to-zinc-950 p-8 hover:border-athletic-court-orange/50 transition-all duration-reaction hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl hover:shadow-athletic-brand-violet/10"
+                      style={{ zIndex: 10 }}
                       onClick={() => onSelectPost(post.slug)}
                     >
                       <div className="absolute inset-0 bg-gradient-to-br from-athletic-brand-violet/5 to-athletic-court-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-reaction" />
@@ -350,22 +264,49 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
 
             {/* Regular Posts */}
             {regularPosts.length > 0 && (
-              <section className="space-y-8">
-                <div className="flex items-center gap-3">
-                  <div className="h-1 w-12 bg-gradient-to-r from-athletic-brand-violet to-athletic-court-orange rounded-full" />
-                  <h2 className="text-3xl font-bold text-white">Latest</h2>
-                  {allRegularPosts.length > 0 && (
-                    <span className="text-sm text-zinc-500">
-                      Showing {regularPosts.length} of {allRegularPosts.length}
-                    </span>
-                  )}
+              <section className="space-y-6 relative">
+                {/* Section Header with Integrated Animation */}
+                <div className="relative">
+                  {/* Animation background - positioned behind the header */}
+                  <div className="absolute left-0 right-0 -top-8 h-32 pointer-events-none opacity-50 overflow-visible" style={{ zIndex: 0 }}>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-full max-w-7xl">
+                        <ScatterToSignal />
+                      </div>
+                    </div>
+                    {/* Text positioned over the signal convergence point */}
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-full max-w-7xl relative">
+                        <div className="absolute right-[8%] top-[35%]">
+                          <p className="text-xs text-zinc-400 font-light tracking-wide whitespace-nowrap animate-fade-in-up">
+                            Finding <span className="text-athletic-brand-violet font-semibold">signal</span> through the <span className="text-zinc-500">noise</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    {/* Gradient fade for smooth integration */}
+                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/60 pointer-events-none" />
+                  </div>
+                  
+                  {/* Section Title - on top of animation */}
+                  <div className="flex items-center gap-3 relative" style={{ zIndex: 10 }}>
+                    <div className="h-1 w-12 bg-gradient-to-r from-athletic-brand-violet to-athletic-court-orange rounded-full" />
+                    <h2 className="text-3xl font-bold text-white">Latest</h2>
+                    {allRegularPosts.length > 0 && (
+                      <span className="text-sm text-zinc-500">
+                        Showing {regularPosts.length} of {allRegularPosts.length}
+                      </span>
+                    )}
+                  </div>
                 </div>
+                
                 <div className="grid lg:grid-cols-2 gap-6">
                   {regularPosts.map((post, index) => (
                     <FadeIn key={post.slug} delay={index * 50}>
                       <article
                       data-slug={post.slug}
                       className="group cursor-pointer relative overflow-hidden rounded-xl border border-zinc-800 bg-zinc-950/50 p-6 hover:border-zinc-700 transition-all duration-reaction hover:bg-zinc-900/50 hover:scale-[1.01] hover:shadow-xl hover:shadow-black/20"
+                      style={{ zIndex: 10 }}
                       onClick={() => onSelectPost(post.slug)}
                     >
                       <div className="space-y-3">
@@ -431,11 +372,13 @@ export default function BlogListPage({ onSelectPost }: BlogListPageProps) {
                 )}
               </section>
             )}
-              </>
-            )}
-          </>
-        )}
-      </div>
-    </BlogLayout>
+            </>
+          )}
+            </>
+          )}
+          </div>
+        </div>
+      </BlogLayout>
+    </>
   );
 }
