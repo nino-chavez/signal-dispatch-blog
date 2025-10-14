@@ -123,11 +123,20 @@ async function generateManifest() {
   // Write manifest to file
   fs.writeFileSync(outputPath, JSON.stringify(manifest, null, 2), 'utf-8');
 
+  // Also copy to public folder for static serving
+  const publicPath = path.join(__dirname, '..', 'public', 'manifest.json');
+  const publicDir = path.dirname(publicPath);
+  if (!fs.existsSync(publicDir)) {
+    fs.mkdirSync(publicDir, { recursive: true });
+  }
+  fs.writeFileSync(publicPath, JSON.stringify(manifest, null, 2), 'utf-8');
+
   console.log(`✅ Manifest generated successfully!`);
   console.log(`   📊 ${posts.length} posts`);
   console.log(`   🏷️  ${categories.length} categories`);
   console.log(`   🔖 ${tags.length} tags`);
   console.log(`   💾 Saved to: ${path.relative(process.cwd(), outputPath)}`);
+  console.log(`   🌐 Public copy: ${path.relative(process.cwd(), publicPath)}`);
 }
 
 generateManifest().catch((error) => {
