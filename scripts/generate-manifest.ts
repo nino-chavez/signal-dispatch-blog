@@ -33,6 +33,25 @@ interface BlogManifest {
   lastGenerated: string;
 }
 
+/**
+ * Calculate reading time from content
+ * Average reading speed: 225 words per minute
+ */
+function calculateReadingTime(content: string): string {
+  const WORDS_PER_MINUTE = 225;
+
+  // Remove frontmatter and HTML tags
+  const cleanContent = content
+    .replace(/^---[\s\S]*?---/, '')
+    .replace(/<[^>]*>/g, '');
+
+  // Count words
+  const wordCount = cleanContent.trim().split(/\s+/).filter(Boolean).length;
+  const minutes = Math.ceil(wordCount / WORDS_PER_MINUTE);
+
+  return minutes === 1 ? '1 min read' : `${minutes} min read`;
+}
+
 async function generateManifest() {
   console.log('🔨 Generating blog manifest...');
 
@@ -59,7 +78,7 @@ async function generateManifest() {
   for (const file of files) {
     const filePath = path.join(contentDir, file);
     const fileContent = fs.readFileSync(filePath, 'utf-8');
-    const { data: frontmatter } = matter(fileContent);
+    const { data: frontmatter, content } = matter(fileContent);
 
     const slug = file.replace('.mdx', '');
 
@@ -68,6 +87,9 @@ async function generateManifest() {
       console.warn(`⚠️  Skipping ${slug}: missing required fields (title or publishedAt)`);
       continue;
     }
+
+    // Calculate reading time from content
+    const readTime = calculateReadingTime(content);
 
     // Extract metadata
     const post: BlogPostMetadata = {
@@ -79,7 +101,7 @@ async function generateManifest() {
       tags: frontmatter.tags || [],
       featured: frontmatter.featured || false,
       author: frontmatter.author,
-      readTime: frontmatter.readTime,
+      readTime, // Auto-calculated
       featureImage: frontmatter.featureImage,
       source: frontmatter.source,
       linkedinUrl: frontmatter.linkedinUrl,

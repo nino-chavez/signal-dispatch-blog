@@ -17,7 +17,7 @@ export interface BlogPostFrontmatter {
   slug: string;
   publishedAt: string; // ISO 8601 date string
   author: string;
-  status: 'published';
+  status?: 'published'; // Optional - defaults to published if not specified
 
   // Optional content fields
   excerpt?: string;
@@ -26,6 +26,7 @@ export interface BlogPostFrontmatter {
   featureImage?: string;
   tags?: string[];
   category?: string;
+  readTime?: string; // Reading time estimate (e.g., "5 min read")
 
   // Source attribution (for multi-platform content)
   source?: 'ghost' | 'linkedin' | 'medium' | 'devto';

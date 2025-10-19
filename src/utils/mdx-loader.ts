@@ -27,6 +27,7 @@ export interface ManifestPost {
   featureImage?: string;
   tags?: string[];
   category?: string;
+  readTime?: string;
   source?: 'ghost' | 'linkedin' | 'medium' | 'devto';
   linkedinUrl?: string;
   externalUrl?: string;

@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Clock } from 'lucide-react';
 import BlogLayout from '../components/BlogLayout';
 import HeaderNav from '../components/HeaderNav';
 import ReadingProgress from '../components/ReadingProgress';
 import RelatedPosts from '../components/RelatedPosts';
 import SourceBadge from '../components/SourceBadge';
+import SocialShare from '../components/SocialShare';
 import { getPostBySlug } from '../utils/mdx-loader';
 import type { BlogPost } from '../utils/mdx-loader';
 import { getCategoryColors } from '../utils/category-colors';
@@ -127,9 +128,9 @@ export default function BlogPostPage() {
                 </span>
               )}
               {post.source && post.source !== 'ghost' && (
-                <SourceBadge 
-                  source={post.source} 
-                  externalUrl={post.linkedinUrl || post.externalUrl} 
+                <SourceBadge
+                  source={post.source}
+                  externalUrl={post.linkedinUrl || post.externalUrl}
                   size="sm"
                 />
               )}
@@ -141,6 +142,15 @@ export default function BlogPostPage() {
                   day: 'numeric',
                 })}
               </time>
+              {post.readTime && (
+                <>
+                  <span className="text-zinc-700">•</span>
+                  <span className="flex items-center gap-1.5 text-zinc-500">
+                    <Clock className="w-3.5 h-3.5" />
+                    {post.readTime}
+                  </span>
+                </>
+              )}
             </div>
 
             <h1 className="text-5xl md:text-6xl font-black text-white leading-tight tracking-tight">
@@ -170,6 +180,15 @@ export default function BlogPostPage() {
               {/* Article Content with Enhanced Typography */}
               <div className="prose max-w-none text-lg">
                 <Content />
+              </div>
+
+              {/* Social Sharing */}
+              <div className="pt-8 pb-8 border-t border-zinc-800/50">
+                <SocialShare
+                  url={`https://ninochavez.co/blog/${post.slug}`}
+                  title={post.title}
+                  excerpt={post.excerpt}
+                />
               </div>
 
               {/* Source Attribution Banner (for LinkedIn/external articles) */}
