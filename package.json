@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsx scripts/generate-manifest.ts && tsx scripts/generate-rss.ts && tsc -b && vite build",
+    "build": "tsx scripts/generate-manifest.ts && tsx scripts/generate-rss.ts && tsx scripts/generate-sitemap.ts && tsc -b && vite build",
     "manifest": "tsx scripts/generate-manifest.ts",
     "rss": "tsx scripts/generate-rss.ts",
+    "sitemap": "tsx scripts/generate-sitemap.ts",
+    "seo": "npm run manifest && npm run rss && npm run sitemap",
     "lint": "eslint .",
     "preview": "vite preview"
   },

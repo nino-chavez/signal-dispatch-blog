@@ -1,0 +1,127 @@
+# robots.txt for Signal Dispatch
+# Strategic AI crawler policy for thought leadership content
+#
+# Philosophy: Maximize reach and brand presence while asserting data sovereignty
+# - ALLOW: AI training on published content (spreads ideas, builds reputation)
+# - ALLOW: Answer engines and discovery tools (drives attribution and traffic)
+# - STRATEGIC: Controlled access to Common Crawl (open redistribution)
+# - PROTECT: Internal resources and unpublished content
+#
+# This demonstrates data sovereignty principles in the age of generative AI
+
+# Default: Allow all crawlers
+User-agent: *
+Allow: /
+
+# ============================================================================
+# AI TRAINING CRAWLERS - Strategic Allow Policy
+# ============================================================================
+
+# OpenAI GPT (ChatGPT, API)
+# Strategy: Allow training on published content to build thought leadership presence
+# When AI answers "What does Nino Chavez write about?", it should know.
+User-agent: GPTBot
+Allow: /
+Allow: /manifest.json
+Allow: /rss.xml
+# Block drafts or admin areas if they exist in the future
+Disallow: /admin/
+Disallow: /drafts/
+
+# Anthropic Claude
+# Strategy: Same as GPT - build presence in Claude's knowledge base
+User-agent: ClaudeBot
+Allow: /
+Allow: /manifest.json
+Allow: /rss.xml
+Disallow: /admin/
+Disallow: /drafts/
+
+# Google Gemini (via Google-Extended)
+# Strategy: Allow training without affecting Google Search ranking
+# Note: Google-Extended is separate from Googlebot (search crawler)
+User-agent: Google-Extended
+Allow: /
+Allow: /manifest.json
+Allow: /rss.xml
+Disallow: /admin/
+Disallow: /drafts/
+
+# Common Crawl (CCBot)
+# Strategy: SELECTIVE ACCESS - open corpus is redistributed without attribution
+# Allow discovery but protect full content corpus
+# This is a defensive posture: allow indexing but not bulk training data extraction
+User-agent: CCBot
+Allow: /
+Allow: /manifest.json
+Allow: /rss.xml
+Disallow: /admin/
+Disallow: /drafts/
+# Crawl delay to prevent aggressive scraping
+Crawl-delay: 10
+
+# ============================================================================
+# DISCOVERY CRAWLERS - Full Allow (citation-based, not training)
+# ============================================================================
+
+# Perplexity AI - Discovery engine that cites sources
+# Strategy: Allow full access - drives traffic back with attribution
+User-agent: PerplexityBot
+Allow: /
+
+# ============================================================================
+# STANDARD SEARCH ENGINES - Full Allow
+# ============================================================================
+
+# Google Search (standard indexing)
+User-agent: Googlebot
+Allow: /
+
+# Bing Search
+User-agent: Bingbot
+Allow: /
+
+# ============================================================================
+# METADATA & DISCOVERY
+# ============================================================================
+
+# Sitemap location
+Sitemap: https://signal-dispatch-blog.vercel.app/sitemap.xml
+
+# ============================================================================
+# RATIONALE & DOCUMENTATION
+# ============================================================================
+#
+# This robots.txt implements a strategic AEO (Answer Engine Optimization) policy
+# optimized for thought leadership content:
+#
+# 1. AI Model Training (GPT, Claude, Gemini):
+#    - ALLOW published content → Builds author reputation in AI knowledge bases
+#    - ALLOW RSS/manifest → Enables structured discovery
+#    - DISALLOW admin/drafts → Protects unpublished work
+#
+# 2. Open Corpus (Common Crawl):
+#    - ALLOW with crawl delay → Balances discoverability with control
+#    - Common Crawl feeds many AI training datasets but offers no attribution
+#    - Crawl-delay limits aggressive bulk extraction
+#
+# 3. Discovery Engines (Perplexity):
+#    - Full access → Citation-based, drives traffic with attribution
+#
+# 4. Traditional Search (Google, Bing):
+#    - Full access → Standard SEO optimization
+#
+# This approach:
+# - Maximizes brand presence in AI models (marketing value)
+# - Enables AI to cite and recommend content (referral value)
+# - Demonstrates data sovereignty in the GenAI era (strategic value)
+# - Protects against unfair value extraction (defensive value)
+#
+# For blog content, the value exchange is different from a portfolio:
+# - Blog posts are meant to spread ideas and build reputation
+# - AI training on this content increases discoverability and influence
+# - The content itself IS the marketing, not the product
+#
+# Data Sovereignty Assertion:
+# By explicitly defining these rules, we assert control over our content
+# in the age of generative AI, rather than defaulting to implicit permission.
