@@ -9,6 +9,7 @@ import SourceBadge from '../components/SourceBadge';
 import { getPostBySlug } from '../utils/mdx-loader';
 import type { BlogPost } from '../utils/mdx-loader';
 import { getCategoryColors } from '../utils/category-colors';
+import { useCanonicalUrl } from '../hooks/useCanonicalUrl';
 
 export default function BlogPostPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -16,6 +17,9 @@ export default function BlogPostPage() {
   const [post, setPost] = useState<BlogPost | null>(null);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
+
+  // Set canonical URL for SEO (ninochavez.co/blog/:slug)
+  useCanonicalUrl(slug ? `/${slug}` : '');
 
   useEffect(() => {
     // Scroll to top when slug changes (new post loaded)

@@ -4,6 +4,26 @@
 
 This document outlines the strategic implementation of Search Engine Optimization (SEO), Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO) controls for the Signal Dispatch blog, with a focus on data sovereignty in the age of AI.
 
+## Architecture: Vercel Rewrite Strategy
+
+**CRITICAL**: This blog is served via Vercel rewrite from `https://ninochavez.co/blog`, NOT from the standalone deployment URL `signal-dispatch-blog.vercel.app`.
+
+### Domain Architecture
+
+```
+ninochavez.co (Main Portfolio Site)
+├── / (main site - nino-chavez-website project)
+├── /blog/* (rewrite → signal-dispatch-blog.vercel.app)
+└── /gallery/* (rewrite → nino-chavez-gallery.vercel.app)
+```
+
+### Why This Matters for SEO
+
+1. **Single Domain Authority**: All content consolidates under `ninochavez.co` for unified SEO power
+2. **No Content Duplication**: Prevents penalties from same content on multiple domains
+3. **Canonical URLs**: All pages must declare `ninochavez.co/blog/*` as canonical
+4. **Centralized robots.txt**: Main site controls all crawler policies
+
 ## Philosophy
 
 **Data Sovereignty First**: In the era of generative AI, website owners must actively assert control over how their content is used. Silence is permission.
@@ -17,22 +37,34 @@ For a **thought leadership blog** like Signal Dispatch, the strategic approach d
 
 ## Implementation Components
 
-### 1. robots.txt (`/public/robots.txt`)
+### 1. Main robots.txt (`nino-chavez-website/static/robots.txt`)
 
-Strategic crawler control implementing granular access policies:
+**CANONICAL LOCATION**: `https://ninochavez.co/robots.txt`
+
+This is the ONLY robots.txt that matters for SEO. It controls crawler access to:
+- Main site (`ninochavez.co/*`)
+- Blog (`ninochavez.co/blog/*`)
+- Gallery (`ninochavez.co/gallery/*`)
+
+#### Updated for /blog and /gallery Support
+
+Strategic crawler control implementing granular access policies with explicit `/blog/` and `/gallery/` allowances:
 
 #### AI Training Crawlers - Strategic ALLOW Policy
 
-| User-Agent | Strategy | Rationale |
-|------------|----------|-----------|
-| `GPTBot` (OpenAI) | Allow all published content + APIs | Build presence in ChatGPT's knowledge base |
-| `ClaudeBot` (Anthropic) | Allow all published content + APIs | Enable Claude to cite and recommend content |
-| `Google-Extended` | Allow all published content + APIs | Train Gemini without affecting Search ranking |
-| `CCBot` (Common Crawl) | Allow with 10s crawl delay | Balance reach with control (open redistribution) |
+All AI training bots now have explicit `Allow: /blog/` and `Allow: /gallery/` directives:
 
-**Blocked Paths** (future-proofing):
-- `/admin/` - Administrative interfaces
-- `/drafts/` - Unpublished content
+| User-Agent | Strategy | Blog Access | Gallery Access |
+|------------|----------|-------------|----------------|
+| `GPTBot` (OpenAI) | Allow brand + blog + gallery | ✅ Full access | ✅ Full access |
+| `ClaudeBot` (Anthropic) | Allow brand + blog + gallery | ✅ Full access | ✅ Full access |
+| `Google-Extended` | Allow brand + blog + gallery | ✅ Full access | ✅ Full access |
+| `CCBot` (Common Crawl) | Allow blog + gallery with crawl delay | ✅ With 10s delay | ✅ With 10s delay |
+
+**Blocked Paths** (portfolio protection):
+- `/api/projects.json` - Proprietary project details
+- `/case-studies/` - Implementation details
+- `/writing/implementations/` - Detailed methodologies
 
 #### Discovery & Search Engines - Full Access
 
@@ -44,7 +76,56 @@ Strategic crawler control implementing granular access policies:
 
 **Key Insight**: `Google-Extended` is separate from `Googlebot`. Blocking Google-Extended does NOT affect your Google Search ranking.
 
-### 2. Content-signal Headers (`/vercel.json`)
+#### Sitemap References
+
+The main robots.txt now references THREE sitemaps:
+
+```
+Sitemap: https://ninochavez.co/sitemap.xml
+Sitemap: https://ninochavez.co/blog/sitemap.xml
+Sitemap: https://ninochavez.co/gallery/sitemap.xml
+```
+
+This tells crawlers where to find complete URL inventories for each section.
+
+### 2. Blog robots.txt (`signal-dispatch-blog/public/robots.txt`)
+
+**PURPOSE**: Prevent duplicate indexing of the standalone Vercel deployment.
+
+This robots.txt blocks ALL crawlers from `signal-dispatch-blog.vercel.app`:
+
+```
+User-agent: *
+Disallow: /
+```
+
+**Why**: Since content is served via rewrite at `ninochavez.co/blog`, we must prevent crawlers from indexing the same content at `signal-dispatch-blog.vercel.app`. This avoids:
+- Duplicate content penalties
+- Split SEO authority between domains
+- Crawler confusion about canonical URLs
+
+### 3. Canonical URL Tags (`src/hooks/useCanonicalUrl.ts`)
+
+**CRITICAL FOR REWRITE ARCHITECTURE**: Every page dynamically sets its canonical URL.
+
+```typescript
+// Blog index: https://ninochavez.co/blog
+useCanonicalUrl('');
+
+// Blog post: https://ninochavez.co/blog/my-post-slug
+useCanonicalUrl('/my-post-slug');
+```
+
+This hook:
+1. Creates `<link rel="canonical">` tags pointing to `ninochavez.co/blog/*`
+2. Sets `og:url` meta tags for social sharing
+3. Prevents duplicate content issues with the standalone deployment
+
+**Implementation**:
+- `src/pages/BlogListPage.tsx` - Blog index canonical
+- `src/pages/BlogPostPage.tsx` - Individual post canonicals
+
+### 4. Content-signal Headers (`vercel.json`)
 
 Implements the emerging Cloudflare-backed standard for machine-readable content usage permissions:
 
@@ -65,15 +146,30 @@ Implements the emerging Cloudflare-backed standard for machine-readable content 
 - Proper `Content-Type` for manifest, RSS, robots.txt
 - Caching policies optimized for each resource type
 
-### 3. Sitemap Generation (`/scripts/generate-sitemap.ts`)
+### 5. Sitemap Generation (`scripts/generate-sitemap.ts`)
 
-Automated sitemap generation integrated into the build pipeline:
+Automated sitemap generation integrated into the build pipeline with **canonical URL support**:
+
+**CRITICAL**: Sitemap uses `https://ninochavez.co` as the base URL, not `signal-dispatch-blog.vercel.app`.
 
 **Features**:
-- 155 URLs (homepage + blog index + 153 posts)
+- 154 URLs (blog index + 153 posts) - NO homepage (that's the main site)
+- All URLs use `https://ninochavez.co/blog/*` format
 - Priority weighting (featured posts: 0.8, regular: 0.7)
 - Last modified dates from frontmatter
 - Proper XML formatting per sitemaps.org standard
+
+**Example URLs**:
+```xml
+<url>
+  <loc>https://ninochavez.co/blog</loc>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://ninochavez.co/blog/my-post-slug</loc>
+  <priority>0.7</priority>
+</url>
+```
 
 **Integration**:
 ```bash
@@ -82,13 +178,19 @@ npm run seo          # Generate manifest + RSS + sitemap
 npm run build        # Includes all SEO assets
 ```
 
-### 4. RSS Feed (existing: `/public/rss.xml`)
+**Served at**: `https://ninochavez.co/blog/sitemap.xml` (via Vercel rewrite)
+
+### 6. RSS Feed (`public/rss.xml`)
 
 Standard RSS 2.0 feed for syndication and discoverability.
 
-### 5. Blog Manifest (existing: `/public/manifest.json`)
+**Served at**: `https://ninochavez.co/blog/rss.xml` (via Vercel rewrite)
+
+### 7. Blog Manifest (`public/manifest.json`)
 
 Machine-readable blog post metadata for programmatic access.
+
+**Served at**: `https://ninochavez.co/blog/manifest.json` (via Vercel rewrite)
 
 ## Strategic Rationale
 
@@ -130,25 +232,45 @@ Common Crawl is treated differently because:
 
 ## Validation & Testing
 
-### Test robots.txt Syntax
+### Test Main robots.txt
 ```bash
-# Check for syntax errors
-grep -E "User-agent:|Disallow:|Allow:|Crawl-delay:" public/robots.txt
+# Verify main robots.txt (THIS IS THE ONE THAT MATTERS)
+curl https://ninochavez.co/robots.txt
 
-# Validate against Google's spec
-# Visit: https://www.google.com/webmasters/tools/robots-testing-tool
+# Check for blog/gallery Allow directives
+grep "Allow: /blog/" /path/to/nino-chavez-website/static/robots.txt
+grep "Allow: /gallery/" /path/to/nino-chavez-website/static/robots.txt
+
+# Verify sitemap references
+grep "Sitemap:" /path/to/nino-chavez-website/static/robots.txt
 ```
 
-### Verify Deployment
+### Verify Blog robots.txt (Blocking)
 ```bash
-# After deployment, verify robots.txt is accessible
+# Blog standalone deployment should block ALL crawlers
 curl https://signal-dispatch-blog.vercel.app/robots.txt
+# Should see: Disallow: /
+```
 
-# Verify sitemap
-curl https://signal-dispatch-blog.vercel.app/sitemap.xml
+### Verify Sitemap (Canonical URLs)
+```bash
+# Verify sitemap uses ninochavez.co URLs (NOT signal-dispatch-blog.vercel.app)
+curl https://ninochavez.co/blog/sitemap.xml | grep "<loc>"
+# All URLs should be https://ninochavez.co/blog/*
+```
 
-# Check headers (Content-signal)
-curl -I https://signal-dispatch-blog.vercel.app
+### Verify Canonical Tags
+```bash
+# Check canonical link tag in HTML
+curl -s https://ninochavez.co/blog/some-post | grep 'rel="canonical"'
+# Should contain: <link rel="canonical" href="https://ninochavez.co/blog/some-post" />
+```
+
+### Check Content-signal Headers
+```bash
+# Verify Content-signal header
+curl -I https://ninochavez.co/blog
+# Should see: Content-signal: search=yes, ai-input=yes, ai-train=yes
 ```
 
 ### Monitor Crawler Behavior
@@ -209,13 +331,60 @@ We choose **strategic allowance** over **total blocking** because:
 - [OpenAI GPTBot Documentation](https://platform.openai.com/docs/gptbot)
 - [Anthropic ClaudeBot](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)
 
+## Vercel Rewrite Architecture: How It All Works
+
+### Request Flow
+
+```
+User/Crawler Request: https://ninochavez.co/blog/my-post
+                      ↓
+Vercel Edge Network (nino-chavez-website project)
+                      ↓
+Reads: /static/robots.txt → Crawler sees main robots.txt
+                      ↓
+Rewrites to: https://signal-dispatch-blog.vercel.app/my-post
+                      ↓
+Blog App (signal-dispatch-blog project)
+                      ↓
+- Loads /blog/my-post route
+- useCanonicalUrl('/my-post') sets <link rel="canonical">
+- Renders content
+                      ↓
+Response includes:
+- Content from signal-dispatch-blog app
+- Canonical URL: https://ninochavez.co/blog/my-post
+- Served under ninochavez.co domain
+```
+
+### Why This Architecture Wins
+
+1. **Separate Codebases**: Blog and portfolio can evolve independently
+2. **Unified Domain**: All SEO authority consolidates under ninochavez.co
+3. **Independent Deployments**: Blog deploys don't affect main site
+4. **Modular Growth**: Gallery, shop, etc. can be added the same way
+5. **SEO Consolidation**: One robots.txt, one domain authority, no duplicate content
+
+### Critical Implementation Points
+
+| Component | Location | Responsibility |
+|-----------|----------|----------------|
+| **Main robots.txt** | nino-chavez-website/static/robots.txt | Controls ALL crawler policies |
+| **Blog robots.txt** | signal-dispatch-blog/public/robots.txt | Blocks standalone deployment |
+| **Blog sitemap** | signal-dispatch-blog/public/sitemap.xml | Lists all ninochavez.co/blog/* URLs |
+| **Canonical tags** | signal-dispatch-blog/src/hooks/useCanonicalUrl.ts | Sets canonical on every page |
+| **Content-signal** | signal-dispatch-blog/vercel.json | Machine-readable permissions |
+
 ## Conclusion
 
-This implementation represents a **proactive assertion of data sovereignty** in the age of generative AI. Rather than passively allowing or reactively blocking AI crawlers, we've implemented a **strategic policy** that:
+This implementation represents a **proactive assertion of data sovereignty** in the age of generative AI, architected for a **multi-project Vercel rewrite strategy**. Rather than passively allowing or reactively blocking AI crawlers, we've implemented a **strategic policy** that:
 
 1. ✅ Maximizes the marketing value of thought leadership content
 2. ✅ Maintains explicit control over data usage
-3. ✅ Demonstrates modern web architecture principles
-4. ✅ Positions the blog for the AI-powered discovery era
+3. ✅ Consolidates SEO authority under a single domain (ninochavez.co)
+4. ✅ Prevents duplicate content penalties via canonical URLs
+5. ✅ Demonstrates modern web architecture principles
+6. ✅ Positions the blog for the AI-powered discovery era
 
-The default is no longer "open web." The default is **intentional permission with explicit terms**.
+**The Architecture Principle**: Separate projects, unified SEO, explicit control.
+
+The default is no longer "open web." The default is **intentional permission with explicit terms**, served through a carefully architected domain strategy.

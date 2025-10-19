@@ -10,6 +10,7 @@ import SourceBadge from '../components/SourceBadge';
 import { getAllPosts } from '../utils/mdx-loader';
 import type { BlogPost } from '../utils/mdx-loader';
 import { getCategoryColors } from '../utils/category-colors';
+import { useCanonicalUrl } from '../hooks/useCanonicalUrl';
 
 export default function BlogListPage() {
   const navigate = useNavigate();
@@ -20,6 +21,9 @@ export default function BlogListPage() {
   const [visiblePostCount, setVisiblePostCount] = useState(6);
 
   const POSTS_PER_PAGE = 6;
+
+  // Set canonical URL for blog index (ninochavez.co/blog)
+  useCanonicalUrl('');
 
   useEffect(() => {
     async function loadPosts() {

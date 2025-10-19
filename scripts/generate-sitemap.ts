@@ -7,7 +7,9 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SITE_URL = 'https://signal-dispatch-blog.vercel.app';
+// Site is served via rewrite from ninochavez.co/blog
+// All URLs must use the canonical domain for proper SEO
+const SITE_URL = 'https://ninochavez.co';
 
 interface SitemapUrl {
   loc: string;
@@ -52,15 +54,7 @@ async function generateSitemap() {
 
   const urls: SitemapUrl[] = [];
 
-  // Add homepage
-  urls.push({
-    loc: SITE_URL,
-    lastmod: formatDate(new Date()),
-    changefreq: 'daily',
-    priority: '1.0',
-  });
-
-  // Add blog index
+  // Add blog index (served via rewrite from ninochavez.co/blog)
   urls.push({
     loc: `${SITE_URL}/blog`,
     lastmod: formatDate(new Date()),

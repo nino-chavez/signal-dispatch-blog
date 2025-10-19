@@ -1,127 +1,31 @@
-# robots.txt for Signal Dispatch
-# Strategic AI crawler policy for thought leadership content
+# robots.txt for signal-dispatch-blog.vercel.app
 #
-# Philosophy: Maximize reach and brand presence while asserting data sovereignty
-# - ALLOW: AI training on published content (spreads ideas, builds reputation)
-# - ALLOW: Answer engines and discovery tools (drives attribution and traffic)
-# - STRATEGIC: Controlled access to Common Crawl (open redistribution)
-# - PROTECT: Internal resources and unpublished content
+# IMPORTANT: This site is served via rewrite from https://ninochavez.co/blog
+# All content should be indexed under the canonical domain, not this deployment URL.
 #
-# This demonstrates data sovereignty principles in the age of generative AI
+# This robots.txt prevents duplicate content indexing by blocking crawlers
+# from accessing the standalone Vercel deployment.
 
-# Default: Allow all crawlers
+# Block ALL crawlers from indexing this deployment URL
 User-agent: *
-Allow: /
+Disallow: /
 
 # ============================================================================
-# AI TRAINING CRAWLERS - Strategic Allow Policy
-# ============================================================================
-
-# OpenAI GPT (ChatGPT, API)
-# Strategy: Allow training on published content to build thought leadership presence
-# When AI answers "What does Nino Chavez write about?", it should know.
-User-agent: GPTBot
-Allow: /
-Allow: /manifest.json
-Allow: /rss.xml
-# Block drafts or admin areas if they exist in the future
-Disallow: /admin/
-Disallow: /drafts/
-
-# Anthropic Claude
-# Strategy: Same as GPT - build presence in Claude's knowledge base
-User-agent: ClaudeBot
-Allow: /
-Allow: /manifest.json
-Allow: /rss.xml
-Disallow: /admin/
-Disallow: /drafts/
-
-# Google Gemini (via Google-Extended)
-# Strategy: Allow training without affecting Google Search ranking
-# Note: Google-Extended is separate from Googlebot (search crawler)
-User-agent: Google-Extended
-Allow: /
-Allow: /manifest.json
-Allow: /rss.xml
-Disallow: /admin/
-Disallow: /drafts/
-
-# Common Crawl (CCBot)
-# Strategy: SELECTIVE ACCESS - open corpus is redistributed without attribution
-# Allow discovery but protect full content corpus
-# This is a defensive posture: allow indexing but not bulk training data extraction
-User-agent: CCBot
-Allow: /
-Allow: /manifest.json
-Allow: /rss.xml
-Disallow: /admin/
-Disallow: /drafts/
-# Crawl delay to prevent aggressive scraping
-Crawl-delay: 10
-
-# ============================================================================
-# DISCOVERY CRAWLERS - Full Allow (citation-based, not training)
-# ============================================================================
-
-# Perplexity AI - Discovery engine that cites sources
-# Strategy: Allow full access - drives traffic back with attribution
-User-agent: PerplexityBot
-Allow: /
-
-# ============================================================================
-# STANDARD SEARCH ENGINES - Full Allow
-# ============================================================================
-
-# Google Search (standard indexing)
-User-agent: Googlebot
-Allow: /
-
-# Bing Search
-User-agent: Bingbot
-Allow: /
-
-# ============================================================================
-# METADATA & DISCOVERY
-# ============================================================================
-
-# Sitemap location
-Sitemap: https://signal-dispatch-blog.vercel.app/sitemap.xml
-
-# ============================================================================
-# RATIONALE & DOCUMENTATION
+# CANONICAL DOMAIN REDIRECT
 # ============================================================================
 #
-# This robots.txt implements a strategic AEO (Answer Engine Optimization) policy
-# optimized for thought leadership content:
+# The canonical URL for this content is:
+#   https://ninochavez.co/blog
 #
-# 1. AI Model Training (GPT, Claude, Gemini):
-#    - ALLOW published content → Builds author reputation in AI knowledge bases
-#    - ALLOW RSS/manifest → Enables structured discovery
-#    - DISALLOW admin/drafts → Protects unpublished work
+# All SEO policies and crawler permissions are defined in the main robots.txt:
+#   https://ninochavez.co/robots.txt
 #
-# 2. Open Corpus (Common Crawl):
-#    - ALLOW with crawl delay → Balances discoverability with control
-#    - Common Crawl feeds many AI training datasets but offers no attribution
-#    - Crawl-delay limits aggressive bulk extraction
+# Sitemap is served at:
+#   https://ninochavez.co/blog/sitemap.xml
 #
-# 3. Discovery Engines (Perplexity):
-#    - Full access → Citation-based, drives traffic with attribution
+# This prevents:
+# - Duplicate content penalties
+# - Split SEO authority between domains
+# - Crawler confusion about canonical URLs
 #
-# 4. Traditional Search (Google, Bing):
-#    - Full access → Standard SEO optimization
-#
-# This approach:
-# - Maximizes brand presence in AI models (marketing value)
-# - Enables AI to cite and recommend content (referral value)
-# - Demonstrates data sovereignty in the GenAI era (strategic value)
-# - Protects against unfair value extraction (defensive value)
-#
-# For blog content, the value exchange is different from a portfolio:
-# - Blog posts are meant to spread ideas and build reputation
-# - AI training on this content increases discoverability and influence
-# - The content itself IS the marketing, not the product
-#
-# Data Sovereignty Assertion:
-# By explicitly defining these rules, we assert control over our content
-# in the age of generative AI, rather than defaulting to implicit permission.
+# All traffic should flow through ninochavez.co for unified domain authority.
