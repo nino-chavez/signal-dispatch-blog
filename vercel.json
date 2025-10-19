@@ -5,7 +5,14 @@
       "destination": "/index.html"
     },
     {
-      "source": "/blog/(.*)",
+      "source": "/blog/:slug",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": "text/html.*"
+        }
+      ],
       "destination": "/index.html"
     },
     {
