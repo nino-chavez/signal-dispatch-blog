@@ -10,8 +10,9 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Don't set base - the main site's rewrite handles the /blog prefix
-  // Assets will be at /assets/* and main site rewrites /blog/assets/* to here
+  // Set base to '/blog/' so assets are referenced as /blog/assets/*
+  // Main site strips /blog prefix: ninochavez.co/blog/assets/* → signal-dispatch-blog.vercel.app/assets/*
+  base: '/blog/',
   server: {
     port: 3000,
     strictPort: false,
