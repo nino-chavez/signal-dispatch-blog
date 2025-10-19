@@ -5,20 +5,83 @@
     <link>https://blog.nino.photos</link>
     <description>Architecture, commerce, and the signals that matter in the age of AI.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Oct 2025 04:02:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 20:26:19 GMT</lastBuildDate>
     <atom:link href="https://blog.nino.photos/rss.xml" rel="self" type="application/rss+xml" />
     <managingEditor>nino@signalreflex.studio (Nino Chavez)</managingEditor>
     <webMaster>nino@signalreflex.studio (Nino Chavez)</webMaster>
   <item>
-    <title>The Consultant&apos;s Dilemma: The Tax of Many Hats</title>
-    <link>https://blog.nino.photos/the-tax-of-many-hats</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-tax-of-many-hats</guid>
-    <pubDate>Thu, 02 Oct 2025 10:05:29 GMT</pubDate>
+    <title>The New Consulting Model: Adapt or Die</title>
+    <link>https://blog.nino.photos/the-new-consulting-model-adapt-or-die</link>
+    <guid isPermaLink="true">https://blog.nino.photos/the-new-consulting-model-adapt-or-die</guid>
+    <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>In corporate consulting, versatility is sold as a virtue. We are expected to be the strategist, the data analyst, the project manager, and the client whisperer—often in the same afternoon. We call this &quot;wearing many hats.&quot;</description>
-    <category>consulting-practice</category>
-    <category>personal-growth</category>
-    <category>systems-thinking</category>
+    <description>I&apos;m frequently asked how AI will change consulting. My initial response is optimistic. We&apos;re seeing a massive resurgence of high-skill roles: the Forward Deployed Engineer, the Automation Engineer...</description>
+    <category>consulting</category>
+    <category>architecture</category>
+  </item>
+  <item>
+    <title>The Consultant&apos;s Dilemma: The Tax of Many Hats</title>
+    <link>https://blog.nino.photos/the-consultants-dilemma-the-tax-of-many-hats</link>
+    <guid isPermaLink="true">https://blog.nino.photos/the-consultants-dilemma-the-tax-of-many-hats</guid>
+    <pubDate>Thu, 02 Oct 2025 15:07:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>In corporate consulting, versatility is sold as a virtue. We are expected to be the strategist, the data analyst, the project manager, and the client whisperer—often in the same afternoon. We call...</description>
+    <category>architecture</category>
+  </item>
+  <item>
+    <title>The Emperor Has No RAG: Why Your GenAI Strategy Is Built on Sand (Unless You Ask These Questions)</title>
+    <link>https://blog.nino.photos/the-emperor-has-no-rag-why-your-genai-strategy-is-built-on-sand-unless-you-ask-these-questions</link>
+    <guid isPermaLink="true">https://blog.nino.photos/the-emperor-has-no-rag-why-your-genai-strategy-is-built-on-sand-unless-you-ask-these-questions</guid>
+    <pubDate>Wed, 01 Oct 2025 08:36:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Let&apos;s be brutally honest. The GenAI world is awash with &quot;experts.&quot; You see them everywhere: shouting about &quot;paradigm shifts,&quot; &quot;synergistic AI transformations,&quot; and the inevitable disruption of......</description>
+    <category>architecture</category>
+  </item>
+  <item>
+    <title>Beyond the Copilot: Architecting for Autonomy with Claude Sonnet 4.5</title>
+    <link>https://blog.nino.photos/beyond-the-copilot-architecting-for-autonomy-with-claude-sonnet-45</link>
+    <guid isPermaLink="true">https://blog.nino.photos/beyond-the-copilot-architecting-for-autonomy-with-claude-sonnet-45</guid>
+    <pubDate>Tue, 30 Sep 2025 12:51:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>The age of the simple AI prompt is over. As models like Claude Sonnet 4.5 become more powerful, our role isn&apos;t just to ask questions—it&apos;s to architect a system for the AI to follow. Our prompts...</description>
+    <category>architecture</category>
+    <category>testing</category>
+  </item>
+  <item>
+    <title>AI Won&apos;t Take Your Job. It Will Redefine It. Your Reskilling Starts Now.</title>
+    <link>https://blog.nino.photos/ai-wont-take-your-job-it-will-redefine-it-your-reskilling-starts-now</link>
+    <guid isPermaLink="true">https://blog.nino.photos/ai-wont-take-your-job-it-will-redefine-it-your-reskilling-starts-now</guid>
+    <pubDate>Sun, 21 Sep 2025 19:50:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>For the past year, I&apos;ve heard the same refrain in a thousand different meetings: &quot;AI is not going to take your job, but a person using AI will.&quot;</description>
+    <category>devops</category>
+  </item>
+  <item>
+    <title>I Let a Bunch of AI Agents Rebuild My App. Here’s What Actually Worked.</title>
+    <link>https://blog.nino.photos/i-let-a-bunch-of-ai-agents-rebuild-my-app-heres-what-actually-worked</link>
+    <guid isPermaLink="true">https://blog.nino.photos/i-let-a-bunch-of-ai-agents-rebuild-my-app-heres-what-actually-worked</guid>
+    <pubDate>Wed, 17 Sep 2025 03:02:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Date: September 16, 2025</description>
+    <category>architecture</category>
+  </item>
+  <item>
+    <title>Moore&apos;s Law is sputtering. So what&apos;s really next for tech?</title>
+    <link>https://blog.nino.photos/moores-law-is-sputtering-so-whats-really-next-for-tech</link>
+    <guid isPermaLink="true">https://blog.nino.photos/moores-law-is-sputtering-so-whats-really-next-for-tech</guid>
+    <pubDate>Tue, 09 Sep 2025 21:17:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Remember when every new phone or laptop felt like a massive leap? That feeling is gone. Moore’s Law - the promise of doubling chip power every two years - is running out of steam.</description>
+
+  </item>
+  <item>
+    <title>Shipping with AI</title>
+    <link>https://blog.nino.photos/shipping-with-ai</link>
+    <guid isPermaLink="true">https://blog.nino.photos/shipping-with-ai</guid>
+    <pubDate>Thu, 04 Sep 2025 07:38:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>People ask if I’m doing model tuning, building agents, writing Python tools, or something else with AI.</description>
+
   </item>
   <item>
     <title>Measuring the Unowned Storefront: Observability for Agent Commerce</title>
@@ -32,6 +95,33 @@
     <category>systems-thinking</category>
   </item>
   <item>
+    <title>The 7–10 Year Evolution of the Web</title>
+    <link>https://blog.nino.photos/the-710-year-evolution-of-the-web</link>
+    <guid isPermaLink="true">https://blog.nino.photos/the-710-year-evolution-of-the-web</guid>
+    <pubDate>Fri, 22 Aug 2025 07:18:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>From Scroll to Stream, From Search to Answers</description>
+    <category>architecture</category>
+  </item>
+  <item>
+    <title>LLM Codegen and the Three Little Pigs</title>
+    <link>https://blog.nino.photos/llm-codegen-and-the-three-little-pigs</link>
+    <guid isPermaLink="true">https://blog.nino.photos/llm-codegen-and-the-three-little-pigs</guid>
+    <pubDate>Sun, 17 Aug 2025 19:45:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>I burned my app to the ground — yes, again.</description>
+
+  </item>
+  <item>
+    <title>The Coming Code: Why AI-Native Software Needs Standards, and How to Prepare</title>
+    <link>https://blog.nino.photos/the-coming-code-why-ai-native-software-needs-standards-and-how-to-prepare</link>
+    <guid isPermaLink="true">https://blog.nino.photos/the-coming-code-why-ai-native-software-needs-standards-and-how-to-prepare</guid>
+    <pubDate>Tue, 12 Aug 2025 23:08:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>We’re in the middle of an AI development gold rush.</description>
+    <category>devops</category>
+  </item>
+  <item>
     <title>The Elitist Trap</title>
     <link>https://blog.nino.photos/the-elitist-trap</link>
     <guid isPermaLink="true">https://blog.nino.photos/the-elitist-trap</guid>
@@ -40,6 +130,52 @@
     <description>A field guide for countering common traps of misguided experience.</description>
     <category>leadership</category>
     <category>personal-growth</category>
+  </item>
+  <item>
+    <title>When Your Framework Outgrows Your Ability to Explain It</title>
+    <link>https://blog.nino.photos/when-your-framework-outgrows-your-ability-to-explain-it</link>
+    <guid isPermaLink="true">https://blog.nino.photos/when-your-framework-outgrows-your-ability-to-explain-it</guid>
+    <pubDate>Sat, 09 Aug 2025 04:06:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>We’ve been shipping features in my AI-native framework at a ridiculous clip. So fast that during a call catching up with a friend, they asked:</description>
+    <category>architecture</category>
+  </item>
+  <item>
+    <title>🚨 Aegis Framework Constitutional Crisis: We Declared Martial Law on Ourselves</title>
+    <link>https://blog.nino.photos/aegis-framework-constitutional-crisis-we-declared-martial-law-on-ourselves</link>
+    <guid isPermaLink="true">https://blog.nino.photos/aegis-framework-constitutional-crisis-we-declared-martial-law-on-ourselves</guid>
+    <pubDate>Sat, 09 Aug 2025 02:17:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Status: Framework operations BLOCKED.</description>
+
+  </item>
+  <item>
+    <title>I Didn’t Write a Test. I Asked the System to Reflect.</title>
+    <link>https://blog.nino.photos/i-didnt-write-a-test-i-asked-the-system-to-reflect</link>
+    <guid isPermaLink="true">https://blog.nino.photos/i-didnt-write-a-test-i-asked-the-system-to-reflect</guid>
+    <pubDate>Fri, 08 Aug 2025 20:05:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>I don’t know if I’m doing this “right.”</description>
+    <category>architecture</category>
+    <category>ai-coding</category>
+  </item>
+  <item>
+    <title>The Storefront Isn’t Dead — It’s Becoming an AI-Optimized Validation Engine in a Shifting Commerce Landscape</title>
+    <link>https://blog.nino.photos/the-storefront-isnt-dead-its-becoming-an-ai-optimized-validation-engine-in-a-shifting-commerce-lands</link>
+    <guid isPermaLink="true">https://blog.nino.photos/the-storefront-isnt-dead-its-becoming-an-ai-optimized-validation-engine-in-a-shifting-commerce-lands</guid>
+    <pubDate>Fri, 08 Aug 2025 18:38:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Revisiting the original idea from this post.</description>
+    <category>architecture</category>
+  </item>
+  <item>
+    <title>Pay no attention to the man behind the curtain…</title>
+    <link>https://blog.nino.photos/pay-no-attention-to-the-man-behind-the-curtain</link>
+    <guid isPermaLink="true">https://blog.nino.photos/pay-no-attention-to-the-man-behind-the-curtain</guid>
+    <pubDate>Fri, 08 Aug 2025 06:19:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Is what I’m doing all smoke and mirrors?</description>
+
   </item>
   <item>
     <title>I’m Not Using GenAI. I’m Building a System Around It.</title>
@@ -104,6 +240,15 @@
     <category>ai-workflows</category>
   </item>
   <item>
+    <title>PUTTING MY MONEY WHERE MY MOUTH IS 💸🤖</title>
+    <link>https://blog.nino.photos/putting-my-money-where-my-mouth-is</link>
+    <guid isPermaLink="true">https://blog.nino.photos/putting-my-money-where-my-mouth-is</guid>
+    <pubDate>Sun, 03 Aug 2025 01:52:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>In one month I burned through:</description>
+    <category>devops</category>
+  </item>
+  <item>
     <title>🌀 The Paradox of Velocity in AI Coding</title>
     <link>https://blog.nino.photos/the-paradox-of-velocity-in-ai-coding</link>
     <guid isPermaLink="true">https://blog.nino.photos/the-paradox-of-velocity-in-ai-coding</guid>
@@ -113,6 +258,34 @@
     <category>ai-workflows</category>
     <category>personal-growth</category>
     <category>systems-thinking</category>
+  </item>
+  <item>
+    <title>The Next Compiler Is Semantic</title>
+    <link>https://blog.nino.photos/the-next-compiler-is-semantic</link>
+    <guid isPermaLink="true">https://blog.nino.photos/the-next-compiler-is-semantic</guid>
+    <pubDate>Sat, 02 Aug 2025 20:16:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>🚨 I FOUND THE COMPILER.</description>
+
+  </item>
+  <item>
+    <title>What my JSX-Free React App Really Taught Me About AI Coding</title>
+    <link>https://blog.nino.photos/what-my-jsx-free-react-app-really-taught-me-about-ai-coding</link>
+    <guid isPermaLink="true">https://blog.nino.photos/what-my-jsx-free-react-app-really-taught-me-about-ai-coding</guid>
+    <pubDate>Sat, 02 Aug 2025 16:50:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Let&apos;s be clear - I still don&apos;t really know what JSX is, but if i&apos;m asking AI the right questions, does it matter? Is this really no different then architecting systems based on principles and...</description>
+    <category>architecture</category>
+    <category>ai-coding</category>
+  </item>
+  <item>
+    <title>Why My React App Doesn’t Use JSX (And What That Taught Me About Building with AI)</title>
+    <link>https://blog.nino.photos/why-my-react-app-doesnt-use-jsx-and-what-that-taught-me-about-building-with-ai</link>
+    <guid isPermaLink="true">https://blog.nino.photos/why-my-react-app-doesnt-use-jsx-and-what-that-taught-me-about-building-with-ai</guid>
+    <pubDate>Sat, 02 Aug 2025 16:39:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Most React apps are JSX-first.</description>
+    <category>architecture</category>
   </item>
   <item>
     <title>I Still Don’t Really Know JSX. And I Don&apos;t Think It Matters.</title>
@@ -125,6 +298,24 @@
     <category>personal-growth</category>
   </item>
   <item>
+    <title>I Don’t Believe the Agentic AI Hype — and Here’s Why That’s Not Ignorance</title>
+    <link>https://blog.nino.photos/i-dont-believe-the-agentic-ai-hype-and-heres-why-thats-not-ignorance</link>
+    <guid isPermaLink="true">https://blog.nino.photos/i-dont-believe-the-agentic-ai-hype-and-heres-why-thats-not-ignorance</guid>
+    <pubDate>Sat, 02 Aug 2025 08:12:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Catching up with a peer recently and part of the conversation landed on — half-joking, half-incredulous — how I of all people, someone building software and systems with AI every day, don’t...</description>
+
+  </item>
+  <item>
+    <title>🔥 The Modern JS Stack Is a Masterpiece of Power — and a Catastrophe of Experience</title>
+    <link>https://blog.nino.photos/the-modern-js-stack-is-a-masterpiece-of-power-and-a-catastrophe-of-experience</link>
+    <guid isPermaLink="true">https://blog.nino.photos/the-modern-js-stack-is-a-masterpiece-of-power-and-a-catastrophe-of-experience</guid>
+    <pubDate>Fri, 01 Aug 2025 23:22:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Come at me.</description>
+    <category>architecture</category>
+  </item>
+  <item>
     <title>Even the AI Is Confused</title>
     <link>https://blog.nino.photos/even-the-ai-is-confused</link>
     <guid isPermaLink="true">https://blog.nino.photos/even-the-ai-is-confused</guid>
@@ -132,6 +323,15 @@
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>What My Stack Audit Revealed About Modern Dev</description>
     <category>ai-workflows</category>
+  </item>
+  <item>
+    <title>💡 I’ve been doing AI coding wrong (sort of)</title>
+    <link>https://blog.nino.photos/ive-been-doing-ai-coding-wrong-sort-of</link>
+    <guid isPermaLink="true">https://blog.nino.photos/ive-been-doing-ai-coding-wrong-sort-of</guid>
+    <pubDate>Fri, 01 Aug 2025 06:29:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Been deep in the zone building with AI tools like GPT, Kilo, and Lovable. Pairing them with Vite + Supabase to generate real production software. I’ve got a solid workflow. Clear prompt stacks....</description>
+    <category>ai-coding</category>
   </item>
   <item>
     <title>The Drift Beneath the Velocity</title>
@@ -154,6 +354,15 @@
     <category>systems-thinking</category>
   </item>
   <item>
+    <title>AI Ops: Docs-As-Contracts</title>
+    <link>https://blog.nino.photos/ai-ops-docs-as-contracts</link>
+    <guid isPermaLink="true">https://blog.nino.photos/ai-ops-docs-as-contracts</guid>
+    <pubDate>Thu, 31 Jul 2025 12:45:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Somewhere along the line of a big refactor, we broke our custom theme system.</description>
+    <category>architecture</category>
+  </item>
+  <item>
     <title>Skip the API: Building a Local ChatGPT Bridge for VS Code</title>
     <link>https://blog.nino.photos/skip-the-api-building-a-local-chatgpt-bridge-for-vs-code</link>
     <guid isPermaLink="true">https://blog.nino.photos/skip-the-api-building-a-local-chatgpt-bridge-for-vs-code</guid>
@@ -162,6 +371,16 @@
     <description>Can you skip the API and wire ChatGPT directly into VS Code? Turns out, yes — with a little browser magic. This post breaks down how I thought about building a local-first bridge that replaces Kilo and avoids token costs, all powered by curiosity and a builder’s mindset.</description>
     <category>ai-workflows</category>
     <category>systems-thinking</category>
+  </item>
+  <item>
+    <title>From QA Bottleneck to Autonomous Confidence: How I Built a Fully AI-Driven E2E Testing Framework</title>
+    <link>https://blog.nino.photos/from-qa-bottleneck-to-autonomous-confidence-how-i-built-a-fully-ai-driven-e2e-testing-framework</link>
+    <guid isPermaLink="true">https://blog.nino.photos/from-qa-bottleneck-to-autonomous-confidence-how-i-built-a-fully-ai-driven-e2e-testing-framework</guid>
+    <pubDate>Wed, 30 Jul 2025 19:44:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Shipping used to mean stress.</description>
+    <category>architecture</category>
+    <category>testing</category>
   </item>
   <item>
     <title>From Copilot to Enforcer: The AI Maturity Spectrum for Developers</title>
@@ -195,6 +414,53 @@
     <category>consulting-practice</category>
   </item>
   <item>
+    <title>From Prompt to Product: Building Demo Mode in Week 2</title>
+    <link>https://blog.nino.photos/from-prompt-to-product-building-demo-mode-in-week-2</link>
+    <guid isPermaLink="true">https://blog.nino.photos/from-prompt-to-product-building-demo-mode-in-week-2</guid>
+    <pubDate>Wed, 30 Jul 2025 06:53:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>🧱 Week 1: Build the foundation</description>
+    <category>testing</category>
+  </item>
+  <item>
+    <title>When Control Matters: Behind the Decision to Build Feature Toggles Into the Bracket App</title>
+    <link>https://blog.nino.photos/when-control-matters-behind-the-decision-to-build-feature-toggles-into-the-bracket-app</link>
+    <guid isPermaLink="true">https://blog.nino.photos/when-control-matters-behind-the-decision-to-build-feature-toggles-into-the-bracket-app</guid>
+    <pubDate>Wed, 30 Jul 2025 02:24:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>Sometimes the feature isn’t for the user.</description>
+
+  </item>
+  <item>
+    <title>WHEN FAST ISN’T FAST ENOUGH: The shift from AI coding to AI concurrency</title>
+    <link>https://blog.nino.photos/when-fast-isnt-fast-enough-the-shift-from-ai-coding-to-ai-concurrency</link>
+    <guid isPermaLink="true">https://blog.nino.photos/when-fast-isnt-fast-enough-the-shift-from-ai-coding-to-ai-concurrency</guid>
+    <pubDate>Wed, 30 Jul 2025 02:22:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>There’s a strange kind of bottleneck that only shows up after you’ve gotten fast.</description>
+    <category>architecture</category>
+    <category>testing</category>
+    <category>ai-coding</category>
+  </item>
+  <item>
+    <title>Show Your Work: Designing AI-Enforced Safeguards</title>
+    <link>https://blog.nino.photos/show-your-work-designing-ai-enforced-safeguards</link>
+    <guid isPermaLink="true">https://blog.nino.photos/show-your-work-designing-ai-enforced-safeguards</guid>
+    <pubDate>Tue, 29 Jul 2025 20:12:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>This isn’t magic. It’s thoughtful infrastructure.</description>
+
+  </item>
+  <item>
+    <title>Fix It Once, Prevent It Forever: How I Made a Dropdown Bug Impossible to Reintroduce</title>
+    <link>https://blog.nino.photos/fix-it-once-prevent-it-forever-how-i-made-a-dropdown-bug-impossible-to-reintroduce</link>
+    <guid isPermaLink="true">https://blog.nino.photos/fix-it-once-prevent-it-forever-how-i-made-a-dropdown-bug-impossible-to-reintroduce</guid>
+    <pubDate>Tue, 29 Jul 2025 05:16:00 GMT</pubDate>
+    <author>nino@signalreflex.studio (Nino Chavez)</author>
+    <description>This one started like a lot of bugs do: Dropdowns weren’t updating after a bulk import. The data was there, the page reloaded, but the dropdowns stayed stale. Console warnings, frustrated...</description>
+    <category>architecture</category>
+  </item>
+  <item>
     <title>Who Reviewed the Reviewer?</title>
     <link>https://blog.nino.photos/who-reviewed-the-reviewer</link>
     <guid isPermaLink="true">https://blog.nino.photos/who-reviewed-the-reviewer</guid>
@@ -208,315 +474,24 @@ We’re debugging the system that teaches itself how to review.</description>
     <category>personal-growth</category>
   </item>
   <item>
-    <title>Tokens Are Dev Hours. Waste Is a Feature, Not a Bug.</title>
-    <link>https://blog.nino.photos/tokens-are-dev-hours</link>
-    <guid isPermaLink="true">https://blog.nino.photos/tokens-are-dev-hours</guid>
-    <pubDate>Mon, 28 Jul 2025 16:00:25 GMT</pubDate>
+    <title>Designing for Environments, Not Just Themes: A Volleyball App UX Case Study</title>
+    <link>https://blog.nino.photos/designing-for-environments-not-just-themes-a-volleyball-app-ux-case-study</link>
+    <guid isPermaLink="true">https://blog.nino.photos/designing-for-environments-not-just-themes-a-volleyball-app-ux-case-study</guid>
+    <pubDate>Tue, 29 Jul 2025 00:43:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>With AI development, waste isn’t hidden in team velocity or burndown charts — it’s itemized on your invoice. That’s not a flaw. It’s a feature.</description>
-    <category>ai-workflows</category>
-    <category>personal-growth</category>
-    <category>systems-thinking</category>
+    <description>Most apps toggle between &quot;light&quot; and &quot;dark.&quot; Ours needed more.</description>
+    <category>testing</category>
   </item>
   <item>
-    <title>The AI Engineer Has Joined the Team. Now What?</title>
-    <link>https://blog.nino.photos/the-ai-engineer-has-joined-the-team</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-ai-engineer-has-joined-the-team</guid>
-    <pubDate>Sun, 27 Jul 2025 11:52:08 GMT</pubDate>
+    <title>One Week, One Developer, One Production System: How I Used AI to Build and Harden the LPO Bracket Manager</title>
+    <link>https://blog.nino.photos/one-week-one-developer-one-production-system-how-i-used-ai-to-build-and-harden-the-lpo-bracket-manag</link>
+    <guid isPermaLink="true">https://blog.nino.photos/one-week-one-developer-one-production-system-how-i-used-ai-to-build-and-harden-the-lpo-bracket-manag</guid>
+    <pubDate>Mon, 28 Jul 2025 18:41:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>AI isn’t just accelerating software development — it’s reorganizing it. This post unpacks what changes when you start designing teams, tools, and processes around a human–AI hybrid model. Planning shifts. Costs shift. Roles shift. The real question is: are we ready to shift with it?</description>
-    <category>ai-workflows</category>
-    <category>leadership</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>From Fear to Flow: How Building a Tournament Manager App Taught Me to Scale with AI</title>
-    <link>https://blog.nino.photos/from-fear-to-flow</link>
-    <guid isPermaLink="true">https://blog.nino.photos/from-fear-to-flow</guid>
-    <pubDate>Fri, 25 Jul 2025 13:55:52 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>I didn’t start with a strategy. I started with fear. Here’s how a grassroots volleyball app turned into my personal AI bootcamp—and the repeatable framework I built along the way.</description>
-    <category>ai-workflows</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>My AI Engineering Team</title>
-    <link>https://blog.nino.photos/m-ai-engineering-team</link>
-    <guid isPermaLink="true">https://blog.nino.photos/m-ai-engineering-team</guid>
-    <pubDate>Wed, 23 Jul 2025 15:53:59 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>I didn’t set out to build an AI team. I just started with ChatGPT prompts for Lovable AI. Over time, it evolved into managing a layered squad of AI tools—architects, coders, and reviewers—working together like a real dev team. This changed how I work and lead AI-assisted projects.</description>
-    <category>ai-workflows</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>Getting Unstuck: Why We Start With a Sketch</title>
-    <link>https://blog.nino.photos/start-with-a-sketch</link>
-    <guid isPermaLink="true">https://blog.nino.photos/start-with-a-sketch</guid>
-    <pubDate>Tue, 22 Jul 2025 15:36:55 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Projects stall when we confuse blockers with priorities. This post explores the “desk-building” metaphor to help teams stop over-planning and start making progress — by sketching first, sorting screws later.</description>
-    <category>consulting-practice</category>
-  </item>
-  <item>
-    <title>When You Start to Hear the Music</title>
-    <link>https://blog.nino.photos/when-you-start-to-hear-the-music</link>
-    <guid isPermaLink="true">https://blog.nino.photos/when-you-start-to-hear-the-music</guid>
-    <pubDate>Thu, 10 Jul 2025 23:58:06 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>What happens when AI sharpens your mind, but drifts you further from those who don’t think that way? This post explores the private cost of clarity — and the quiet grief that comes from outgrowing the resolution your old relationships were built on.</description>
-    <category>ai-workflows</category>
-    <category>personal-growth</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>The Risk of Asking “Do You Smell That?” When There’s No Fire</title>
-    <link>https://blog.nino.photos/do-you-smell-smoke</link>
-    <guid isPermaLink="true">https://blog.nino.photos/do-you-smell-smoke</guid>
-    <pubDate>Wed, 09 Jul 2025 20:52:53 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>In consulting, sensing a problem feels like smelling smoke. But is there really a fire? This piece explores when to speak up and when to hold back — balancing risk detection with protecting people from blame. Leadership is often about navigating that tension with care.</description>
-    <category>consulting-practice</category>
-    <category>leadership</category>
-  </item>
-  <item>
-    <title>From Pattern to People</title>
-    <link>https://blog.nino.photos/from-pattern-to-people</link>
-    <guid isPermaLink="true">https://blog.nino.photos/from-pattern-to-people</guid>
-    <pubDate>Tue, 08 Jul 2025 12:01:17 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>The hidden cost of clarity in an AI-shaped mind</description>
-    <category>ai-workflows</category>
-    <category>personal-growth</category>
-  </item>
-  <item>
-    <title>Still Your Car. Still Your Wrench.</title>
-    <link>https://blog.nino.photos/still-your-car-still-your-wrench</link>
-    <guid isPermaLink="true">https://blog.nino.photos/still-your-car-still-your-wrench</guid>
-    <pubDate>Sun, 06 Jul 2025 22:58:22 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>What AI Coding Tools Don’t Tell You About Building Real Software</description>
-    <category>ai-workflows</category>
-  </item>
-  <item>
-    <title>From Prompt to Pattern</title>
-    <link>https://blog.nino.photos/from-prompt-to-pattern</link>
-    <guid isPermaLink="true">https://blog.nino.photos/from-prompt-to-pattern</guid>
-    <pubDate>Wed, 02 Jul 2025 02:38:18 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>This post wraps my “Help Me Help You” arc and opens a new question: If precision makes AI more effective, does it also increase human disconnection? I’ve felt the drift. The next thread I’m pulling on is: how to stay human inside all this structure.</description>
-    <category>ai-workflows</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>How I Work With AIs (And Why)</title>
-    <link>https://blog.nino.photos/how-i-work-with-ais-and-why</link>
-    <guid isPermaLink="true">https://blog.nino.photos/how-i-work-with-ais-and-why</guid>
-    <pubDate>Wed, 02 Jul 2025 02:31:57 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>A behind-the-scenes look at how I use GPT and Lovable together. One rewrites the prompt. One generates the code. I just define the intent — and stay out of the way. This isn’t a tech stack. It’s a new mode of working.</description>
-    <category>ai-workflows</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>Prompt Strategists, Agent Orchestras, and What Comes Next</title>
-    <link>https://blog.nino.photos/prompt-strategists-agent-orchestras-and-what-comes-next</link>
-    <guid isPermaLink="true">https://blog.nino.photos/prompt-strategists-agent-orchestras-and-what-comes-next</guid>
-    <pubDate>Wed, 02 Jul 2025 02:27:30 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Prompting is evolving into orchestration. One AI clarifies, another executes, a third checks the result. We’re entering an era where modular intelligence matters — and prompts become the interface between thinking systems.</description>
-    <category>ai-workflows</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>When One AI Rewrites for Another</title>
-    <link>https://blog.nino.photos/when-one-ai-rewrites-for-another</link>
-    <guid isPermaLink="true">https://blog.nino.photos/when-one-ai-rewrites-for-another</guid>
-    <pubDate>Wed, 02 Jul 2025 02:22:49 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Prompt rewriting isn’t just a clever trick — it’s becoming core infrastructure. From cloud tools to agent chains, we’re seeing a shift: one AI clarifies the ask, another executes. The result? Fewer errors. Smarter systems.</description>
-    <category>ai-workflows</category>
-  </item>
-  <item>
-    <title>Help Me Help You (Help Me)</title>
-    <link>https://blog.nino.photos/help-me-help-you-help-me</link>
-    <guid isPermaLink="true">https://blog.nino.photos/help-me-help-you-help-me</guid>
-    <pubDate>Wed, 02 Jul 2025 02:15:12 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>One AI helps another do its job better. I use GPT to rewrite prompts for Lovable — cutting errors, saving time, and revealing a deeper pattern: intent → refiner → executor. This isn’t just prompt cleanup. It’s the start of a new architecture.</description>
-    <category>ai-workflows</category>
-  </item>
-  <item>
-    <title>How I Used One AI to Train Another: A Tactical Reset in Data Architecture and AI Tooling Strategy</title>
-    <link>https://blog.nino.photos/the-ai-approach-reset</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-ai-approach-reset</guid>
-    <pubDate>Mon, 30 Jun 2025 20:50:47 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Like most devs experimenting with AI tools, I’ve found myself juggling multiple platforms, APIs, and half-understood schemas to build things faster. Sometimes it works. Other times, it works against you.</description>
-    <category>ai-workflows</category>
-    <category>consulting-practice</category>
-    <category>leadership</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>$50 of AI Later: Lessons from Burning Credits Fast</title>
-    <link>https://blog.nino.photos/50-of-ai-later-lessons-from-burning-credits-fast</link>
-    <guid isPermaLink="true">https://blog.nino.photos/50-of-ai-later-lessons-from-burning-credits-fast</guid>
-    <pubDate>Sun, 29 Jun 2025 06:09:06 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>AI credits vanished quickly, highlighting hidden costs and forcing clarity into my development process. Here&apos;s how a $50 investment turned into a practical blueprint for smarter AI‑assisted builds.</description>
-    <category>ai-workflows</category>
-    <category>craft</category>
-  </item>
-  <item>
-    <title>The Lost‑Phone Test for AI: Could Your Org Still Function Tomorrow?</title>
-    <link>https://blog.nino.photos/the-lost-phone-test-for-ai-could-your-org-still-function-tomorrow</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-lost-phone-test-for-ai-could-your-org-still-function-tomorrow</guid>
-    <pubDate>Sat, 28 Jun 2025 02:49:06 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Dropped phone, lost life. Same test applies to corporate AI: if your copilots vanished tomorrow, would work even slow down? The “Lost-Phone Test” exposes integration gaps and makes the case for a Chief Intelligence Officer to weave tools into real workflows.</description>
-    <category>ai-workflows</category>
-    <category>leadership</category>
-    <category>personal-growth</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>Overnight Dev: From Rage-Quit to Release in 72 Hours—With AI Riding Shotgun</title>
-    <link>https://blog.nino.photos/overnight-dev-from-rage-quit-to-release-in-72-hours-with-ai-riding-shotgun</link>
-    <guid isPermaLink="true">https://blog.nino.photos/overnight-dev-from-rage-quit-to-release-in-72-hours-with-ai-riding-shotgun</guid>
-    <pubDate>Fri, 27 Jun 2025 20:15:03 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Burned-out coder to live app in one weekend: two failed scrapers, one hidden JSON API, and AI tools that scaffolded the rest. How DevTools + GPT turned AES volleyball data into an MVP—and why your next Jira ticket might build itself.</description>
-    <category>ai-workflows</category>
-    <category>craft</category>
-  </item>
-  <item>
-    <title>It’s Time for the CIO 2.0</title>
-    <link>https://blog.nino.photos/its-time-for-the-cio-2-0</link>
-    <guid isPermaLink="true">https://blog.nino.photos/its-time-for-the-cio-2-0</guid>
-    <pubDate>Fri, 27 Jun 2025 05:27:55 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Most AI conversations start in the wrong place — with tools, not capabilities. What’s missing isn’t another pilot. It’s a new executive role: someone to steward how your organization thinks, learns, and evolves.</description>
-    <category>ai-workflows</category>
-    <category>leadership</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>Not Just Fast, But Together</title>
-    <link>https://blog.nino.photos/not-just-fast-but-together</link>
-    <guid isPermaLink="true">https://blog.nino.photos/not-just-fast-but-together</guid>
-    <pubDate>Wed, 25 Jun 2025 16:33:35 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>If you want to go fast, go alone; if you want to go far, go together</description>
-    <category>leadership</category>
-    <category>personal-growth</category>
-  </item>
-  <item>
-    <title>Is Resilience a Systems Problem?</title>
-    <link>https://blog.nino.photos/is-resilience-a-systems-problem</link>
-    <guid isPermaLink="true">https://blog.nino.photos/is-resilience-a-systems-problem</guid>
-    <pubDate>Wed, 25 Jun 2025 16:33:26 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>In my last post, I wrote about the shift from shutdown to speedrun — how we’ve had to adapt, over and over again, just to keep moving. First to survive the pandemic. Now to keep up with AI.</description>
-    <category>personal-growth</category>
-  </item>
-  <item>
-    <title>From Shutdown to Speedrun</title>
-    <link>https://blog.nino.photos/from-shutdown-to-speedrun</link>
-    <guid isPermaLink="true">https://blog.nino.photos/from-shutdown-to-speedrun</guid>
-    <pubDate>Wed, 25 Jun 2025 16:33:16 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>The Cost of Surviving the Age of Constant Upgrades</description>
-    <category>ai-workflows</category>
-    <category>personal-growth</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>Strength Through Repetition</title>
-    <link>https://blog.nino.photos/strength-through-repetition</link>
-    <guid isPermaLink="true">https://blog.nino.photos/strength-through-repetition</guid>
-    <pubDate>Tue, 24 Jun 2025 20:22:33 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>The page isn’t the enemy. The page is the gym. You don’t show up to look good. You show up to build grip. Form. Force. Reps. That’s how the voice gets real.</description>
-    <category>personal-growth</category>
-  </item>
-  <item>
-    <title>Reinvention &gt; Transformation</title>
-    <link>https://blog.nino.photos/reinvention-transformation</link>
-    <guid isPermaLink="true">https://blog.nino.photos/reinvention-transformation</guid>
-    <pubDate>Tue, 24 Jun 2025 19:00:51 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Most reorgs I’ve seen are just corporate feng shui — shift a few boxes, rename a few titles, pretend it’s visionary. But this one? This one actually maps to something real. For once, the language isn’t just for clients — it mirrors what I’ve been doing in my own damn operating system.</description>
-    <category>commerce-strategy</category>
-    <category>consulting-practice</category>
-  </item>
-  <item>
-    <title>You’re Sending Self-Driving Cars Down Unmarked Roads</title>
-    <link>https://blog.nino.photos/youre-sending-self-driving-cars-down-unmarked-roads</link>
-    <guid isPermaLink="true">https://blog.nino.photos/youre-sending-self-driving-cars-down-unmarked-roads</guid>
-    <pubDate>Mon, 23 Jun 2025 01:51:09 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>AI doesn’t fail because it’s bad — it fails because your data lacks the infrastructure it needs to navigate. Language models don’t just search — they interpret. Most orgs haven’t built for that.</description>
-    <category>ai-workflows</category>
-    <category>commerce-strategy</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>The MVP Mirage</title>
-    <link>https://blog.nino.photos/the-mvp-mirage</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-mvp-mirage</guid>
-    <pubDate>Fri, 20 Jun 2025 07:30:29 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Most MVPs aren’t minimum or viable — they’re just premature.</description>
-    <category>consulting-practice</category>
-    <category>systems-thinking</category>
-  </item>
-  <item>
-    <title>Leadership Reflection</title>
-    <link>https://blog.nino.photos/leadership-reflection</link>
-    <guid isPermaLink="true">https://blog.nino.photos/leadership-reflection</guid>
-    <pubDate>Thu, 19 Jun 2025 13:22:15 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>One of the easiest traps to fall into as a leader or expert is assuming we already understand. That assumption — even when subtle — shuts down curiosity, slows progress, and can quietly place the burden of clarity on everyone but ourselves.</description>
-    <category>leadership</category>
-    <category>personal-growth</category>
-  </item>
-  <item>
-    <title>ChatGPT Doesn’t Eat—So Why Do I Keep Asking It to Cook?</title>
-    <link>https://blog.nino.photos/chatgpt-doesnt-eat-so-why-do-i-keep-asking-it-to-cook</link>
-    <guid isPermaLink="true">https://blog.nino.photos/chatgpt-doesnt-eat-so-why-do-i-keep-asking-it-to-cook</guid>
-    <pubDate>Wed, 18 Jun 2025 18:31:51 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>LLMs can draft the menu, but you still have to taste the sauce. Here’s my field-note recipe for closing the fidelity gap between what ChatGPT writes and what actually works.</description>
-    <category>ai-workflows</category>
-  </item>
-  <item>
-    <title>Experience Is Loud—Turn It Down So You Can Learn</title>
-    <link>https://blog.nino.photos/experience-is-loud-turn-it-down-so-you-can-learn</link>
-    <guid isPermaLink="true">https://blog.nino.photos/experience-is-loud-turn-it-down-so-you-can-learn</guid>
-    <pubDate>Wed, 18 Jun 2025 17:30:02 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Hard‑won patterns sound like wisdom—until they echo so loudly you miss new ideas. This month I learned: AI model tuning isn’t just prompting, shutter‑speed instincts fail at 60 fps video, and Figma spacing ≠ CSS. Beginner reps, reverse mentorship, and stranger audits keep the channel clear.</description>
-    <category>personal-growth</category>
-  </item>
-  <item>
-    <title>The Cake Is a Lie: Why AI Isn’t Ready</title>
-    <link>https://blog.nino.photos/the-cake-is-a-lie-why-ai-isnt-ready</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-cake-is-a-lie-why-ai-isnt-ready</guid>
-    <pubDate>Tue, 17 Jun 2025 04:13:37 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Everyone says AI can build for you — that you just describe the thing, and it ships itself. But I actually tried. I took it seriously. And what I found was brittle, inconsistent, and full of guesswork. If it took this much effort to build a landing page, what happens when the stakes are higher?</description>
-    <category>ai-workflows</category>
-  </item>
-  <item>
-    <title>Signal or Spectacle?</title>
-    <link>https://blog.nino.photos/signal-or-spectacle</link>
-    <guid isPermaLink="true">https://blog.nino.photos/signal-or-spectacle</guid>
-    <pubDate>Mon, 16 Jun 2025 19:39:14 GMT</pubDate>
-    <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description>Even when I’m not trying to posture, sometimes it feels like the platform does it for me. This is about the moment when sharing something honest starts to feel like a performance — and how I’m trying to stay grounded in signal, not spectacle.</description>
-    <category>personal-growth</category>
-    <category>systems-thinking</category>
+    <description>In just seven days, I built a production-grade bracket and pool play management system — solo — using AI copilots, a structured prompt workflow, and modern web tooling. This isn’t a demo or proof...</description>
+    <category>architecture</category>
+    <category>devops</category>
+    <category>ai-coding</category>
   </item>
   </channel>
 </rss>

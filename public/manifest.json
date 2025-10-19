@@ -1,6 +1,21 @@
 {
   "posts": [
     {
+      "slug": "the-new-consulting-model-adapt-or-die",
+      "title": "The New Consulting Model: Adapt or Die",
+      "publishedAt": "2025-10-16T00:00:00.000Z",
+      "excerpt": "I'm frequently asked how AI will change consulting. My initial response is optimistic. We're seeing a massive resurgence of high-skill roles: the Forward Deployed Engineer, the Automation Engineer...",
+      "category": "AI & Automation",
+      "tags": [
+        "consulting",
+        "architecture"
+      ],
+      "featured": false,
+      "author": "Nino Chavez",
+      "source": "linkedin",
+      "linkedinUrl": "https://www.linkedin.com/pulse/new-consulting-model-adapt-die-nino-chavez-w7dcc"
+    },
+    {
       "slug": "the-consultants-dilemma-the-tax-of-many-hats",
       "title": "The Consultant's Dilemma: The Tax of Many Hats",
       "publishedAt": "2025-10-02T15:07:00.000Z",
@@ -13,21 +28,6 @@
       "author": "Nino Chavez",
       "source": "linkedin",
       "linkedinUrl": "https://www.linkedin.com/pulse/consultants-dilemma-tax-many-hats-nino-chavez-fwrkc"
-    },
-    {
-      "slug": "the-tax-of-many-hats",
-      "title": "The Consultant's Dilemma: The Tax of Many Hats",
-      "publishedAt": "2025-10-02T10:05:29.000Z",
-      "excerpt": "In corporate consulting, versatility is sold as a virtue. We are expected to be the strategist, the data analyst, the project manager, and the client whisperer—often in the same afternoon. We call this \"wearing many hats.\"",
-      "category": "Consulting",
-      "tags": [
-        "consulting-practice",
-        "personal-growth",
-        "systems-thinking"
-      ],
-      "featured": false,
-      "author": "Nino Chavez",
-      "featureImage": "https://images.unsplash.com/photo-1691333940475-86ad642083e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQ0fHxvcmNoZXN0cmF8ZW58MHx8fHwxNzU5Mzk5NDcyfDA&ixlib=rb-4.1.0&q=80&w=2000"
     },
     {
       "slug": "the-emperor-has-no-rag-why-your-genai-strategy-is-built-on-sand-unless-you-ask-these-questions",
@@ -2101,6 +2101,7 @@
     "ai-workflows",
     "architecture",
     "commerce-strategy",
+    "consulting",
     "consulting-practice",
     "craft",
     "devops",
@@ -2110,12 +2111,12 @@
     "testing"
   ],
   "categoryCounts": {
-    "AI & Automation": 77,
+    "AI & Automation": 78,
     "Field Notes": 5,
     "Reflections": 17,
     "Leadership": 14,
     "Meta": 11,
-    "Consulting": 2,
+    "Consulting": 1,
     "Philosophy": 8,
     "Commerce": 8,
     "Insights": 1
@@ -2124,15 +2125,16 @@
     "ai-workflows": 60,
     "craft": 6,
     "leadership": 30,
-    "systems-thinking": 53,
-    "personal-growth": 60,
-    "architecture": 17,
+    "systems-thinking": 52,
+    "personal-growth": 59,
+    "architecture": 18,
     "devops": 4,
     "commerce-strategy": 11,
     "testing": 6,
-    "consulting-practice": 13,
-    "ai-coding": 7
+    "consulting-practice": 12,
+    "ai-coding": 7,
+    "consulting": 1
   },
   "totalPosts": 153,
-  "lastGenerated": "2025-10-14T00:23:14.978Z"
+  "lastGenerated": "2025-10-19T20:26:19.652Z"
 }

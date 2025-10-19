@@ -10,6 +10,9 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Set base to '/blog/' for production builds
+  // This ensures all asset paths are /blog/assets/* instead of /assets/*
+  base: '/blog/',
   server: {
     port: 3000,
     strictPort: false,
