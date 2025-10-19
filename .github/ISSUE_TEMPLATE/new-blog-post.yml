@@ -1,0 +1,96 @@
+name: New Blog Post
+description: Publish a new blog post from Gemini or other content
+title: "[Blog] "
+labels: ["blog-automation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Publish New Blog Post
+
+        Paste your content from Gemini (or anywhere else) and fill in the metadata below.
+        The automation will format it as MDX and publish it automatically.
+
+  - type: input
+    id: title
+    attributes:
+      label: Post Title
+      description: The main title for your blog post
+      placeholder: "The Future of AI Consulting"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Primary category for this post
+      options:
+        - AI & Automation
+        - Consulting
+        - Architecture
+        - Systems Thinking
+        - Development
+        - Product
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags (e.g., "ai, consulting, strategy")
+      placeholder: "ai, consulting, strategy"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: featured
+    attributes:
+      label: Featured Post?
+      description: Should this appear as a featured post?
+      options:
+        - "No"
+        - "Yes"
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Where was this originally published? (e.g., "gemini", "linkedin", "original")
+      placeholder: "gemini"
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL (optional)
+      description: Original URL if published elsewhere (leave blank if original content)
+      placeholder: "https://linkedin.com/..."
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: Paste your full article content here (Markdown format)
+      placeholder: |
+        Paste your content from Gemini here...
+
+        The automation will format it properly for the blog.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Pre-publish Checklist
+      description: Confirm before publishing
+      options:
+        - label: I have reviewed the content for accuracy
+          required: true
+        - label: The title and metadata are correct
+          required: true
