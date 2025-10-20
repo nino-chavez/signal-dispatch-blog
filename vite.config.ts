@@ -10,9 +10,9 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Set base to '/blog/' so assets are referenced as /blog/assets/*
-  // Main site strips /blog prefix: ninochavez.co/blog/assets/* → signal-dispatch-blog.vercel.app/assets/*
-  base: '/blog/',
+  // App is served from subdomain blog.ninochavez.co
+  // Assets are referenced from root: blog.ninochavez.co/assets/*
+  base: '/',
   server: {
     port: 3000,
     strictPort: false,

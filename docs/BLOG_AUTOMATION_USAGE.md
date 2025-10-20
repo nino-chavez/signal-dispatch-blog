@@ -119,7 +119,7 @@ The automation will:
 ### 5. Verify
 
 - Check the issue for a success comment
-- Visit `ninochavez.co/blog` to see your post (wait ~2 min for build)
+- Visit `blog.ninochavez.co` to see your post (wait ~2 min for build)
 - The issue will be closed automatically
 
 ## Example

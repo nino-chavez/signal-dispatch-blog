@@ -19,7 +19,7 @@ export default function BlogPostPage() {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Set canonical URL for SEO (ninochavez.co/blog/:slug)
+  // Set canonical URL for SEO (blog.ninochavez.co/:slug)
   useCanonicalUrl(slug ? `/${slug}` : '');
 
   useEffect(() => {
@@ -185,7 +185,7 @@ export default function BlogPostPage() {
               {/* Social Sharing */}
               <div className="pt-8 pb-8 border-t border-zinc-800/50">
                 <SocialShare
-                  url={`https://ninochavez.co/blog/${post.slug}`}
+                  url={`https://blog.ninochavez.co/${post.slug}`}
                   title={post.title}
                   excerpt={post.excerpt}
                 />

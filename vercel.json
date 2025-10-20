@@ -1,11 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/blog",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/blog/:slug",
+      "source": "/:slug",
       "has": [
         {
           "type": "header",
@@ -14,10 +10,6 @@
         }
       ],
       "destination": "/index.html"
-    },
-    {
-      "source": "/",
-      "destination": "/blog"
     }
   ],
   "headers": [

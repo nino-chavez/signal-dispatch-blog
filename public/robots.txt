@@ -1,31 +1,25 @@
-# robots.txt for signal-dispatch-blog.vercel.app
+# robots.txt for blog.ninochavez.co
 #
-# IMPORTANT: This site is served via rewrite from https://ninochavez.co/blog
-# All content should be indexed under the canonical domain, not this deployment URL.
-#
-# This robots.txt prevents duplicate content indexing by blocking crawlers
-# from accessing the standalone Vercel deployment.
+# This is the canonical domain for Nino Chavez's blog.
+# All content is indexed here to maintain unified SEO authority.
 
-# Block ALL crawlers from indexing this deployment URL
+# Allow all crawlers
 User-agent: *
-Disallow: /
+Allow: /
+
+# Sitemap location
+Sitemap: https://blog.ninochavez.co/sitemap.xml
+
+# Crawl rate optimization
+# Request polite crawling - allow sufficient time between requests
+Crawl-delay: 1
 
 # ============================================================================
-# CANONICAL DOMAIN REDIRECT
+# SEO NOTES
 # ============================================================================
 #
-# The canonical URL for this content is:
-#   https://ninochavez.co/blog
+# This subdomain (blog.ninochavez.co) is the canonical location for all blog content.
+# Main site (ninochavez.co) redirects /blog traffic here via 301 redirect.
 #
-# All SEO policies and crawler permissions are defined in the main robots.txt:
-#   https://ninochavez.co/robots.txt
-#
-# Sitemap is served at:
-#   https://ninochavez.co/blog/sitemap.xml
-#
-# This prevents:
-# - Duplicate content penalties
-# - Split SEO authority between domains
-# - Crawler confusion about canonical URLs
-#
-# All traffic should flow through ninochavez.co for unified domain authority.
+# All pages set proper canonical URLs via <link rel="canonical"> tags.
+# Social sharing uses blog.ninochavez.co URLs for og:url meta tags.

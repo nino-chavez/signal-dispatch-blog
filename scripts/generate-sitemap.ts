@@ -7,9 +7,9 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Site is served via rewrite from ninochavez.co/blog
-// All URLs must use the canonical domain for proper SEO
-const SITE_URL = 'https://ninochavez.co';
+// Site is served from subdomain blog.ninochavez.co
+// All URLs must use the canonical subdomain for proper SEO
+const SITE_URL = 'https://blog.ninochavez.co';
 
 interface SitemapUrl {
   loc: string;
@@ -54,9 +54,9 @@ async function generateSitemap() {
 
   const urls: SitemapUrl[] = [];
 
-  // Add blog index (served via rewrite from ninochavez.co/blog)
+  // Add blog index (served from subdomain blog.ninochavez.co)
   urls.push({
-    loc: `${SITE_URL}/blog`,
+    loc: SITE_URL,
     lastmod: formatDate(new Date()),
     changefreq: 'daily',
     priority: '0.9',
@@ -82,7 +82,7 @@ async function generateSitemap() {
 
     // Add blog post to sitemap
     urls.push({
-      loc: `${SITE_URL}/blog/${slug}`,
+      loc: `${SITE_URL}/${slug}`,
       lastmod: formatDate(frontmatter.publishedAt),
       changefreq: 'monthly',
       priority: frontmatter.featured ? '0.8' : '0.7',

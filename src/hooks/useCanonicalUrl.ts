@@ -3,17 +3,17 @@ import { useEffect } from 'react';
 /**
  * Custom hook to set canonical URL for SEO
  *
- * This site is served via Vercel rewrite from https://ninochavez.co/blog
+ * This site is served from subdomain https://blog.ninochavez.co
  * All pages must declare the canonical URL to prevent duplicate content penalties
- * and consolidate SEO authority under the ninochavez.co domain.
+ * and consolidate SEO authority under the blog.ninochavez.co subdomain.
  *
- * @param path - The path relative to /blog (e.g., "/my-post" becomes ninochavez.co/blog/my-post)
+ * @param path - The path relative to root (e.g., "/my-post" becomes blog.ninochavez.co/my-post)
  */
 export function useCanonicalUrl(path: string = '') {
   useEffect(() => {
-    const CANONICAL_DOMAIN = 'https://ninochavez.co';
+    const CANONICAL_DOMAIN = 'https://blog.ninochavez.co';
     const canonicalPath = path.startsWith('/') ? path : `/${path}`;
-    const canonicalUrl = `${CANONICAL_DOMAIN}/blog${canonicalPath}`;
+    const canonicalUrl = `${CANONICAL_DOMAIN}${canonicalPath}`;
 
     // Remove existing canonical link if present
     const existingLink = document.querySelector('link[rel="canonical"]');

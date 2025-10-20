@@ -22,7 +22,7 @@ export default function BlogListPage() {
 
   const POSTS_PER_PAGE = 6;
 
-  // Set canonical URL for blog index (ninochavez.co/blog)
+  // Set canonical URL for blog index (blog.ninochavez.co)
   useCanonicalUrl('');
 
   useEffect(() => {
