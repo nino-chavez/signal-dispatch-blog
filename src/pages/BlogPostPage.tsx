@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Clock } from 'lucide-react';
 import BlogLayout from '../components/BlogLayout';
 import HeaderNav from '../components/HeaderNav';
+import SEOHead from '../components/SEOHead';
 import ReadingProgress from '../components/ReadingProgress';
 import RelatedPosts from '../components/RelatedPosts';
 import SourceBadge from '../components/SourceBadge';
@@ -91,6 +92,17 @@ export default function BlogPostPage() {
 
   return (
     <>
+      {/* SEO Meta Tags */}
+      {post && (
+        <SEOHead
+          title={post.title}
+          description={post.excerpt}
+          url={`/${post.slug}`}
+          image={post.featureImage || '/og_image.png'}
+          type="article"
+        />
+      )}
+      
       <HeaderNav onSearch={setSearchQuery} searchQuery={searchQuery} />
       <BlogLayout>
         <ReadingProgress />
@@ -107,16 +119,17 @@ export default function BlogPostPage() {
 
             <article className="space-y-6">
               {/* Featured Image Hero */}
-              {post.featureImage && (
-                <div className="relative -mx-4 md:-mx-8 lg:mx-0 aspect-[21/9] overflow-hidden rounded-2xl border border-zinc-800">
-                  <img
-                    src={post.featureImage}
-                    alt={post.title}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60" />
-                </div>
-              )}
+              <div className="relative -mx-4 md:-mx-8 lg:mx-0 aspect-[21/9] overflow-hidden rounded-2xl border border-zinc-800">
+                <img
+                  src={post.featureImage || '/og_image.png'}
+                  alt={post.title}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.currentTarget.src = '/og_image.png';
+                  }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60" />
+              </div>
 
               <header className="space-y-3 pb-6 border-b border-zinc-800/50">
             <div className="flex items-center gap-3 text-sm">

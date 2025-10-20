@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import BlogLayout from '../components/BlogLayout';
 import HeaderNav from '../components/HeaderNav';
 import StickyFilterBar from '../components/StickyFilterBar';
+import SEOHead from '../components/SEOHead';
 import FadeIn from '../components/FadeIn';
 import BackToTop from '../components/BackToTop';
 import ScatterToSignal from '../components/ScatterToSignal';
@@ -126,6 +127,14 @@ export default function BlogListPage() {
 
   return (
     <>
+      {/* SEO Meta Tags */}
+      <SEOHead
+        title="Signal Dispatch"
+        description="Architecture, commerce, and the signals that matter. Exploring AI workflows, systems thinking, and leadership through practical experience."
+        url=""
+        image="/og_image.png"
+      />
+      
       {/* Fixed Header with Search and Icon Links */}
       <HeaderNav onSearch={setSearchQuery} searchQuery={searchQuery} />
       
@@ -220,6 +229,20 @@ export default function BlogListPage() {
                       {/* Corner accent - signal marker */}
                       <div className="absolute top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-athletic-court-orange/40 group-hover:border-athletic-court-orange/80 rounded-tr-lg transition-all duration-reaction" />
                       <div className="relative space-y-5">
+                        {/* Feature Image */}
+                        <div className="relative w-full h-48 sm:h-56 rounded-lg overflow-hidden bg-zinc-900">
+                          <img
+                            src={post.featureImage || '/og_image.png'}
+                            alt={post.title}
+                            className="w-full h-full object-cover opacity-0 transition-opacity duration-300"
+                            onLoad={(e) => e.currentTarget.style.opacity = '1'}
+                            onError={(e) => {
+                              e.currentTarget.src = '/og_image.png';
+                            }}
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
+                        </div>
+                        
                         <div className="flex items-center justify-between gap-3">
                           <div className="flex items-center gap-2">
                             {post.category && (
@@ -324,6 +347,20 @@ export default function BlogListPage() {
                       onClick={() => handleSelectPost(post.slug)}
                     >
                       <div className="space-y-4">
+                        {/* Feature Image */}
+                        <div className="relative w-full h-40 sm:h-48 rounded-lg overflow-hidden bg-zinc-900">
+                          <img
+                            src={post.featureImage || '/og_image.png'}
+                            alt={post.title}
+                            className="w-full h-full object-cover opacity-0 transition-opacity duration-300"
+                            onLoad={(e) => e.currentTarget.style.opacity = '1'}
+                            onError={(e) => {
+                              e.currentTarget.src = '/og_image.png';
+                            }}
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
+                        </div>
+                        
                         <div className="flex items-center justify-between gap-2">
                           <div className="flex items-center gap-2">
                             {post.category && (
