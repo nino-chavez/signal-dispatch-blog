@@ -18,8 +18,9 @@ export default function StickyFilterBar({
   return (
     <div className="sticky top-16 z-40 bg-zinc-950/95 backdrop-blur-lg border-b border-zinc-800/20 py-3 sm:py-2">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2 sm:gap-3 overflow-x-auto scrollbar-hide text-xs sm:text-sm">
-          <span className="text-zinc-600 flex-shrink-0">Filter:</span>
+        <div className="relative">
+          <div className="flex items-center gap-2 sm:gap-3 overflow-x-auto scrollbar-hide text-xs sm:text-sm">
+            <span className="text-zinc-600 flex-shrink-0">Filter:</span>
           
           <button
             onClick={() => onSelectCategory(null)}
@@ -64,6 +65,10 @@ export default function StickyFilterBar({
               Other ({postCounts['Other'] || 0})
             </button>
           )}
+          </div>
+          
+          {/* Gradient fade on right to indicate more content */}
+          <div className="absolute top-0 right-0 bottom-0 w-12 bg-gradient-to-l from-zinc-950/95 via-zinc-950/70 to-transparent pointer-events-none md:hidden" />
         </div>
       </div>
 

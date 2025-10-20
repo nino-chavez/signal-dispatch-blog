@@ -143,8 +143,7 @@ export default function BlogListPage() {
 
       <BlogLayout>
         <BackToTop />
-        {/* Add top padding to account for fixed header (h-16 = 64px) + sticky filter bar (~48px) */}
-        <div className="pt-28 sm:pt-24 relative">
+        <div className="relative">
 
           <div className="space-y-8">
 
@@ -220,48 +219,49 @@ export default function BlogListPage() {
                       <div className="absolute inset-0 bg-gradient-to-br from-athletic-brand-violet/5 to-athletic-court-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-reaction" />
                       {/* Corner accent - signal marker */}
                       <div className="absolute top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-athletic-court-orange/40 group-hover:border-athletic-court-orange/80 rounded-tr-lg transition-all duration-reaction" />
-                      <div className="relative space-y-4">
-                        <div className="flex items-center gap-2 text-xs">
-                          {post.category && (
-                            <span
-                              className={`font-bold uppercase tracking-wider px-3 py-1 rounded-full border transition-colors ${getCategoryColors(post.category).bg} ${getCategoryColors(post.category).border} ${getCategoryColors(post.category).text}`}
-                            >
-                              {post.category}
-                            </span>
-                          )}
-                          {post.source && post.source !== 'ghost' && (
-                            <SourceBadge 
-                              source={post.source} 
-                              externalUrl={post.linkedinUrl || post.externalUrl} 
-                              size="sm"
-                            />
-                          )}
-                          {post.category && <span className="text-zinc-700">•</span>}
-                          <time className="text-zinc-500">
+                      <div className="relative space-y-5">
+                        <div className="flex items-center justify-between gap-3">
+                          <div className="flex items-center gap-2">
+                            {post.category && (
+                              <span
+                                className={`text-[10px] sm:text-xs font-bold uppercase tracking-wider px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full border transition-colors ${getCategoryColors(post.category).bg} ${getCategoryColors(post.category).border} ${getCategoryColors(post.category).text}`}
+                              >
+                                {post.category}
+                              </span>
+                            )}
+                            {post.source && post.source !== 'ghost' && (
+                              <SourceBadge
+                                source={post.source}
+                                externalUrl={post.linkedinUrl || post.externalUrl}
+                                size="sm"
+                              />
+                            )}
+                          </div>
+                          <time className="text-[10px] sm:text-xs text-zinc-500 flex-shrink-0">
                             {new Date(post.publishedAt).toLocaleDateString('en-US', {
-                              year: 'numeric',
                               month: 'short',
                               day: 'numeric',
+                              year: 'numeric',
                             })}
                           </time>
                         </div>
 
-                        <h3 className="text-3xl font-bold text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-athletic-brand-violet group-hover:to-athletic-court-orange group-hover:bg-clip-text transition-all duration-reaction leading-tight">
+                        <h3 className="text-2xl sm:text-3xl font-bold text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-athletic-brand-violet group-hover:to-athletic-court-orange group-hover:bg-clip-text transition-all duration-reaction leading-tight">
                           {post.title}
                         </h3>
 
                         {post.excerpt && (
-                          <p className="text-zinc-400 text-lg leading-relaxed line-clamp-3">
+                          <p className="text-base sm:text-lg text-zinc-400 leading-relaxed line-clamp-3">
                             {post.excerpt}
                           </p>
                         )}
 
                         {post.tags && post.tags.length > 0 && (
-                          <div className="flex flex-wrap gap-2 pt-2">
+                          <div className="flex flex-wrap gap-1.5 sm:gap-2">
                             {post.tags.slice(0, 3).map((tag) => (
                               <span
                                 key={tag}
-                                className="text-xs px-3 py-1 rounded-full bg-zinc-800/50 text-zinc-400 border border-zinc-800"
+                                className="text-[10px] sm:text-xs px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-md bg-zinc-900/50 text-zinc-500 border border-zinc-800/50"
                               >
                                 {tag}
                               </span>
@@ -323,48 +323,49 @@ export default function BlogListPage() {
                       style={{ zIndex: 10 }}
                       onClick={() => handleSelectPost(post.slug)}
                     >
-                      <div className="space-y-3">
-                        <div className="flex items-center gap-2 text-xs">
-                          {post.category && (
-                            <span
-                              className={`font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full border transition-colors ${getCategoryColors(post.category).bg} ${getCategoryColors(post.category).border} ${getCategoryColors(post.category).text}`}
-                            >
-                              {post.category}
-                            </span>
-                          )}
-                          {post.source && post.source !== 'ghost' && (
-                            <SourceBadge 
-                              source={post.source} 
-                              externalUrl={post.linkedinUrl || post.externalUrl} 
-                              size="sm"
-                            />
-                          )}
-                          {post.category && <span className="text-zinc-700">•</span>}
-                          <time className="text-zinc-500">
+                      <div className="space-y-4">
+                        <div className="flex items-center justify-between gap-2">
+                          <div className="flex items-center gap-2">
+                            {post.category && (
+                              <span
+                                className={`text-[10px] sm:text-xs font-semibold uppercase tracking-wider px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full border transition-colors ${getCategoryColors(post.category).bg} ${getCategoryColors(post.category).border} ${getCategoryColors(post.category).text}`}
+                              >
+                                {post.category}
+                              </span>
+                            )}
+                            {post.source && post.source !== 'ghost' && (
+                              <SourceBadge
+                                source={post.source}
+                                externalUrl={post.linkedinUrl || post.externalUrl}
+                                size="sm"
+                              />
+                            )}
+                          </div>
+                          <time className="text-[10px] sm:text-xs text-zinc-500 flex-shrink-0">
                             {new Date(post.publishedAt).toLocaleDateString('en-US', {
-                              year: 'numeric',
                               month: 'short',
                               day: 'numeric',
+                              year: 'numeric',
                             })}
                           </time>
                         </div>
 
-                        <h3 className="text-2xl font-bold text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-athletic-brand-violet group-hover:to-athletic-court-orange group-hover:bg-clip-text transition-all duration-reaction leading-tight">
+                        <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-athletic-brand-violet group-hover:to-athletic-court-orange group-hover:bg-clip-text transition-all duration-reaction leading-tight">
                           {post.title}
                         </h3>
 
                         {post.excerpt && (
-                          <p className="text-zinc-400 leading-relaxed line-clamp-2">
+                          <p className="text-sm sm:text-base text-zinc-400 leading-relaxed line-clamp-2">
                             {post.excerpt}
                           </p>
                         )}
 
                         {post.tags && post.tags.length > 0 && (
-                          <div className="flex flex-wrap gap-2">
+                          <div className="flex flex-wrap gap-1.5">
                             {post.tags.slice(0, 4).map((tag) => (
                               <span
                                 key={tag}
-                                className="text-xs px-2 py-1 rounded bg-zinc-900/50 text-zinc-500 border border-zinc-800"
+                                className="text-[10px] sm:text-xs px-2 py-0.5 sm:py-1 rounded bg-zinc-900/50 text-zinc-500 border border-zinc-800/50"
                               >
                                 {tag}
                               </span>
