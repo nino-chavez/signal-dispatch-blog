@@ -143,8 +143,8 @@ export default function BlogListPage() {
 
       <BlogLayout>
         <BackToTop />
-        {/* Add top padding to account for fixed header + sticky filter bar */}
-        <div className="pt-24 relative">
+        {/* Add top padding to account for fixed header (h-16 = 64px) + sticky filter bar (~48px) */}
+        <div className="pt-28 sm:pt-24 relative">
 
           <div className="space-y-8">
 
