@@ -5,7 +5,7 @@
     <link>https://blog.nino.photos</link>
     <description>Architecture, commerce, and the signals that matter in the age of AI.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 14:06:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Oct 2025 16:38:59 GMT</lastBuildDate>
     <atom:link href="https://blog.nino.photos/rss.xml" rel="self" type="application/rss+xml" />
     <managingEditor>nino@signalreflex.studio (Nino Chavez)</managingEditor>
     <webMaster>nino@signalreflex.studio (Nino Chavez)</webMaster>
@@ -183,7 +183,7 @@
     <guid isPermaLink="true">https://blog.nino.photos/genai-os</guid>
     <pubDate>Thu, 07 Aug 2025 13:10:10 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description></description>
+    <description>A few nights ago, I was hunched over my desk — again — buried in my terminal, switching between VSCode tabs and framework validation logs. My...</description>
     <category>ai-workflows</category>
     <category>personal-growth</category>
     <category>systems-thinking</category>
@@ -194,7 +194,7 @@
     <guid isPermaLink="true">https://blog.nino.photos/who-checks-the-foundation</guid>
     <pubDate>Tue, 05 Aug 2025 22:08:20 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
-    <description></description>
+    <description>AI lets anyone frame a house now. With the right tools, I can scaffold a full-stack application faster than I ever could alone. Type-safe. Styled....</description>
     <category>ai-workflows</category>
     <category>personal-growth</category>
   </item>

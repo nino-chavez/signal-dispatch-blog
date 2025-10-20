@@ -52,6 +52,33 @@ function calculateReadingTime(content: string): string {
   return minutes === 1 ? '1 min read' : `${minutes} min read`;
 }
 
+/**
+ * Generate excerpt from content if not provided
+ * Takes first 150 characters of clean content
+ */
+function generateExcerpt(content: string): string {
+  // Remove frontmatter and HTML tags
+  const cleanContent = content
+    .replace(/^---[\s\S]*?---/, '')
+    .replace(/<[^>]*>/g, '')
+    .replace(/\n/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  // Take first 150 characters and add ellipsis if truncated
+  if (cleanContent.length <= 150) {
+    return cleanContent;
+  }
+  
+  // Find last complete word within 150 chars
+  const truncated = cleanContent.substring(0, 150);
+  const lastSpace = truncated.lastIndexOf(' ');
+  
+  return lastSpace > 0
+    ? truncated.substring(0, lastSpace) + '...'
+    : truncated + '...';
+}
+
 async function generateManifest() {
   console.log('🔨 Generating blog manifest...');
 
@@ -91,12 +118,15 @@ async function generateManifest() {
     // Calculate reading time from content
     const readTime = calculateReadingTime(content);
 
+    // Generate excerpt if not provided
+    const excerpt = frontmatter.excerpt || generateExcerpt(content);
+
     // Extract metadata
     const post: BlogPostMetadata = {
       slug,
       title: frontmatter.title,
       publishedAt: frontmatter.publishedAt,
-      excerpt: frontmatter.excerpt,
+      excerpt, // Use frontmatter excerpt or auto-generated
       category: frontmatter.category,
       tags: frontmatter.tags || [],
       featured: frontmatter.featured || false,

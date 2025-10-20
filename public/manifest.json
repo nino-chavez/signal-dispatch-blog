@@ -267,6 +267,7 @@
       "slug": "genai-os",
       "title": "I’m Not Using GenAI. I’m Building a System Around It.",
       "publishedAt": "2025-08-07T13:10:10.000Z",
+      "excerpt": "A few nights ago, I was hunched over my desk — again — buried in my terminal, switching between VSCode tabs and framework validation logs. My...",
       "category": "AI & Automation",
       "tags": [
         "ai-workflows",
@@ -282,6 +283,7 @@
       "slug": "who-checks-the-foundation",
       "title": "Who Checks the Foundation?",
       "publishedAt": "2025-08-05T22:08:20.000Z",
+      "excerpt": "AI lets anyone frame a house now. With the right tools, I can scaffold a full-stack application faster than I ever could alone. Type-safe. Styled....",
       "category": "AI & Automation",
       "tags": [
         "ai-workflows",
@@ -2134,6 +2136,7 @@
       "slug": "start-smart-not-perfect",
       "title": "Start Smart, Not Perfect",
       "publishedAt": "2025-06-02T20:50:32.000Z",
+      "excerpt": "*Balancing momentum with foresight* There’s a difference between getting started and rushing in blind. I’m all for building before everything’s...",
       "category": "Field Notes",
       "tags": [
         "ai-workflows"
@@ -2159,6 +2162,7 @@
       "slug": "how-i-use-ai-in-consulting-for-real",
       "title": "How I Use AI in Consulting (For Real)",
       "publishedAt": "2025-06-02T20:12:28.000Z",
+      "excerpt": "Most of what you hear about AI in consulting is slideware. People love talking about the potential. But day to day? The work still has to get done....",
       "category": "AI & Automation",
       "tags": [
         "ai-workflows",
@@ -2186,6 +2190,7 @@
       "slug": "about-me",
       "title": "About Nino Chavez",
       "publishedAt": "2025-06-02T18:29:39.000Z",
+      "excerpt": "I’m a systems thinker, photographer, creator, and strategist. Sometimes I’m building infrastructure. Sometimes I’m behind the camera. Sometimes I'm...",
       "tags": [
         "ai-workflows",
         "craft",
@@ -2214,6 +2219,7 @@
       "slug": "about",
       "title": "About Signal Dispatch",
       "publishedAt": "2025-06-02T13:50:38.000Z",
+      "excerpt": "This is where I think in public. I write to make sense of what I’m seeing — in leadership, in systems, in identity, in how we use AI. Most of what...",
       "category": "Field Notes",
       "tags": [
         "personal-growth"
@@ -2289,5 +2295,5 @@
     "consulting": 1
   },
   "totalPosts": 153,
-  "lastGenerated": "2025-10-20T14:06:09.378Z"
+  "lastGenerated": "2025-10-20T16:38:59.048Z"
 }
