@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Signal Dispatch</title>
-    <link>https://blog.nino.photos</link>
+    <link>https://blog.ninochavez.co</link>
     <description>Architecture, commerce, and the signals that matter in the age of AI.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 17:19:03 GMT</lastBuildDate>
-    <atom:link href="https://blog.nino.photos/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Oct 2025 20:08:48 GMT</lastBuildDate>
+    <atom:link href="https://blog.ninochavez.co/rss.xml" rel="self" type="application/rss+xml" />
     <managingEditor>nino@signalreflex.studio (Nino Chavez)</managingEditor>
     <webMaster>nino@signalreflex.studio (Nino Chavez)</webMaster>
   <item>
     <title>The New Consulting Model: Adapt or Die</title>
-    <link>https://blog.nino.photos/the-new-consulting-model-adapt-or-die</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-new-consulting-model-adapt-or-die</guid>
+    <link>https://blog.ninochavez.co/the-new-consulting-model-adapt-or-die</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-new-consulting-model-adapt-or-die</guid>
     <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>I&apos;m frequently asked how AI will change consulting. My initial response is optimistic. We&apos;re seeing a massive resurgence of high-skill roles: the Forward Deployed Engineer, the Automation Engineer...</description>
@@ -21,8 +21,8 @@
   </item>
   <item>
     <title>The Consultant&apos;s Dilemma: The Tax of Many Hats</title>
-    <link>https://blog.nino.photos/the-consultants-dilemma-the-tax-of-many-hats</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-consultants-dilemma-the-tax-of-many-hats</guid>
+    <link>https://blog.ninochavez.co/the-consultants-dilemma-the-tax-of-many-hats</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-consultants-dilemma-the-tax-of-many-hats</guid>
     <pubDate>Thu, 02 Oct 2025 15:07:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>In corporate consulting, versatility is sold as a virtue. We are expected to be the strategist, the data analyst, the project manager, and the client whisperer—often in the same afternoon. We call...</description>
@@ -30,8 +30,8 @@
   </item>
   <item>
     <title>The Emperor Has No RAG: Why Your GenAI Strategy Is Built on Sand (Unless You Ask These Questions)</title>
-    <link>https://blog.nino.photos/the-emperor-has-no-rag-why-your-genai-strategy-is-built-on-sand-unless-you-ask-these-questions</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-emperor-has-no-rag-why-your-genai-strategy-is-built-on-sand-unless-you-ask-these-questions</guid>
+    <link>https://blog.ninochavez.co/the-emperor-has-no-rag-why-your-genai-strategy-is-built-on-sand-unless-you-ask-these-questions</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-emperor-has-no-rag-why-your-genai-strategy-is-built-on-sand-unless-you-ask-these-questions</guid>
     <pubDate>Wed, 01 Oct 2025 08:36:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Let&apos;s be brutally honest. The GenAI world is awash with &quot;experts.&quot; You see them everywhere: shouting about &quot;paradigm shifts,&quot; &quot;synergistic AI transformations,&quot; and the inevitable disruption of......</description>
@@ -39,8 +39,8 @@
   </item>
   <item>
     <title>Beyond the Copilot: Architecting for Autonomy with Claude Sonnet 4.5</title>
-    <link>https://blog.nino.photos/beyond-the-copilot-architecting-for-autonomy-with-claude-sonnet-45</link>
-    <guid isPermaLink="true">https://blog.nino.photos/beyond-the-copilot-architecting-for-autonomy-with-claude-sonnet-45</guid>
+    <link>https://blog.ninochavez.co/beyond-the-copilot-architecting-for-autonomy-with-claude-sonnet-45</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/beyond-the-copilot-architecting-for-autonomy-with-claude-sonnet-45</guid>
     <pubDate>Tue, 30 Sep 2025 12:51:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>The age of the simple AI prompt is over. As models like Claude Sonnet 4.5 become more powerful, our role isn&apos;t just to ask questions—it&apos;s to architect a system for the AI to follow. Our prompts...</description>
@@ -49,8 +49,8 @@
   </item>
   <item>
     <title>AI Won&apos;t Take Your Job. It Will Redefine It. Your Reskilling Starts Now.</title>
-    <link>https://blog.nino.photos/ai-wont-take-your-job-it-will-redefine-it-your-reskilling-starts-now</link>
-    <guid isPermaLink="true">https://blog.nino.photos/ai-wont-take-your-job-it-will-redefine-it-your-reskilling-starts-now</guid>
+    <link>https://blog.ninochavez.co/ai-wont-take-your-job-it-will-redefine-it-your-reskilling-starts-now</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/ai-wont-take-your-job-it-will-redefine-it-your-reskilling-starts-now</guid>
     <pubDate>Sun, 21 Sep 2025 19:50:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>For the past year, I&apos;ve heard the same refrain in a thousand different meetings: &quot;AI is not going to take your job, but a person using AI will.&quot;</description>
@@ -58,8 +58,8 @@
   </item>
   <item>
     <title>I Let a Bunch of AI Agents Rebuild My App. Here’s What Actually Worked.</title>
-    <link>https://blog.nino.photos/i-let-a-bunch-of-ai-agents-rebuild-my-app-heres-what-actually-worked</link>
-    <guid isPermaLink="true">https://blog.nino.photos/i-let-a-bunch-of-ai-agents-rebuild-my-app-heres-what-actually-worked</guid>
+    <link>https://blog.ninochavez.co/i-let-a-bunch-of-ai-agents-rebuild-my-app-heres-what-actually-worked</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/i-let-a-bunch-of-ai-agents-rebuild-my-app-heres-what-actually-worked</guid>
     <pubDate>Wed, 17 Sep 2025 03:02:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Date: September 16, 2025</description>
@@ -67,8 +67,8 @@
   </item>
   <item>
     <title>Moore&apos;s Law is sputtering. So what&apos;s really next for tech?</title>
-    <link>https://blog.nino.photos/moores-law-is-sputtering-so-whats-really-next-for-tech</link>
-    <guid isPermaLink="true">https://blog.nino.photos/moores-law-is-sputtering-so-whats-really-next-for-tech</guid>
+    <link>https://blog.ninochavez.co/moores-law-is-sputtering-so-whats-really-next-for-tech</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/moores-law-is-sputtering-so-whats-really-next-for-tech</guid>
     <pubDate>Tue, 09 Sep 2025 21:17:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Remember when every new phone or laptop felt like a massive leap? That feeling is gone. Moore’s Law - the promise of doubling chip power every two years - is running out of steam.</description>
@@ -76,8 +76,8 @@
   </item>
   <item>
     <title>Shipping with AI</title>
-    <link>https://blog.nino.photos/shipping-with-ai</link>
-    <guid isPermaLink="true">https://blog.nino.photos/shipping-with-ai</guid>
+    <link>https://blog.ninochavez.co/shipping-with-ai</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/shipping-with-ai</guid>
     <pubDate>Thu, 04 Sep 2025 07:38:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>People ask if I’m doing model tuning, building agents, writing Python tools, or something else with AI.</description>
@@ -85,8 +85,8 @@
   </item>
   <item>
     <title>Measuring the Unowned Storefront: Observability for Agent Commerce</title>
-    <link>https://blog.nino.photos/observability-for-agent-commerce</link>
-    <guid isPermaLink="true">https://blog.nino.photos/observability-for-agent-commerce</guid>
+    <link>https://blog.ninochavez.co/observability-for-agent-commerce</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/observability-for-agent-commerce</guid>
     <pubDate>Wed, 27 Aug 2025 17:36:43 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Everyone is busy selling shovels. But the mine moved. Agents now sell on surfaces brands do not own. The win is not a better shovel. It is eyes and throttle on those agents: traces, attribution, consent, limits.</description>
@@ -96,8 +96,8 @@
   </item>
   <item>
     <title>The 7–10 Year Evolution of the Web</title>
-    <link>https://blog.nino.photos/the-710-year-evolution-of-the-web</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-710-year-evolution-of-the-web</guid>
+    <link>https://blog.ninochavez.co/the-710-year-evolution-of-the-web</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-710-year-evolution-of-the-web</guid>
     <pubDate>Fri, 22 Aug 2025 07:18:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>From Scroll to Stream, From Search to Answers</description>
@@ -105,8 +105,8 @@
   </item>
   <item>
     <title>LLM Codegen and the Three Little Pigs</title>
-    <link>https://blog.nino.photos/llm-codegen-and-the-three-little-pigs</link>
-    <guid isPermaLink="true">https://blog.nino.photos/llm-codegen-and-the-three-little-pigs</guid>
+    <link>https://blog.ninochavez.co/llm-codegen-and-the-three-little-pigs</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/llm-codegen-and-the-three-little-pigs</guid>
     <pubDate>Sun, 17 Aug 2025 19:45:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>I burned my app to the ground — yes, again.</description>
@@ -114,8 +114,8 @@
   </item>
   <item>
     <title>The Coming Code: Why AI-Native Software Needs Standards, and How to Prepare</title>
-    <link>https://blog.nino.photos/the-coming-code-why-ai-native-software-needs-standards-and-how-to-prepare</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-coming-code-why-ai-native-software-needs-standards-and-how-to-prepare</guid>
+    <link>https://blog.ninochavez.co/the-coming-code-why-ai-native-software-needs-standards-and-how-to-prepare</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-coming-code-why-ai-native-software-needs-standards-and-how-to-prepare</guid>
     <pubDate>Tue, 12 Aug 2025 23:08:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>We’re in the middle of an AI development gold rush.</description>
@@ -123,8 +123,8 @@
   </item>
   <item>
     <title>The Elitist Trap</title>
-    <link>https://blog.nino.photos/the-elitist-trap</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-elitist-trap</guid>
+    <link>https://blog.ninochavez.co/the-elitist-trap</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-elitist-trap</guid>
     <pubDate>Sat, 09 Aug 2025 21:47:10 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>A field guide for countering common traps of misguided experience.</description>
@@ -133,8 +133,8 @@
   </item>
   <item>
     <title>When Your Framework Outgrows Your Ability to Explain It</title>
-    <link>https://blog.nino.photos/when-your-framework-outgrows-your-ability-to-explain-it</link>
-    <guid isPermaLink="true">https://blog.nino.photos/when-your-framework-outgrows-your-ability-to-explain-it</guid>
+    <link>https://blog.ninochavez.co/when-your-framework-outgrows-your-ability-to-explain-it</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/when-your-framework-outgrows-your-ability-to-explain-it</guid>
     <pubDate>Sat, 09 Aug 2025 04:06:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>We’ve been shipping features in my AI-native framework at a ridiculous clip. So fast that during a call catching up with a friend, they asked:</description>
@@ -142,8 +142,8 @@
   </item>
   <item>
     <title>🚨 Aegis Framework Constitutional Crisis: We Declared Martial Law on Ourselves</title>
-    <link>https://blog.nino.photos/aegis-framework-constitutional-crisis-we-declared-martial-law-on-ourselves</link>
-    <guid isPermaLink="true">https://blog.nino.photos/aegis-framework-constitutional-crisis-we-declared-martial-law-on-ourselves</guid>
+    <link>https://blog.ninochavez.co/aegis-framework-constitutional-crisis-we-declared-martial-law-on-ourselves</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/aegis-framework-constitutional-crisis-we-declared-martial-law-on-ourselves</guid>
     <pubDate>Sat, 09 Aug 2025 02:17:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Status: Framework operations BLOCKED.</description>
@@ -151,8 +151,8 @@
   </item>
   <item>
     <title>I Didn’t Write a Test. I Asked the System to Reflect.</title>
-    <link>https://blog.nino.photos/i-didnt-write-a-test-i-asked-the-system-to-reflect</link>
-    <guid isPermaLink="true">https://blog.nino.photos/i-didnt-write-a-test-i-asked-the-system-to-reflect</guid>
+    <link>https://blog.ninochavez.co/i-didnt-write-a-test-i-asked-the-system-to-reflect</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/i-didnt-write-a-test-i-asked-the-system-to-reflect</guid>
     <pubDate>Fri, 08 Aug 2025 20:05:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>I don’t know if I’m doing this “right.”</description>
@@ -161,8 +161,8 @@
   </item>
   <item>
     <title>The Storefront Isn’t Dead — It’s Becoming an AI-Optimized Validation Engine in a Shifting Commerce Landscape</title>
-    <link>https://blog.nino.photos/the-storefront-isnt-dead-its-becoming-an-ai-optimized-validation-engine-in-a-shifting-commerce-lands</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-storefront-isnt-dead-its-becoming-an-ai-optimized-validation-engine-in-a-shifting-commerce-lands</guid>
+    <link>https://blog.ninochavez.co/the-storefront-isnt-dead-its-becoming-an-ai-optimized-validation-engine-in-a-shifting-commerce-lands</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-storefront-isnt-dead-its-becoming-an-ai-optimized-validation-engine-in-a-shifting-commerce-lands</guid>
     <pubDate>Fri, 08 Aug 2025 18:38:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Revisiting the original idea from this post.</description>
@@ -170,8 +170,8 @@
   </item>
   <item>
     <title>Pay no attention to the man behind the curtain…</title>
-    <link>https://blog.nino.photos/pay-no-attention-to-the-man-behind-the-curtain</link>
-    <guid isPermaLink="true">https://blog.nino.photos/pay-no-attention-to-the-man-behind-the-curtain</guid>
+    <link>https://blog.ninochavez.co/pay-no-attention-to-the-man-behind-the-curtain</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/pay-no-attention-to-the-man-behind-the-curtain</guid>
     <pubDate>Fri, 08 Aug 2025 06:19:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Is what I’m doing all smoke and mirrors?</description>
@@ -179,8 +179,8 @@
   </item>
   <item>
     <title>I’m Not Using GenAI. I’m Building a System Around It.</title>
-    <link>https://blog.nino.photos/genai-os</link>
-    <guid isPermaLink="true">https://blog.nino.photos/genai-os</guid>
+    <link>https://blog.ninochavez.co/genai-os</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/genai-os</guid>
     <pubDate>Thu, 07 Aug 2025 13:10:10 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>A few nights ago, I was hunched over my desk — again — buried in my terminal, switching between VSCode tabs and framework validation logs. My...</description>
@@ -190,8 +190,8 @@
   </item>
   <item>
     <title>Who Checks the Foundation?</title>
-    <link>https://blog.nino.photos/who-checks-the-foundation</link>
-    <guid isPermaLink="true">https://blog.nino.photos/who-checks-the-foundation</guid>
+    <link>https://blog.ninochavez.co/who-checks-the-foundation</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/who-checks-the-foundation</guid>
     <pubDate>Tue, 05 Aug 2025 22:08:20 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>AI lets anyone frame a house now. With the right tools, I can scaffold a full-stack application faster than I ever could alone. Type-safe. Styled....</description>
@@ -200,8 +200,8 @@
   </item>
   <item>
     <title>Designing What You Don&apos;t Build — And Building What You Can&apos;t Read</title>
-    <link>https://blog.nino.photos/designing-what-you-dont-build</link>
-    <guid isPermaLink="true">https://blog.nino.photos/designing-what-you-dont-build</guid>
+    <link>https://blog.ninochavez.co/designing-what-you-dont-build</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/designing-what-you-dont-build</guid>
     <pubDate>Tue, 05 Aug 2025 22:02:34 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>The absentee software engineer.</description>
@@ -209,8 +209,8 @@
   </item>
   <item>
     <title>The Work Before the Words</title>
-    <link>https://blog.nino.photos/the-work-before-the-words</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-work-before-the-words</guid>
+    <link>https://blog.ninochavez.co/the-work-before-the-words</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-work-before-the-words</guid>
     <pubDate>Mon, 04 Aug 2025 01:04:47 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Meta-Companion to &quot;Living The Gap&quot;</description>
@@ -221,8 +221,8 @@
   </item>
   <item>
     <title>Living in the Gap</title>
-    <link>https://blog.nino.photos/living-in-the-gap</link>
-    <guid isPermaLink="true">https://blog.nino.photos/living-in-the-gap</guid>
+    <link>https://blog.ninochavez.co/living-in-the-gap</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/living-in-the-gap</guid>
     <pubDate>Mon, 04 Aug 2025 00:59:36 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>I live between presence and projection — here, but already ten steps ahead. It’s a tension of slowing down, waiting for others, holding the map while walking the same road. Leadership often means pacing yourself so we can arrive together.</description>
@@ -232,8 +232,8 @@
   </item>
   <item>
     <title>Behind the Scenes: Why We Had to Slow Down to Speed Up</title>
-    <link>https://blog.nino.photos/bts-why-we-had-to-slow-down-to-speed-up</link>
-    <guid isPermaLink="true">https://blog.nino.photos/bts-why-we-had-to-slow-down-to-speed-up</guid>
+    <link>https://blog.ninochavez.co/bts-why-we-had-to-slow-down-to-speed-up</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/bts-why-we-had-to-slow-down-to-speed-up</guid>
     <pubDate>Sun, 03 Aug 2025 01:58:33 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>A simple bulk upload broke — 22 teams skipped, 0 created. The fix seemed easy. AI suggested patching the frontend. But that would’ve locked in a broken contract. Here&apos;s how we slowed down, re-architected the system, and avoided weeks of silent tech debt and wasted tokens.</description>
@@ -241,8 +241,8 @@
   </item>
   <item>
     <title>PUTTING MY MONEY WHERE MY MOUTH IS 💸🤖</title>
-    <link>https://blog.nino.photos/putting-my-money-where-my-mouth-is</link>
-    <guid isPermaLink="true">https://blog.nino.photos/putting-my-money-where-my-mouth-is</guid>
+    <link>https://blog.ninochavez.co/putting-my-money-where-my-mouth-is</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/putting-my-money-where-my-mouth-is</guid>
     <pubDate>Sun, 03 Aug 2025 01:52:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>In one month I burned through:</description>
@@ -250,8 +250,8 @@
   </item>
   <item>
     <title>🌀 The Paradox of Velocity in AI Coding</title>
-    <link>https://blog.nino.photos/the-paradox-of-velocity-in-ai-coding</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-paradox-of-velocity-in-ai-coding</guid>
+    <link>https://blog.ninochavez.co/the-paradox-of-velocity-in-ai-coding</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-paradox-of-velocity-in-ai-coding</guid>
     <pubDate>Sun, 03 Aug 2025 00:33:39 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>After sprinting through two weeks of AI-coded progress—and crashing into drift, chaos, and broken trust—I reset everything. This is the story of slowing down, building real structure, and defining a repeatable AI‑Ops workflow. From vibe coding to teardown, here’s what I learned.</description>
@@ -261,8 +261,8 @@
   </item>
   <item>
     <title>The Next Compiler Is Semantic</title>
-    <link>https://blog.nino.photos/the-next-compiler-is-semantic</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-next-compiler-is-semantic</guid>
+    <link>https://blog.ninochavez.co/the-next-compiler-is-semantic</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-next-compiler-is-semantic</guid>
     <pubDate>Sat, 02 Aug 2025 20:16:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>🚨 I FOUND THE COMPILER.</description>
@@ -270,8 +270,8 @@
   </item>
   <item>
     <title>What my JSX-Free React App Really Taught Me About AI Coding</title>
-    <link>https://blog.nino.photos/what-my-jsx-free-react-app-really-taught-me-about-ai-coding</link>
-    <guid isPermaLink="true">https://blog.nino.photos/what-my-jsx-free-react-app-really-taught-me-about-ai-coding</guid>
+    <link>https://blog.ninochavez.co/what-my-jsx-free-react-app-really-taught-me-about-ai-coding</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/what-my-jsx-free-react-app-really-taught-me-about-ai-coding</guid>
     <pubDate>Sat, 02 Aug 2025 16:50:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Let&apos;s be clear - I still don&apos;t really know what JSX is, but if i&apos;m asking AI the right questions, does it matter? Is this really no different then architecting systems based on principles and...</description>
@@ -280,8 +280,8 @@
   </item>
   <item>
     <title>Why My React App Doesn’t Use JSX (And What That Taught Me About Building with AI)</title>
-    <link>https://blog.nino.photos/why-my-react-app-doesnt-use-jsx-and-what-that-taught-me-about-building-with-ai</link>
-    <guid isPermaLink="true">https://blog.nino.photos/why-my-react-app-doesnt-use-jsx-and-what-that-taught-me-about-building-with-ai</guid>
+    <link>https://blog.ninochavez.co/why-my-react-app-doesnt-use-jsx-and-what-that-taught-me-about-building-with-ai</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/why-my-react-app-doesnt-use-jsx-and-what-that-taught-me-about-building-with-ai</guid>
     <pubDate>Sat, 02 Aug 2025 16:39:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Most React apps are JSX-first.</description>
@@ -289,8 +289,8 @@
   </item>
   <item>
     <title>I Still Don’t Really Know JSX. And I Don&apos;t Think It Matters.</title>
-    <link>https://blog.nino.photos/i-still-dont-really-know-jsx-and-i-dont-think-it-matters</link>
-    <guid isPermaLink="true">https://blog.nino.photos/i-still-dont-really-know-jsx-and-i-dont-think-it-matters</guid>
+    <link>https://blog.ninochavez.co/i-still-dont-really-know-jsx-and-i-dont-think-it-matters</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/i-still-dont-really-know-jsx-and-i-dont-think-it-matters</guid>
     <pubDate>Sat, 02 Aug 2025 12:10:51 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>I built a production-grade React app—and still don’t fully understand JSX. In the AI-assisted era, syntax mastery matters less than system design. You’re not the coder anymore. You’re the architect. The real skill? Knowing what to ask, how to judge, and when the output doesn’t fit.</description>
@@ -299,8 +299,8 @@
   </item>
   <item>
     <title>I Don’t Believe the Agentic AI Hype — and Here’s Why That’s Not Ignorance</title>
-    <link>https://blog.nino.photos/i-dont-believe-the-agentic-ai-hype-and-heres-why-thats-not-ignorance</link>
-    <guid isPermaLink="true">https://blog.nino.photos/i-dont-believe-the-agentic-ai-hype-and-heres-why-thats-not-ignorance</guid>
+    <link>https://blog.ninochavez.co/i-dont-believe-the-agentic-ai-hype-and-heres-why-thats-not-ignorance</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/i-dont-believe-the-agentic-ai-hype-and-heres-why-thats-not-ignorance</guid>
     <pubDate>Sat, 02 Aug 2025 08:12:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Catching up with a peer recently and part of the conversation landed on — half-joking, half-incredulous — how I of all people, someone building software and systems with AI every day, don’t...</description>
@@ -308,8 +308,8 @@
   </item>
   <item>
     <title>🔥 The Modern JS Stack Is a Masterpiece of Power — and a Catastrophe of Experience</title>
-    <link>https://blog.nino.photos/the-modern-js-stack-is-a-masterpiece-of-power-and-a-catastrophe-of-experience</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-modern-js-stack-is-a-masterpiece-of-power-and-a-catastrophe-of-experience</guid>
+    <link>https://blog.ninochavez.co/the-modern-js-stack-is-a-masterpiece-of-power-and-a-catastrophe-of-experience</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-modern-js-stack-is-a-masterpiece-of-power-and-a-catastrophe-of-experience</guid>
     <pubDate>Fri, 01 Aug 2025 23:22:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Come at me.</description>
@@ -317,8 +317,8 @@
   </item>
   <item>
     <title>Even the AI Is Confused</title>
-    <link>https://blog.nino.photos/even-the-ai-is-confused</link>
-    <guid isPermaLink="true">https://blog.nino.photos/even-the-ai-is-confused</guid>
+    <link>https://blog.ninochavez.co/even-the-ai-is-confused</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/even-the-ai-is-confused</guid>
     <pubDate>Fri, 01 Aug 2025 18:20:42 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>What My Stack Audit Revealed About Modern Dev</description>
@@ -326,8 +326,8 @@
   </item>
   <item>
     <title>💡 I’ve been doing AI coding wrong (sort of)</title>
-    <link>https://blog.nino.photos/ive-been-doing-ai-coding-wrong-sort-of</link>
-    <guid isPermaLink="true">https://blog.nino.photos/ive-been-doing-ai-coding-wrong-sort-of</guid>
+    <link>https://blog.ninochavez.co/ive-been-doing-ai-coding-wrong-sort-of</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/ive-been-doing-ai-coding-wrong-sort-of</guid>
     <pubDate>Fri, 01 Aug 2025 06:29:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Been deep in the zone building with AI tools like GPT, Kilo, and Lovable. Pairing them with Vite + Supabase to generate real production software. I’ve got a solid workflow. Clear prompt stacks....</description>
@@ -335,8 +335,8 @@
   </item>
   <item>
     <title>The Drift Beneath the Velocity</title>
-    <link>https://blog.nino.photos/the-drift-beneath-the-velocity</link>
-    <guid isPermaLink="true">https://blog.nino.photos/the-drift-beneath-the-velocity</guid>
+    <link>https://blog.ninochavez.co/the-drift-beneath-the-velocity</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/the-drift-beneath-the-velocity</guid>
     <pubDate>Fri, 01 Aug 2025 00:43:56 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Week 2 of AI-assisted coding brought velocity — but also drift. This post explores the moment I realized I was managing AI agents like a team, and what that means for the future of software consulting.</description>
@@ -345,8 +345,8 @@
   </item>
   <item>
     <title>Am I Ever Not Working?</title>
-    <link>https://blog.nino.photos/am-i-ever-not-working</link>
-    <guid isPermaLink="true">https://blog.nino.photos/am-i-ever-not-working</guid>
+    <link>https://blog.ninochavez.co/am-i-ever-not-working</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/am-i-ever-not-working</guid>
     <pubDate>Thu, 31 Jul 2025 20:42:57 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>If your value lies in how you think, are you ever really off the clock? Lately, I’ve been chasing AI workflows at all hours—and thinking through systems even when I’m not at my keyboard. This post reflects on the cost of always being “on,” and how to protect the infrastructure: you.</description>
@@ -355,8 +355,8 @@
   </item>
   <item>
     <title>AI Ops: Docs-As-Contracts</title>
-    <link>https://blog.nino.photos/ai-ops-docs-as-contracts</link>
-    <guid isPermaLink="true">https://blog.nino.photos/ai-ops-docs-as-contracts</guid>
+    <link>https://blog.ninochavez.co/ai-ops-docs-as-contracts</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/ai-ops-docs-as-contracts</guid>
     <pubDate>Thu, 31 Jul 2025 12:45:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Somewhere along the line of a big refactor, we broke our custom theme system.</description>
@@ -364,8 +364,8 @@
   </item>
   <item>
     <title>Skip the API: Building a Local ChatGPT Bridge for VS Code</title>
-    <link>https://blog.nino.photos/skip-the-api-building-a-local-chatgpt-bridge-for-vs-code</link>
-    <guid isPermaLink="true">https://blog.nino.photos/skip-the-api-building-a-local-chatgpt-bridge-for-vs-code</guid>
+    <link>https://blog.ninochavez.co/skip-the-api-building-a-local-chatgpt-bridge-for-vs-code</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/skip-the-api-building-a-local-chatgpt-bridge-for-vs-code</guid>
     <pubDate>Thu, 31 Jul 2025 11:47:37 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Can you skip the API and wire ChatGPT directly into VS Code? Turns out, yes — with a little browser magic. This post breaks down how I thought about building a local-first bridge that replaces Kilo and avoids token costs, all powered by curiosity and a builder’s mindset.</description>
@@ -374,8 +374,8 @@
   </item>
   <item>
     <title>From QA Bottleneck to Autonomous Confidence: How I Built a Fully AI-Driven E2E Testing Framework</title>
-    <link>https://blog.nino.photos/from-qa-bottleneck-to-autonomous-confidence-how-i-built-a-fully-ai-driven-e2e-testing-framework</link>
-    <guid isPermaLink="true">https://blog.nino.photos/from-qa-bottleneck-to-autonomous-confidence-how-i-built-a-fully-ai-driven-e2e-testing-framework</guid>
+    <link>https://blog.ninochavez.co/from-qa-bottleneck-to-autonomous-confidence-how-i-built-a-fully-ai-driven-e2e-testing-framework</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/from-qa-bottleneck-to-autonomous-confidence-how-i-built-a-fully-ai-driven-e2e-testing-framework</guid>
     <pubDate>Wed, 30 Jul 2025 19:44:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Shipping used to mean stress.</description>
@@ -384,8 +384,8 @@
   </item>
   <item>
     <title>From Copilot to Enforcer: The AI Maturity Spectrum for Developers</title>
-    <link>https://blog.nino.photos/from-ai-copilot-to-ai-enforcer</link>
-    <guid isPermaLink="true">https://blog.nino.photos/from-ai-copilot-to-ai-enforcer</guid>
+    <link>https://blog.ninochavez.co/from-ai-copilot-to-ai-enforcer</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/from-ai-copilot-to-ai-enforcer</guid>
     <pubDate>Wed, 30 Jul 2025 17:46:05 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Or: What happens when AI stops just helping you code — and starts holding your system accountable</description>
@@ -394,8 +394,8 @@
   </item>
   <item>
     <title>Tool-and-Die Thinking for the AI Age</title>
-    <link>https://blog.nino.photos/tool-and-die-thinking-for-the-ai-age</link>
-    <guid isPermaLink="true">https://blog.nino.photos/tool-and-die-thinking-for-the-ai-age</guid>
+    <link>https://blog.ninochavez.co/tool-and-die-thinking-for-the-ai-age</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/tool-and-die-thinking-for-the-ai-age</guid>
     <pubDate>Wed, 30 Jul 2025 17:21:51 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>How AI coding tools helped me beat the overhead wall — and build faster than I think.</description>
@@ -405,8 +405,8 @@
   </item>
   <item>
     <title>Just-in-Time Software</title>
-    <link>https://blog.nino.photos/just-in-time-software</link>
-    <guid isPermaLink="true">https://blog.nino.photos/just-in-time-software</guid>
+    <link>https://blog.ninochavez.co/just-in-time-software</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/just-in-time-software</guid>
     <pubDate>Wed, 30 Jul 2025 16:47:02 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Just like cloud killed the server rack, AI is killing fixed tools. I built a full E2E test system from scratch—faster, cheaper, tailored—using nothing but schema, rules, and AI prompts. Why buy tools when you can generate them just-in-time?</description>
@@ -415,8 +415,8 @@
   </item>
   <item>
     <title>From Prompt to Product: Building Demo Mode in Week 2</title>
-    <link>https://blog.nino.photos/from-prompt-to-product-building-demo-mode-in-week-2</link>
-    <guid isPermaLink="true">https://blog.nino.photos/from-prompt-to-product-building-demo-mode-in-week-2</guid>
+    <link>https://blog.ninochavez.co/from-prompt-to-product-building-demo-mode-in-week-2</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/from-prompt-to-product-building-demo-mode-in-week-2</guid>
     <pubDate>Wed, 30 Jul 2025 06:53:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>🧱 Week 1: Build the foundation</description>
@@ -424,8 +424,8 @@
   </item>
   <item>
     <title>When Control Matters: Behind the Decision to Build Feature Toggles Into the Bracket App</title>
-    <link>https://blog.nino.photos/when-control-matters-behind-the-decision-to-build-feature-toggles-into-the-bracket-app</link>
-    <guid isPermaLink="true">https://blog.nino.photos/when-control-matters-behind-the-decision-to-build-feature-toggles-into-the-bracket-app</guid>
+    <link>https://blog.ninochavez.co/when-control-matters-behind-the-decision-to-build-feature-toggles-into-the-bracket-app</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/when-control-matters-behind-the-decision-to-build-feature-toggles-into-the-bracket-app</guid>
     <pubDate>Wed, 30 Jul 2025 02:24:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Sometimes the feature isn’t for the user.</description>
@@ -433,8 +433,8 @@
   </item>
   <item>
     <title>WHEN FAST ISN’T FAST ENOUGH: The shift from AI coding to AI concurrency</title>
-    <link>https://blog.nino.photos/when-fast-isnt-fast-enough-the-shift-from-ai-coding-to-ai-concurrency</link>
-    <guid isPermaLink="true">https://blog.nino.photos/when-fast-isnt-fast-enough-the-shift-from-ai-coding-to-ai-concurrency</guid>
+    <link>https://blog.ninochavez.co/when-fast-isnt-fast-enough-the-shift-from-ai-coding-to-ai-concurrency</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/when-fast-isnt-fast-enough-the-shift-from-ai-coding-to-ai-concurrency</guid>
     <pubDate>Wed, 30 Jul 2025 02:22:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>There’s a strange kind of bottleneck that only shows up after you’ve gotten fast.</description>
@@ -444,8 +444,8 @@
   </item>
   <item>
     <title>Show Your Work: Designing AI-Enforced Safeguards</title>
-    <link>https://blog.nino.photos/show-your-work-designing-ai-enforced-safeguards</link>
-    <guid isPermaLink="true">https://blog.nino.photos/show-your-work-designing-ai-enforced-safeguards</guid>
+    <link>https://blog.ninochavez.co/show-your-work-designing-ai-enforced-safeguards</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/show-your-work-designing-ai-enforced-safeguards</guid>
     <pubDate>Tue, 29 Jul 2025 20:12:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>This isn’t magic. It’s thoughtful infrastructure.</description>
@@ -453,8 +453,8 @@
   </item>
   <item>
     <title>Fix It Once, Prevent It Forever: How I Made a Dropdown Bug Impossible to Reintroduce</title>
-    <link>https://blog.nino.photos/fix-it-once-prevent-it-forever-how-i-made-a-dropdown-bug-impossible-to-reintroduce</link>
-    <guid isPermaLink="true">https://blog.nino.photos/fix-it-once-prevent-it-forever-how-i-made-a-dropdown-bug-impossible-to-reintroduce</guid>
+    <link>https://blog.ninochavez.co/fix-it-once-prevent-it-forever-how-i-made-a-dropdown-bug-impossible-to-reintroduce</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/fix-it-once-prevent-it-forever-how-i-made-a-dropdown-bug-impossible-to-reintroduce</guid>
     <pubDate>Tue, 29 Jul 2025 05:16:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>This one started like a lot of bugs do: Dropdowns weren’t updating after a bulk import. The data was there, the page reloaded, but the dropdowns stayed stale. Console warnings, frustrated...</description>
@@ -462,8 +462,8 @@
   </item>
   <item>
     <title>Who Reviewed the Reviewer?</title>
-    <link>https://blog.nino.photos/who-reviewed-the-reviewer</link>
-    <guid isPermaLink="true">https://blog.nino.photos/who-reviewed-the-reviewer</guid>
+    <link>https://blog.ninochavez.co/who-reviewed-the-reviewer</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/who-reviewed-the-reviewer</guid>
     <pubDate>Tue, 29 Jul 2025 02:03:56 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>This post is about that realization. About what happens when AI becomes the default reviewer, and starts learning from its own reflections.
@@ -475,8 +475,8 @@ We’re debugging the system that teaches itself how to review.</description>
   </item>
   <item>
     <title>Designing for Environments, Not Just Themes: A Volleyball App UX Case Study</title>
-    <link>https://blog.nino.photos/designing-for-environments-not-just-themes-a-volleyball-app-ux-case-study</link>
-    <guid isPermaLink="true">https://blog.nino.photos/designing-for-environments-not-just-themes-a-volleyball-app-ux-case-study</guid>
+    <link>https://blog.ninochavez.co/designing-for-environments-not-just-themes-a-volleyball-app-ux-case-study</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/designing-for-environments-not-just-themes-a-volleyball-app-ux-case-study</guid>
     <pubDate>Tue, 29 Jul 2025 00:43:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>Most apps toggle between &quot;light&quot; and &quot;dark.&quot; Ours needed more.</description>
@@ -484,8 +484,8 @@ We’re debugging the system that teaches itself how to review.</description>
   </item>
   <item>
     <title>One Week, One Developer, One Production System: How I Used AI to Build and Harden the LPO Bracket Manager</title>
-    <link>https://blog.nino.photos/one-week-one-developer-one-production-system-how-i-used-ai-to-build-and-harden-the-lpo-bracket-manag</link>
-    <guid isPermaLink="true">https://blog.nino.photos/one-week-one-developer-one-production-system-how-i-used-ai-to-build-and-harden-the-lpo-bracket-manag</guid>
+    <link>https://blog.ninochavez.co/one-week-one-developer-one-production-system-how-i-used-ai-to-build-and-harden-the-lpo-bracket-manag</link>
+    <guid isPermaLink="true">https://blog.ninochavez.co/one-week-one-developer-one-production-system-how-i-used-ai-to-build-and-harden-the-lpo-bracket-manag</guid>
     <pubDate>Mon, 28 Jul 2025 18:41:00 GMT</pubDate>
     <author>nino@signalreflex.studio (Nino Chavez)</author>
     <description>In just seven days, I built a production-grade bracket and pool play management system — solo — using AI copilots, a structured prompt workflow, and modern web tooling. This isn’t a demo or proof...</description>

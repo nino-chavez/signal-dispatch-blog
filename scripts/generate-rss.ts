@@ -6,7 +6,7 @@ import type { BlogManifest } from '../src/utils/mdx-loader';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SITE_URL = 'https://blog.nino.photos';
+const SITE_URL = 'https://blog.ninochavez.co';
 const SITE_TITLE = 'Signal Dispatch';
 const SITE_DESCRIPTION = 'Architecture, commerce, and the signals that matter in the age of AI.';
 const AUTHOR_NAME = 'Nino Chavez';
