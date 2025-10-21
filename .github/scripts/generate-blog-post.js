@@ -178,9 +178,18 @@ async function main() {
     console.log(`📄 Writing to ${filepath}...`);
     await fs.writeFile(filepath, mdxContent, 'utf-8');
 
+    // Extract content for Substack (everything after frontmatter)
+    const contentMatch = mdxContent.match(/^---\n[\s\S]*?\n---\n([\s\S]*)$/);
+    const postContent = contentMatch ? contentMatch[1].trim() : '';
+
+    // Write content file for Substack email
+    const contentFilepath = path.join(process.cwd(), 'src', 'content', 'blog', `${slug}.txt`);
+    await fs.writeFile(contentFilepath, postContent, 'utf-8');
+
     console.log('✅ Blog post file created successfully!');
     console.log(`   File: src/content/blog/${filename}`);
     console.log(`   Slug: ${slug}`);
+    console.log(`   Content file: src/content/blog/${slug}.txt`);
 
   } catch (error) {
     console.error('❌ Error generating blog post:', error.message);

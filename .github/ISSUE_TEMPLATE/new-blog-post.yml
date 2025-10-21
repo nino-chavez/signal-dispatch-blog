@@ -9,7 +9,7 @@ body:
         ## Publish New Blog Post
 
         Paste your content from Gemini (or anywhere else) and fill in the metadata below.
-        The automation will format it as MDX and publish it automatically.
+        The automation will format it as MDX, publish to your blog, and cross-post to Substack automatically.
 
   - type: input
     id: title

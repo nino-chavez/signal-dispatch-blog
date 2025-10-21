@@ -27,9 +27,11 @@ Claude API formats as MDX
    ↓
 Commits to repo
    ↓
-Vercel builds
+Vercel builds blog
    ↓
-Blog post live!
+Email sent to Substack
+   ↓
+Blog post live on both platforms!
 ```
 
 ## Step-by-Step Instructions
@@ -120,6 +122,7 @@ The automation will:
 
 - Check the issue for a success comment
 - Visit `blog.ninochavez.co` to see your post (wait ~2 min for build)
+- Check your Substack dashboard - the post should appear there too
 - The issue will be closed automatically
 
 ## Example
@@ -229,7 +232,18 @@ Click on the latest "Publish Blog Post" workflow to see detailed logs.
 4. Value: Your Anthropic API key from https://console.anthropic.com/
 5. Click: **"Add secret"**
 
-Without this secret, the automation will fail.
+### Add Mailgun API Key for Substack Publishing
+
+1. Sign up for Mailgun at https://www.mailgun.com/ (free tier: 5,000 emails/month)
+2. Verify your domain (or use Mailgun's sandbox domain)
+3. Go to: `https://github.com/[your-username]/signal-dispatch-blog/settings/secrets/actions`
+4. Add two secrets:
+   - Name: `MAILGUN_API_KEY`
+     Value: Your Mailgun API key (starts with `key-`)
+   - Name: `MAILGUN_DOMAIN`
+     Value: Your verified domain (e.g., `mg.yourdomain.com` or Mailgun's sandbox domain)
+
+Without these secrets, Substack publishing will be skipped (blog publishing still works).
 
 ## What Gets Generated
 
