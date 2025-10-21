@@ -6,7 +6,7 @@
  */
 
 interface SourceBadgeProps {
-  source: 'linkedin' | 'medium' | 'devto' | 'ghost';
+  source: 'linkedin' | 'medium' | 'devto' | 'ghost' | 'gemini' | 'original' | string;
   externalUrl?: string;
   size?: 'sm' | 'md';
   showLabel?: boolean;
@@ -59,12 +59,33 @@ export default function SourceBadge({
       textColor: 'text-zinc-500',
       borderColor: 'border-zinc-800/30',
     },
+    gemini: {
+      icon: (
+        <svg className={size === 'sm' ? 'w-3.5 h-3.5' : 'w-4 h-4'} fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+        </svg>
+      ),
+      label: 'Gemini',
+      bgColor: 'bg-blue-500/10',
+      textColor: 'text-blue-400',
+      borderColor: 'border-blue-500/30',
+    },
+    original: {
+      icon: null,
+      label: 'Original',
+      bgColor: 'bg-emerald-500/10',
+      textColor: 'text-emerald-400',
+      borderColor: 'border-emerald-500/30',
+    },
   };
 
-  const { icon, label, bgColor, textColor, borderColor } = config[source];
+  // Get config for the source, or return null if source not recognized or is 'ghost'
+  const sourceConfig = config[source as keyof typeof config];
+  
+  // Don't show badge for ghost (default blog) source or unrecognized sources
+  if (source === 'ghost' || !sourceConfig) return null;
 
-  // Don't show badge for ghost (default blog) source
-  if (source === 'ghost') return null;
+  const { icon, label, bgColor, textColor, borderColor } = sourceConfig;
 
   const badge = (
     <div 
