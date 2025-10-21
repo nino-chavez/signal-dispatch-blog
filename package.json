@@ -10,6 +10,7 @@
     "rss": "tsx scripts/generate-rss.ts",
     "sitemap": "tsx scripts/generate-sitemap.ts",
     "seo": "npm run manifest && npm run rss && npm run sitemap",
+    "create-post": "tsx scripts/create-blog-post.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },
