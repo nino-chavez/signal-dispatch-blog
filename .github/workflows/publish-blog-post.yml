@@ -2,7 +2,7 @@ name: Publish Blog Post
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 jobs:
   publish:
