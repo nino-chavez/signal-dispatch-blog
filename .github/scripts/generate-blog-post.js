@@ -98,9 +98,14 @@ category: "${fields.category}"
 tags: [${fields.tags.split(',').map(t => `"${t.trim()}"`).join(', ')}]
 featured: ${fields.featured === 'Yes' ? 'true' : 'false'}
 source: "${fields.source}"
-${fields.sourceUrl ? `sourceUrl: "${fields.sourceUrl}"` : ''}
+${fields.sourceUrl && fields.sourceUrl !== '_No response_' ? `sourceUrl: "${fields.sourceUrl}"` : ''}
 ---
 \`\`\`
+
+**CRITICAL: For the title field, if the title contains quotes, you MUST escape them properly for YAML:**
+- Use single quotes around the entire title if it contains double quotes: title: '"Example" Title'
+- OR escape internal quotes with backslash: title: "\\"Example\\" Title"
+- The title value MUST be valid YAML syntax
 
 2. Format the content:
    - Use ### for main headings (not ## or #)
@@ -127,14 +132,19 @@ Generate the complete MDX file now:`;
     ],
   });
 
-  const mdxContent = message.content[0].text;
+  let mdxContent = message.content[0].text;
 
   // Clean up if Claude wrapped it in markdown code blocks
-  return mdxContent
+  mdxContent = mdxContent
     .replace(/^```mdx?\n/i, '')
     .replace(/^```\n/i, '')
     .replace(/\n```$/i, '')
     .trim();
+
+  // Fix sourceUrl if it's "_No response_"
+  mdxContent = mdxContent.replace(/sourceUrl:\s*"_No response_"\s*\n/g, '');
+
+  return mdxContent;
 }
 
 /**
